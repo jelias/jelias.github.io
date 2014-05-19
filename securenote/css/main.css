@@ -1,0 +1,121 @@
+/*
+This is the tweaked css for Secure Note.
+Made by Jacob Elias (jelias.me)
+*/
+.container-fluid {
+	overflow-x:hidden;
+	/* Weird Bootstrap Bug Workaround*/
+}
+
+.top-style {
+	background-color: #2D72D9;
+}
+
+.top-margin {
+	margin-top: 40px;
+}
+
+.bottom-margin {
+	margin-bottom: 40px;
+}
+
+.text-left {
+	color: white;
+	text-align: center;
+}
+
+.text-left h2 {
+	font-size: 40px;
+}
+
+.text-left p {
+	font-size: 26px;
+}
+
+.appstore {
+	text-decoration: none;
+	color: #2D72D9;
+	background-color: white;
+	width: 240px;
+}
+
+.appstore:hover, .appstore:focus {
+	color: #2F6BDA;
+	background-color: #EFEFF4;
+}
+
+/*#right{
+	overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+	height: 320px;
+	width: 280px;
+	background-image: url(../assets/img/iphone2.png);
+	background-size: 280px 320px;
+}*/
+
+.app-design img {
+	/* (old stuff used for thing above)
+	margin-top: 85px;
+	margin-left: 22px;
+	height: 235px;
+	width: 240px;*/
+	overflow: hidden;
+	height: 320px;
+	width: 280px;
+}
+
+@media only screen and (max-width: 320px) {
+    .app-design {
+        margin-left: -10%;
+    }
+
+    .appstore {
+    	margin-left: -2%;
+    }
+}
+
+.features {
+	text-align: center;
+	background-color: #EFEFF4;
+}
+
+.subscribe {
+	text-align: center;
+}
+
+@media only screen and (max-width: 530px) {
+	div .text-center {
+		text-align: center;
+	}
+
+	div .mail {
+		width: 100%;
+	}
+}
+
+.mail {
+	margin: auto;
+	width: 500px;
+}
+
+.btn-primary {
+	background-color: #2D72D9;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+	background-color: #2F6BDA;
+}
+
+.footer {
+	text-align: center;
+}
+
+.feet {
+	border: solid #ddd;
+	border-width: 1px 0 0;
+	clear: both;
+	margin: 10px 0 10px;
+	height: 0;
+}
+
