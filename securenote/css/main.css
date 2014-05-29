@@ -30,11 +30,20 @@ Made by Jacob Elias (jelias.me)
 
 .text-left p {
 	font-size: 26px;
+	border-bottom: 1px solid white;
+	margin-bottom:0;
+	padding-bottom: 30px;
 }
 
 .top-mail {
 	margin: auto;
 	width: 400px;
+	padding-bottom: 20px;
+	font-weight: 200;
+}
+
+.top-mail .sub-btn {
+	font-size:16px;
 }
 
 .appstore {
@@ -47,6 +56,12 @@ Made by Jacob Elias (jelias.me)
 .appstore:hover, .appstore:focus {
 	color: #2F6BDA;
 	background-color: #EFEFF4;
+}
+
+@media only screen and (max-width: 990px) {
+		.text-left p {
+		border-bottom: 0px;
+	}
 }
 
 /*#right{
@@ -93,6 +108,10 @@ Made by Jacob Elias (jelias.me)
 	.top-style h4, .top-mail {
     	display: none;
     }
+
+    .text-left p {
+	border-bottom: 0px;
+}
 
 	div .text-center {
 		text-align: center;
