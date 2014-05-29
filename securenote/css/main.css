@@ -32,6 +32,11 @@ Made by Jacob Elias (jelias.me)
 	font-size: 26px;
 }
 
+.top-mail {
+	margin: auto;
+	width: 400px;
+}
+
 .appstore {
 	text-decoration: none;
 	color: #2D72D9;
@@ -85,6 +90,10 @@ Made by Jacob Elias (jelias.me)
 }
 
 @media only screen and (max-width: 530px) {
+	.top-style h4, .top-mail {
+    	display: none;
+    }
+
 	div .text-center {
 		text-align: center;
 	}
