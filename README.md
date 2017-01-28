@@ -13,4 +13,4 @@ Make your own site, don't just copy mine. It really isn't that complicated, I ma
 
 You can learn how to code on [TeamTreehouse](http://referrals.trhou.se/jacobelias) among other things, it's pretty awesome. Or you can learn from [tutsplus](https://courses.tutsplus.com/free/), which isn't bad either.
 
-This site uses Bootcamp's responsive framework incase you were wondering.
+This site uses Bootcamp's responsive framework in case you were wondering.
