@@ -66,6 +66,7 @@ div h1 {
         list-style-type: none;
         display: inline-block;
         margin: auto;
+        padding: 0px;
         /* For IE, the outcast*/ 
         zoom:1;
         display: inline;
