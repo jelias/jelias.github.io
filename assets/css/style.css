@@ -1,0 +1,17 @@
+/* My CSS changes on Bootstrap*/
+
+body {
+    padding-top: 2%;
+}
+
+.navbar-brand { 
+    font-weight: 800;
+}
+
+div h1 {
+    font-style: italic;
+}
+
+#bootstrap-overrides .page-header {
+    border-bottom: 0px;
+}
