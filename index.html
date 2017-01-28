@@ -46,16 +46,23 @@
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
         </nav>
-      <ul class="shots"></ul>
-      <div class="page-header">
-          <h1>Jacob Elias <small>Designer</small></h1> 
-      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <ul id="dribbble" class="shots"></ul>
+        </div>
+          </div>
+        <nav class="footer navbar-fixed-bottom">
+                    <div class="page-header">
+                    <h1>Jacob Elias <small class="smallft">Designer</small></h1> 
+                </div>
+          </nav>
 
-    <!--   Scripts   -->
-    <script src="/assets/js/jribbble.min.js"></script>
-    <script src="assets/js/script.js"></script>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      
+    <!--   Scripts   -->
+    <script src="assets/js/jribbble.min.js"></script>
+    <script src="assets/js/script.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="assets/js/bootstrap.min.js"></script>
       
@@ -64,14 +71,15 @@
     $.jribbble.users('jelias').shots({per_page: 30}).then(function(shots) {
   var html = [];
   
-  shots.forEach(function(shot) {
+ shots.forEach(function(shot) {
     html.push('<li class="shots--shot">');
     html.push('<a href="' + shot.html_url + '" target="_blank">');
-    html.push('<img src="' + shot.images.normal + '">');
+    html.push('<img src="' + shot.images.normal + '" class="img-responsive">');
     html.push('</a></li>');
   });
   
   $('.shots').html(html.join(''));
+});
     </script>
 
   </body>
