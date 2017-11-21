@@ -5,9 +5,9 @@ My Website.
 
 # License
 
-Please don't just steal my work. Read the license.
+No touchy, read the license, or else...
 
-> Why won't you share?
+> Why won't you share Jake?
 
 Make your own site, don't just copy mine. It really isn't that complicated, I made my 'Under Construction' page in a two nights. If you want help I'm on [twitter](http://twitter.com/_jelias_), but I'm really not the best person to ask.
 
