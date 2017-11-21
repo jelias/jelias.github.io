@@ -1,86 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Jacob Elias - Designer</title>
-    
-    <link href="assets/css/style.css" rel="stylesheet">
-      
-    <!-- Bootstrap -->
-    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body id="bootstrap-overrides">
-      <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-<!--              <a class="navbar-brand" href="/">Jacob Elias</a>-->
-            </div>
+	<!-- Basic Page Needs
+	================================================== -->
+	<meta charset="utf-8">
+	<title>Jacob Elias - Under Construction</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="jacob, elias, design, designer, user, interface, experience, engineering, ui, ux">
+	<meta name="description" content="Designer - Coder - Kid">
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav">
-              </ul>
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="/">Home</a></li>
-                <li><a href="assets/pdf/Elias_Portfolio_Current.pdf">Portfolio</a></li>
-                <li><a href="http://blog.jelias.me">Blog</a></li>
-                <li><a href="#">Contact Me</a></li>
-              </ul>
-            </div><!-- /.navbar-collapse -->
-          </div><!-- /.container-fluid -->
-        </nav>
-      <div class="container-fluid">
-        <div class="row">
-          <ul id="dribbble" class="shots"></ul>
-        </div>
-          </div>
-        <nav class="footer navbar-fixed-bottom">
-                    <div class="page-header">
-                    <h1>Jacob Elias <small class="smallft">Designer</small></h1> 
-                </div>
-          </nav>
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-      
-    <!--   Scripts   -->
-    <script src="assets/js/jribbble.min.js"></script>
-    <script src="assets/js/script.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="assets/js/bootstrap.min.js"></script>
-      
-    <script>
-    $.jribbble.setToken('510a52189feacadd8ce4d9cfb04826785255aaf24cc9ea36ec58748d5152d798');    
-    $.jribbble.users('jelias').shots({per_page: 30}).then(function(shots) {
-  var html = [];
-  
- shots.forEach(function(shot) {
-    html.push('<li class="shots--shot">');
-    html.push('<a href="' + shot.html_url + '" target="_blank">');
-    html.push('<img src="' + shot.images.normal + '" class="img-responsive">');
-    html.push('</a></li>');
-  });
-  
-  $('.shots').html(html.join(''));
-});
-    </script>
+	<!-- CSS
+	================================================== -->
+	<link rel="stylesheet" href="assets/stylesheets/base.css">
+	<link rel="stylesheet" href="assets/stylesheets/skeleton.css">
+	<link rel="stylesheet" href="assets/stylesheets/layout.css">
 
-  </body>
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" sizes="57x57" href="assets/favicons/compressed/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/favicons/compressed/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/favicons/compressed/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="assets/favicons/compressed/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="assets/favicons/compressed/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="assets/favicons/compressed/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/favicons/compressed/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="assets/favicons/compressed/apple-touch-icon-152x152.png">
+	<link rel="icon" type="image/png" href="assets/favicons/compressed/favicon-196x196.png" sizes="196x196">
+	<link rel="icon" type="image/png" href="assets/favicons/compressed/favicon-160x160.png" sizes="160x160">
+	<link rel="icon" type="image/png" href="assets/favicons/compressed/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="assets/favicons/compressed/favicon-16x16.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="assets/favicons/compressed/favicon-32x32.png" sizes="32x32">
+	<meta name="msapplication-TileColor" content="#0b76e6">
+	<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+
+</head>
+<body>
+	<!-- Primary Page Layout
+	================================================== -->
+
+	<!-- Delete everything in this .container and get started on your own site! -->
+
+<div class="container">
+				<h1 class="remove-bottom" style="margin-top: 40px">Hi I'm Jacob.</h1>
+				<hr />
+    <h3>I'm a 15 year old kid from Chicago with a love for technology. Pushing pixels, and playing with all types of code is what I do. I'm currently learning web development at <a href="http://referrals.trhou.se/jacobelias" class="treehouse" target="_blank">Team Treehouse.</a> A full site is coming soon...</h3>
+		<br/>
+	<h3>
+		<div class="social-center">
+    	<a href="http://twitter.com/_jelias_" class="twitter" target="_blank">Twitter</a> -
+    	<a href="http://github.com/jelias" class="github" target="_blank">Github</a> -
+    	<a href="http://dribbble.com/jelias" class="dribbble" target="_blank">Dribbble</a> -
+    	<a href="http://behance.net/jacobelias" class="behance" target="_blank">Behance</a> -
+    	<a href="mailto:jacobeelias@gmail.com?Subject=Let's Chat!" class="github" target="_top">Email</a>
+		</div>
+	</h3>
+</div> <!-- container -->
+
+
+<!-- End Document
+================================================== -->
+</body>
 </html>
