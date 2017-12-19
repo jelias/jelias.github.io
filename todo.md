@@ -14,3 +14,8 @@
 - Create mobile footer
 - Tweak Copyright info, remove blue from my name? (Perhaps just add a subtle underline, no color decoration)
 - Fix footer sizing of type and logos.
+
+
+# Site
+- Create a 404 Page!
+- Minify css
