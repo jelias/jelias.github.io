@@ -1,3 +1,5 @@
+/* Page css */
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -25,6 +27,13 @@ p  {
     margin-bottom: 3rem;
 }
 
+img {
+    width: 100%;
+    display: block;
+}
+
+/* Start Nav and Footer CSS */
+
 .navbar-light .navbar-nav .nav-link {
     text-decoration-line: none;
     color: #737373;
@@ -46,12 +55,28 @@ p  {
     padding-left: .05rem;
 }
 
+.navbar-expand>.container, .navbar-expand>.container-fluid {
+    padding-right: 2px;
+}
+
+hr {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    border-top: 2px solid #737373;
+    
+    
+}
+
+.footer {
+    padding-bottom: 10px;
+}
+
 .footer .navbar {
     padding: .5rem 0rem;
 }
 
 .footer .col {
-     padding-right: 0px; 
+/*     padding-right: 0px; */
      padding-left: 0px;
 }
 
@@ -64,13 +89,33 @@ p  {
     font-weight: 400;
 }
 
-
-img {
-    width: 100%;
-    display: block;
+.footer .copyright {
+    text-align: center;
+    color: #737373;
+    padding-left: .5em;
+    padding-right: .5em;
+    display: flex;
+      flex-direction: column;
+      justify-content: center;
 }
 
 /* Social Icons (in Footer) */
+
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.social .footer {
+    justify-content: space-between;
+    display: flex;
+    padding-right: 0px;
+}
+
+.container-fluid {
+    padding-right: 4px;
+}
 
 .social a{
     text-decoration-line: none;
@@ -93,6 +138,7 @@ img {
 .social .fa-linkedin:hover {
     color: #0077b5;
 }
+
 
 /* Media Breaks */
 
