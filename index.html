@@ -4,7 +4,11 @@
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
+
+         <!-- Global site tag (gtag.js) - Google Analytics --> 
+    
+    <!--  UNCOMMENT
+
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-50464531-1"></script>
         <script>
           window.dataLayer = window.dataLayer || [];
@@ -13,6 +17,7 @@
 
           gtag('config', 'UA-50464531-1');
         </script>
+-->
     
     <script src="https://use.fontawesome.com/7bd26198da.js"></script>
     
@@ -23,7 +28,10 @@
 	================================================== -->
 	<meta charset="utf-8">
 	<title>Jacob Elias - Under Construction</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="keywords" content="jacob, elias, design, designer, user, interface, experience, engineering, ui, ux">
 	<meta name="description" content="Designer - Coder - Kid">
 
@@ -33,9 +41,9 @@
 
 	<!-- CSS
 	================================================== -->
-	<link rel="stylesheet" href="assets/stylesheets/style.css">
-    <link rel="stylesheet" href="assets/stylesheets/basscss.min.css">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/stylesheets/style.css">
+    
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -59,26 +67,20 @@
 	<meta name="msapplication-TileImage" content="/mstile-144x144.png">
 
 </head>
-<body>
-    <div class="flex-column">
-        <div class="nav">
-          <nav class="clearfix">
-            <div class="sm-flex center nowrap">
-            <div class="flex-auto">
-            <a href="#!" class="btn block active">Home</a>
-            </div>
-            <div class="flex-auto">
-            <a href="#!" class="btn block">Design</a>
-            </div>
-            <div class="flex-auto">
-            <a href="#!" class="btn block">Journal</a>
-            </div>
-            <div class="flex-auto">
-            <a href="#!" class="btn block">TIL</a>
-            </div>
-            </div>
-          </nav>
-        </div>
+<body class="container">
+    
+
+    <!--  Nav -->
+            <nav class="navbar navbar-expand navbar-light fixed-top bg-light">
+                <div class="container navbar-nav">
+                  <a class="active nav-item nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-item nav-link" href="#">Design</a>
+                  <a class="nav-item nav-link" href="#">Journal</a>
+                  <a class="nav-item nav-link" href="#">TIL</a>
+                </div>
+            </nav>
+    
+    <!-- End Nav -->
 
         <div class="content">
                 <h1>Hi, I'm Jacob</h1>
@@ -91,41 +93,48 @@
 
         </div>
 
-
+    <!--  Footer  -->
 
         <div class="footer">
             <footer>
             <hr>
-            <div class="col col-6">
-                <nav class="clearfix">
-                    <div class="sm-flex center nowrap">
-                    <div class="flex-auto">
-                    <a href="#!" class="btn block active">Home</a>
+            <div class="container-fluid">
+            <div class="row justify-content-md-center">
+                <div class="col col-6">
+                    <nav class="navbar navbar-expand navbar-light bg-light footer">
+                        <div class="container-fluid navbar-nav">
+                          <a class="active nav-item nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                          <a class="nav-item nav-link" href="#">Design</a>
+                          <a class="nav-item nav-link" href="#">Journal</a>
+                          <a class="nav-item nav-link" href="#">TIL</a>
+                        </div>
+                    </nav>
+
+                </div>
+<!--
+                <div class="copyright col col-auto">
+                    <span>Copyright © 2017 <br/><a href="#">Jacob Elias</a></span>
+                </div>
+-->
+                <div class="social col col-6">
+                    <div class="container-fluid">
+                        <a class="fa fa-dribbble fa-2x" href="#"></a>
+                        <a class="fa fa-github fa-2x" href="#"></a>
+                        <a class="fa fa-medium fa-2x" href="#"></a>
+                        <a class="fa fa-linkedin fa-2x" href="#"></a>
                     </div>
-                    <div class="flex-auto">
-                    <a href="#!" class="btn block">Design</a>
-                    </div>
-                    <div class="flex-auto">
-                    <a href="#!" class="btn block">Journal</a>
-                    </div>
-                    <div class="flex-auto">
-                    <a href="#!" class="btn block">TIL</a>
-                    </div>
-                    </div>
-                </nav>
+                </div>
             </div>
-                <div class="copyright">
-                </div>
-            <div class="col col-6">
-                <div class="social">
-                    <i class="fa fa-dribbble fa-2x"></i>
-                    <i class="fa fa-github fa-2x"></i>
-                    <i class="fa fa-medium fa-2x"></i>
-                    <i class="fa fa-linkedin fa-2x"></i>
-                </div>
             </div>
             </footer>
         </div>
-    </div>
+    
+    <!--  End Footer  -->
+    
+<!--  Start Javascript Stuffs  -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    
 </body>
 </html>
