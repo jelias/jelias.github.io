@@ -26,9 +26,15 @@
 - Fix font sizing for scaling
 - Fix subtle spacing issues
 - Add hover shadow for image cards?
+    - Transition Code:
+            transition: 200ms;
+            transition-timing-function: ease-in-out;
+            -webkit-transition: 200ms;
+            -webkit-transition-timing-function: ease-in-out;
 
 # Project Page
 - Add adapting nav on page scroll (past the hero image)
+- Tweak font size of subheading and main text.
 
 # Journal
 - Setup Jekyll version of the page
@@ -41,9 +47,10 @@
 - Setup Jekyll version of the page
 
 
-
 # For v2!
 - Add filters to the things i love list! (see site design file)
 - Add subtle shadows to fixed-nav as it scrolls
+- Add gloss to project cards
+- Add inner shaddow for hero image
 - Better 404 page
 

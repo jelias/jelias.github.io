@@ -90,6 +90,85 @@ h1 {
     margin-bottom: -2rem;
 }
 
+/*  /projects css  */
+
+.back-arrow {
+    width: 15px;
+    fill: #737373;
+    margin-top: 4px;
+    margin-left: 1px;
+}
+
+.back-arrow:hover {
+    fill: #444444;
+}
+
+.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+#nav-title {
+    font-size: 32px;
+/*    color: #73;*/
+}
+
+    /*  nav colors  */
+
+#proj-nav-color .project-nav-color-light {
+    fill: #ffffff;
+    color: #ffffff;
+}
+
+
+#proj-nav-color .project-nav-color-dark {
+    fill: #737373;
+    color: #737373;
+}
+
+    /*  nav color hover states  */
+
+#proj-nav-color a:hover .project-nav-color-light {
+    fill: #e6e6e6;
+    color: #e6e6e6;
+}
+
+#proj-nav-color .project-nav-color-light:hover {
+    color: #e6e6e6;
+}
+
+#proj-nav-color a:hover .project-nav-color-dark {
+    fill: #444444;
+
+}
+
+#proj-nav-color .project-nav-color-dark:hover {
+    color: #444444;
+}
+
+.project-hero {
+    width: 100vw;
+    max-height: 45vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;    
+}
+
+.project-title {
+    font-size: 32px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.project-date {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
 /*  /journal css  */
 
 .journal {
@@ -243,7 +322,7 @@ h1 {
     padding: .5rem 0rem;
 }
 
-.footer .col {
+.footer .container-fluid .col {
 /*     padding-right: 0px; */
      padding-left: 0px;
 }
@@ -309,6 +388,22 @@ h1 {
 
 
 /* Media Breaks */
+
+@media (max-width: 576px) {
+    
+    .project-date {
+        display: table;
+    }
+    
+    .project-hero{
+        min-height: 60vw;
+    }
+}
+
+
+
+/*  when min width is x  */
+
 
 @media (min-width: 576px){
     .container {
