@@ -30,7 +30,7 @@ img {
 }
 
 .nav-spacing {
-    margin-top:  8rem;
+    margin-top:  6rem;
 }
 
 /* /home css */
@@ -86,6 +86,10 @@ h1 {
     margin-bottom: 2rem;
 }
 
+.design-content {
+    margin-bottom: -2rem;
+}
+
 /*  /journal css  */
 
 .journal {
@@ -113,6 +117,90 @@ h1 {
     margin-left: 2px;
 }
 
+/*  TIL css */
+
+.things-toggle-active {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.things-toggle {
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.things-toggle a {
+    text-decoration-line: none;
+    color: #444444;
+}
+
+.things {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.foreword-til {
+    font-size: 20px;
+    font-size : 18pt;
+    line-height : 1.3em;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.foreword hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-top: 2px solid #E8E8E8;
+}
+
+.love-list {
+    font-size : 26px;
+    line-height: 1.3em;
+    font-weight: 300;
+    margin-bottom: .2rem;
+    list-style-type: decimal-leading-zero;
+}
+
+.love-list li {
+    margin-bottom: .5rem;
+}
+
+/*  /things-ive-learned css  */
+
+.things {
+
+}
+
+.thing-category {
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
+}
+
+.thing-text {
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    margin-left: 2px;
+    
+}
+
+.thing-text:before {
+    content: '\2014';
+    position: absolute;
+    margin-left: -20px;
+}
+
+.knowledge {
+    margin-bottom: 2rem;
+}
+
+/*  /404 page  */
+
+.fourohfour {
+    font-size: 150px;
+    margin-bottom: .5rem;
+}
 
 /* Start Nav and Footer CSS */
 
@@ -142,6 +230,7 @@ h1 {
 }
 
 .hr-footer {
+    margin-top: 3rem;
     margin-bottom: 1rem;
     border-top: 2px solid #737373;
 }

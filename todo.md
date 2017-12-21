@@ -1,9 +1,10 @@
-# Home
+# Site
+- Create a 404 Page!
+- Minify css
+- Create "clean url" versions
+    - temp fix: each page has a `folder > index.html` ...yeah you get it
+- Consitentcy of font sizes (write out the various text boxes and break down the different "styles", ie. paragraph text/my words, etc.)
 
-#### Body
-- Add scaling to "Hi, I'm Jacob"
-- Tweak line spacing for P and change font size at media breaks
-- Add border to that photo of me?
 
 #### Nav
 - Add dashes [**-**] in-between each link, for footer too.
@@ -16,6 +17,33 @@
 - Fix footer sizing of type and logos.
 
 
-# Site
-- Create a 404 Page!
-- Minify css
+# Home
+- Add scaling to "Hi, I'm Jacob"
+- Tweak line spacing for P and change font size at media breaks
+- Add border to that photo of me?
+
+# Design
+- Fix font sizing for scaling
+- Fix subtle spacing issues
+- Add hover shadow for image cards?
+
+# Project Page
+- Add adapting nav on page scroll (past the hero image)
+
+# Journal
+- Setup Jekyll version of the page
+
+# Things I Love
+- Setup ordered list Jekyll version of the page
+- Tweak font size
+
+# Things I've Learned
+- Setup Jekyll version of the page
+
+
+
+# For v2!
+- Add filters to the things i love list! (see site design file)
+- Add subtle shadows to fixed-nav as it scrolls
+- Better 404 page
+
