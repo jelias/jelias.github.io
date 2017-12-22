@@ -13,7 +13,7 @@
 
 #### Footer
 - Add custom social icons (save loading time? better Medium icon)
-- Create mobile footer
+~~- Create mobile footer~~
 - Tweak Copyright info, remove blue from my name? (Perhaps just add a subtle underline, no color decoration)
 - Fix footer sizing of type and logos.
 
