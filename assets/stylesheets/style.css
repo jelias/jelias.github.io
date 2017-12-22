@@ -107,6 +107,7 @@ h1 {
     position: absolute;
     left: 50%;
     transform: translatex(-50%);
+    width: 200px;
 }
 
 #nav-title {
@@ -342,8 +343,26 @@ h1 {
     padding-left: .5em;
     padding-right: .5em;
     display: flex;
-      flex-direction: column;
-      justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#desktop-footer {
+
+}
+
+.mobile-footer {
+    display: none;
+}
+
+.mobile-footer .container-fluid {
+     padding-right: 0px; 
+     padding-left: 0px;
+}
+
+.mobile-footer .navbar {
+    padding: 0rem;
+    margin-bottom: 1rem;
 }
 
 /* Social Icons (in Footer) */
@@ -393,11 +412,13 @@ h1 {
     
     .project-date {
         display: table;
+        margin-top: 0.5rem;
     }
     
     .project-hero{
         min-height: 60vw;
     }
+    
 }
 
 
@@ -414,6 +435,14 @@ h1 {
         flex-flow: row nowrap;
         -ms-flex-pack: start;
         justify-content: flex-start;
+    }
+    
+    #desktop-footer {
+        display: none;
+    }
+
+    .mobile-footer {
+        display: inherit;
     }
 }
 

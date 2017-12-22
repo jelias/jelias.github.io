@@ -1,9 +1,10 @@
 # Site
-- Create a 404 Page!
+~~- Create a 404 Page!~~
 - Minify css
 - Create "clean url" versions
     - temp fix: each page has a `folder > index.html` ...yeah you get it
 - Consitentcy of font sizes (write out the various text boxes and break down the different "styles", ie. paragraph text/my words, etc.)
+- Change all fonts to em? 
 
 
 #### Nav
