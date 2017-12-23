@@ -10,8 +10,8 @@ $(document).ready(function(){
 
 	  else{
         $("#nav-project-scroll").removeClass('bg-light');
-        document.getElementById("project-back-color").className = "back-arrow project-nav-color-light";
-        document.getElementById("project-svg-color").className = "back-arrow project-nav-color-light";
+        document.getElementById("project-back-color").className="back-arrow project-nav-color-light";
+        document.getElementById("project-svg-color").className="back-arrow project-nav-color-light";
         $("#project-svg-color").removeClass('project-nav-color-dark').addClass('project-nav-color-light');
         $("#nav-title").removeClass('project-nav-color-dark').addClass('project-nav-color-light');
 	  }

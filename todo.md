@@ -1,5 +1,5 @@
 # Site
-~~- Create a 404 Page!~~
+- ~~Create a 404 Page!~~
 - Minify css
 - Create "clean url" versions
     - temp fix: each page has a `folder > index.html` ...yeah you get it
@@ -10,18 +10,18 @@
 
 #### Nav
 - Add dashes [**-**] in-between each link, for footer too.
-- Tweak hover state to have more contrast.
+- ~~Tweak hover state to have more contrast.~~
 
 #### Footer
-~~- Add custom social icons (save loading time? better Medium icon)~~
-~~- Create mobile footer~~
-- Tweak Copyright info, remove blue from my name? (Perhaps just add a subtle underline, no color decoration)
+- ~~Add custom social icons (save loading time? better Medium icon)~~
+- ~~Create mobile footer~~
+- ~~Tweak Copyright info, remove blue from my name? (Perhaps just add a subtle underline, no color decoration)~~
 - Fix footer sizing of type and logos.
-~~- Have copyright auto update based on year (use some js)~~
+- ~~Have copyright auto update based on year (use some js)~~
 
 
 # Home
-~~- Add scaling to "Hi, I'm Jacob"~~
+- ~~Add scaling to "Hi, I'm Jacob"~~
 - Tweak line spacing for P and change font size at media breaks
 - Add border to that photo of me?
 
