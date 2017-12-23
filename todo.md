@@ -17,7 +17,7 @@
 ~~- Create mobile footer~~
 - Tweak Copyright info, remove blue from my name? (Perhaps just add a subtle underline, no color decoration)
 - Fix footer sizing of type and logos.
-- Have copywrite auto update based on year (use some js)
+~~- Have copyright auto update based on year (use some js)~~
 
 
 # Home
