@@ -13,10 +13,11 @@
 - Tweak hover state to have more contrast.
 
 #### Footer
-- Add custom social icons (save loading time? better Medium icon)
+~~- Add custom social icons (save loading time? better Medium icon)~~
 ~~- Create mobile footer~~
 - Tweak Copyright info, remove blue from my name? (Perhaps just add a subtle underline, no color decoration)
 - Fix footer sizing of type and logos.
+- Have copywrite auto update based on year (use some js)
 
 
 # Home
@@ -35,7 +36,7 @@
             -webkit-transition-timing-function: ease-in-out;
 
 # Project Page
-- Add adapting nav on page scroll (past the hero image)
+~~- Add adapting nav on page scroll (past the hero image)~~
 - Tweak font size of subheading and main text.
 
 # Journal
@@ -56,4 +57,6 @@
 - Add gloss to project cards
 - Add inner shaddow for hero image
 - Better 404 page
+- Animate page changing? (gives more flow, less hopping around pages)
+    - transition.js?
 

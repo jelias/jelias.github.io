@@ -346,6 +346,7 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: -6px;
 }
 
 #desktop-footer {
@@ -378,6 +379,11 @@ h1 {
     justify-content: space-between;
     display: flex;
     padding-right: 0px;
+    padding-top: 7px;
+}
+
+.social-center {
+    
 }
 
 .container-fluid {
@@ -391,20 +397,24 @@ h1 {
     
 }
 
-.social .fa-dribbble:hover {
-    color: #ea4c89;
+.social svg {
+    width: 42px;
 }
 
-.social .fa-github:hover {
-    color: #4078c0;
+.social a:hover .dribbble {
+    fill: #ea4c89;
 }
 
-.social .fa-medium:hover {
-    color: #00ab6c;
+.social a:hover .github {
+    fill: #4078c0;
 }
 
-.social .fa-linkedin:hover {
-    color: #0077b5;
+.social a:hover .medium {
+    fill: #000000;
+}
+
+.social a:hover .linkedin {
+    fill: #0077b5;
 }
 
 
@@ -433,10 +443,17 @@ h1 {
     .mobile-footer {
         display: inherit;
     }
+    
+    
 }
 
 
 @media (max-width: 992px){
+/*
+    .footer .copyright {
+        font-size: 14px;
+    }
+*/
     
 }
 
