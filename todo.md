@@ -19,7 +19,7 @@
 
 
 # Home
-- Add scaling to "Hi, I'm Jacob"
+~~- Add scaling to "Hi, I'm Jacob"~~
 - Tweak line spacing for P and change font size at media breaks
 - Add border to that photo of me?
 
@@ -46,6 +46,7 @@
 
 # Things I've Learned
 - Setup Jekyll version of the page
+- fix font size of giant toggle with scaling
 
 
 # For v2!
