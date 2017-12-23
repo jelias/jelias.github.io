@@ -37,6 +37,14 @@ img {
     color: #444444;
 }
 
+.divider {
+    font-weight: 500;
+/*    font-size: 25px;*/
+    font-size: 2.23613595706619vw;
+    color: #737373;
+}
+
+
 /* /home css */
 
 h1 {
@@ -342,6 +350,12 @@ h1 {
     font-weight: 400;
 }
 
+.footer-divider {
+    font-weight: 300;
+    font-size: 2vw;
+    color: #737373;
+}
+
 .footer .copyright {
     text-align: center;
     color: #737373;
@@ -351,6 +365,11 @@ h1 {
     flex-direction: column;
     justify-content: center;
     margin-top: -6px;
+}
+
+.mobile-footer .navbar-light .navbar-nav .nav-link {
+    font-size: 18px;
+    font-weight: 300;
 }
 
 .copyright a {
