@@ -9,7 +9,7 @@
 
 
 #### Nav
-- Add dashes [**-**] in-between each link, for footer too.
+- ~~Add dashes [**-**] in-between each link, for footer too.~~
 - ~~Tweak hover state to have more contrast.~~
 
 #### Footer

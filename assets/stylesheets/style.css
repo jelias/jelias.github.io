@@ -549,5 +549,9 @@ h1 {
     h1 {
         font-size: 120px;
         }
+        
+    .divider, .footer-divider {
+        font-size: 25px;    
+        }
     
 }
