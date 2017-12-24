@@ -16,7 +16,7 @@
 - ~~Add custom social icons (save loading time? better Medium icon)~~
 - ~~Create mobile footer~~
 - ~~Tweak Copyright info, remove blue from my name? (Perhaps just add a subtle underline, no color decoration)~~
-- Fix footer sizing of type and logos.
+- ~~Fix footer sizing of type and logos.~~
 - ~~Have copyright auto update based on year (use some js)~~
 
 
@@ -36,7 +36,7 @@
             -webkit-transition-timing-function: ease-in-out;
 
 # Project Page
-~~- Add adapting nav on page scroll (past the hero image)~~
+- ~~Add adapting nav on page scroll (past the hero image)~~
 - Tweak font size of subheading and main text.
 
 # Journal
