@@ -1,49 +1,31 @@
-/* Base css */
+.fadein {
 
-body {
-    font-family: 'Roboto', sans-serif;
+    -webkit-animation: fadein 400ms; 
+       -moz-animation: fadein 400ms; 
+        -ms-animation: fadein 400ms; 
+         -o-animation: fadein 400ms; 
+            animation: fadein 400ms;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color: #444444;
-    
-}
+        @keyframes fadein {
+            from { opacity: 0; }
+            to   { opacity: 1; }
+        }
 
-p  {
-    color: #444444;
-    font-weight: 300;
-    font-size : 20px;
-    line-height : 1.3em;
-}
+        @-moz-keyframes fadein {
+            from { opacity: 0; }
+            to   { opacity: 1; }
+        }
 
-img {
-    width: 100%;
-    display: block;
-}
+        @-webkit-keyframes fadein {
+            from { opacity: 0; }
+            to   { opacity: 1; }
+        }
 
-.foreword p {
-    font-size: 20px;
-    font-size : 18pt;
-    line-height : 1.3em;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-}
-
-.nav-spacing {
-    margin-top:  6rem;
-}
-
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    color: #444444;
-}
-
-.divider {
-    font-weight: 500;
-/*    font-size: 25px;*/
-    font-size: 2.23613595706619vw;
-    color: #737373;
-}
-
+        @-o-keyframes fadein {
+            from { opacity: 0; }
+            to   { opacity: 1; }
+        }
 
 /* /home css */
 
@@ -57,15 +39,18 @@ h1 {
 
 
 .intro {
+/*
     font-size: 24px;
-    font-size : 20pt;
+    font-size : 18pt;
     line-height : 1.3em;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+*/
+    margin-top: 2.4rem;
+    margin-bottom: 2rem;
 }
 
 .me-img {
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
+/*    border:1px solid #444444;*/
 }
 
 
@@ -76,10 +61,11 @@ h1 {
 }
 
 .design-img img:hover {
-/*    box-shadow: 10px 5px 5px black;
-    also make is slightly bigger?
-    */
-    
+    box-shadow: 0 3px 10px rgba(0,0,0,0.16), 0 3px 10px rgba(0,0,0,0.23);
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
 }
 
 .design-card hr {
@@ -89,18 +75,22 @@ h1 {
 }
 
 .project-type{
-    margin-top: 2rem;
-    margin-bottom: 2.5rem;
+/*    margin-top: 2rem;*/
+    margin-bottom: 1.2rem;
     font-size: 32px;
 }
 
 .project-name {
     font-size: 22px;
-    margin-bottom: 2rem;
+    margin-bottom: 0.8rem;
 }
 
 .design-content {
     margin-bottom: -2rem;
+}
+
+.design-bottom {
+    margin-bottom: 2rem;
 }
 
 /*  /projects css  */
@@ -133,12 +123,20 @@ h1 {
 #proj-nav-color .project-nav-color-light {
     fill: #ffffff;
     color: #ffffff;
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
 }
 
 
 #proj-nav-color .project-nav-color-dark {
     fill: #737373;
     color: #737373;
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
 }
 
     /*  nav color hover states  */
@@ -154,7 +152,6 @@ h1 {
 
 #proj-nav-color a:hover .project-nav-color-dark {
     fill: #444444;
-
 }
 
 #proj-nav-color .project-nav-color-dark:hover {
@@ -182,6 +179,14 @@ h1 {
     font-size: 20px;
 }
 
+.project-caption {
+    margin-top: .7rem;
+
+}
+
+.project-subhead {
+    font-size: 24px;
+}
 
 /*  /journal css  */
 
@@ -191,7 +196,7 @@ h1 {
 
 .journal-title {
     font-size: 48px;
-    margin-top: 3rem;
+    margin-top: 2.3rem;
     margin-bottom: 1rem;
 }
 
@@ -210,6 +215,10 @@ h1 {
     margin-left: 2px;
 }
 
+.journal-break {
+    display: none;
+}
+
 /*  TIL css */
 
 .things-toggle-active {
@@ -219,12 +228,34 @@ h1 {
 
 .things-toggle {
     font-weight: 300;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .things-toggle a {
     text-decoration-line: none;
     color: #444444;
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+.things-toggle a:hover {
+    
+}
+
+/*
+.things-toggle a:hover {
+    font-size: 44px;
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
+}
+*/
+
+.til-break {
+    display: none;
 }
 
 .things {
@@ -233,11 +264,13 @@ h1 {
 }
 
 .foreword-til {
+/*
     font-size: 20px;
     font-size : 18pt;
-    line-height : 1.3em;
+
+    line-height : 1.3em;*/
     margin-top: 1.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .foreword hr {
@@ -252,10 +285,25 @@ h1 {
     font-weight: 300;
     margin-bottom: .2rem;
     list-style-type: decimal-leading-zero;
+    color: #444444;
 }
 
 .love-list li {
     margin-bottom: .5rem;
+}
+
+.love-list a {
+    color: #444444;
+    text-decoration: none;
+/*    border-bottom: 1.5px solid #737373;*/
+}
+
+.love-list a:hover {
+    border-bottom: 1.5px solid #444444;
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
 }
 
 /*  /things-ive-learned css  */
@@ -267,6 +315,7 @@ h1 {
 .thing-category {
     margin-top: -0.5rem;
     margin-bottom: 1rem;
+    font-size: 24px;
 }
 
 .thing-text {
@@ -323,7 +372,7 @@ h1 {
 }
 
 .hr-footer {
-    margin-top: 3rem;
+    margin-top: 2.5rem;
     margin-bottom: 1rem;
     border-top: 2px solid #737373;
 }
@@ -439,18 +488,89 @@ h1 {
 
 .social a:hover .dribbble {
     fill: #ea4c89;
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
 }
 
 .social a:hover .github {
     fill: #4078c0;
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
 }
 
 .social a:hover .medium {
     fill: #000000;
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
 }
 
 .social a:hover .linkedin {
     fill: #0077b5;
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+
+/* Base css */
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #444444;
+    
+}
+
+p  {
+    color: #444444;
+    font-weight: 300;
+    font-size : 24px;
+/*    line-height : 1.3em;*/
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.foreword p {
+/*
+    font-size: 24px;
+    font-size : 18pt;
+    line-height : 1.3em;*/
+/*    margin-top: 3rem;*/
+    margin-bottom: 1.5rem;
+}
+
+.nav-spacing {
+    margin-top:  6rem;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #444444;
+}
+
+.divider {
+    font-weight: 500;
+/*    font-size: 25px;*/
+    font-size: 2.23613595706619vw;
+    color: #737373;
+}
+
+.text-paragraph {
+    font-size: 22px;
+    line-height: 1.4em;
+    color: #444444;
 }
 
 
@@ -464,6 +584,10 @@ h1 {
 }
 
 @media (max-width: 992px){
+    .text-paragraph {
+        font-size: 1.4em;
+    }
+    
     .footer .copyright {
         font-size: 1.6vw;
     }
@@ -471,7 +595,14 @@ h1 {
     .footer .navbar-light .navbar-nav .nav-link {
     font-size: 20px;
     }
-    
+
+    .things-toggle-active {
+    font-size: 5vw;
+    }
+
+    .things-toggle {
+        font-size: 4vw;
+    }
 }
 
 @media (max-width: 768px){
@@ -487,8 +618,23 @@ h1 {
         font-size: 2vw;
     }
     
-}
+    .text-paragraph {
+        font-size: 1.2em;
+    }
+    
+    .things-toggle-active {
+    font-size: 38px;
+    }
 
+    .things-toggle {
+        font-size: 30px;
+    }
+    
+    .til-break {
+        display: inherit;
+    }
+    
+}
 
 @media (max-width: 576px) {
     
@@ -505,7 +651,54 @@ h1 {
         font-size: 2.6vw;
     }
     
+    .things-toggle-active {
+        font-size: 36px;
+    }
 }
+
+@media (max-width: 370px) {
+    .divider {
+        display:none;
+    }
+    .footer-divider {
+        display:none;
+    }
+    
+    .journal-title {
+        font-size: 2.3em;
+    }
+    
+    .journal-month {
+        font-size: 19px;
+    }
+    
+    .things-toggle {
+        font-size: 26px;
+    }
+    
+    .things-toggle-active {
+        font-size: 28px;
+    }
+    
+    .nav-spacing {
+        margin-top: 4rem;
+    }
+    
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 20px;
+    }
+    
+    .mobile-footer .navbar-light .navbar-nav .nav-link {
+        font-size: 14px;
+    }
+    
+    .copyright span {
+        width: 52px;
+        margin-left: -3px;
+    }
+    
+}
+
 
 /*  when width is greater than x, do y  */
 

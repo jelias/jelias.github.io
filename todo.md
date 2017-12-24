@@ -3,9 +3,8 @@
 - Minify css
 - Create "clean url" versions
     - temp fix: each page has a `folder > index.html` ...yeah you get it
-- Consitentcy of font sizes (write out the various text boxes and break down the different "styles", ie. paragraph text/my words, etc.)
-- Change all fonts to em? 
-- Add transitions to css (nav-scroll bg, hover states?)
+-~~Consitentcy of font sizes (write out the various text boxes and break down the different "styles", ie. paragraph text/my words, etc.)~~
+- ~~Add transitions to css (nav-scroll bg, hover states?)~~
 
 
 #### Nav
@@ -22,13 +21,12 @@
 
 # Home
 - ~~Add scaling to "Hi, I'm Jacob"~~
-- Tweak line spacing for P and change font size at media breaks
-- Add border to that photo of me?
+- ~~Tweak line spacing for P and change font size at media breaks~~
 
 # Design
-- Fix font sizing for scaling
-- Fix subtle spacing issues
-- Add hover shadow for image cards?
+- ~~Fix font sizing for scaling~~
+- ~~Fix subtle spacing issues~~
+- ~~Add hover shadow for image cards?~~
     - Transition Code:
             transition: 200ms;
             transition-timing-function: ease-in-out;
@@ -37,26 +35,31 @@
 
 # Project Page
 - ~~Add adapting nav on page scroll (past the hero image)~~
-- Tweak font size of subheading and main text.
+- ~~Tweak font size of subheading and main text.~~
 
 # Journal
 - Setup Jekyll version of the page
 
 # Things I Love
 - Setup ordered list Jekyll version of the page
-- Tweak font size
+- ~~Tweak font size~~
+- ~~Center things on smaller screens (756px)~~
 
 # Things I've Learned
 - Setup Jekyll version of the page
-- fix font size of giant toggle with scaling
+- ~~fix font size of giant toggle with scaling~~
 
 
 # For v2!
 - Add filters to the things i love list! (see site design file)
+    - use transitions
 - Add subtle shadows to fixed-nav as it scrolls
 - Add gloss to project cards
 - Add inner shaddow for hero image
 - Better 404 page
 - Animate page changing? (gives more flow, less hopping around pages)
     - transition.js?
+- Tweak caption font size for projects pages
+- Change all fonts to em? Why tho?
+- Animation or underline on hover of til toggle
 
