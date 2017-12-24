@@ -3,8 +3,10 @@
 - Minify css
 - Create "clean url" versions
     - temp fix: each page has a `folder > index.html` ...yeah you get it
--~~Consitentcy of font sizes (write out the various text boxes and break down the different "styles", ie. paragraph text/my words, etc.)~~
+- Change page titles!!
+- ~~Consitentcy of font sizes (write out the various text boxes and break down the different "styles", ie. paragraph text/my words, etc.)~~
 - ~~Add transitions to css (nav-scroll bg, hover states?)~~
+- Add css for all anchor links. Put it at the top of the page?
 
 
 #### Nav
@@ -62,4 +64,5 @@
 - Tweak caption font size for projects pages
 - Change all fonts to em? Why tho?
 - Animation or underline on hover of til toggle
+- Add seo to pages?
 
