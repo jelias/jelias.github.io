@@ -38,7 +38,8 @@ a {
 }
 
 a:hover {
-    color: #444444;
+/*    color: #444444;*/
+    color: #3e69c4;
     text-decoration: underline;
     transition: 200ms;
     transition-timing-function: ease-in-out;
@@ -65,6 +66,52 @@ h1 {
 */
     margin-top: 2.4rem;
     margin-bottom: 2rem;
+}
+
+.intro .uw:hover {
+    color: #4b2e83;
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+.intro .dribbble:hover {
+    color: #ea4c89;
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+.intro .github:hover {
+    fill: #4078c0;
+    color: #4078c0;
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+.intro .medium:hover {
+    fill: #000000;
+    color: #000000;
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+.intro .linkedin:hover {
+    fill: #0077b5;
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+.intro .suburbs {
+    color: #8d8d8d;
 }
 
 .me-img {
@@ -505,6 +552,7 @@ h1 {
 
 .social a:hover .dribbble {
     fill: #ea4c89;
+    color: #ea4c89;
     transition: 200ms;
     transition-timing-function: ease-in-out;
     -webkit-transition: 200ms;
@@ -513,6 +561,7 @@ h1 {
 
 .social a:hover .github {
     fill: #4078c0;
+    color: #4078c0;
     transition: 200ms;
     transition-timing-function: ease-in-out;
     -webkit-transition: 200ms;
@@ -521,6 +570,7 @@ h1 {
 
 .social a:hover .medium {
     fill: #000000;
+    color: #000000;
     transition: 200ms;
     transition-timing-function: ease-in-out;
     -webkit-transition: 200ms;
@@ -534,7 +584,6 @@ h1 {
     -webkit-transition: 200ms;
     -webkit-transition-timing-function: ease-in-out;
 }
-
 
 /* Base css */
 
@@ -588,6 +637,14 @@ img {
     font-size: 22px;
     line-height: 1.4em;
     color: #444444;
+}
+
+.updated {
+    font-size: 18px;
+    color: #8d8d8d;
+    display: flex;
+    text-align: right;
+    white-space: nowrap;
 }
 
 

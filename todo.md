@@ -65,4 +65,7 @@
 - Animation or underline on hover of til toggle
 - Add seo to pages?
 - Setup Jekyll version of the page TILs?
+- Create /now page? Link it on my hello page.
+    - http://bellebcooper.com/now.html
+- Add parallax to project image? 
 
