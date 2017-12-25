@@ -41,6 +41,7 @@
 
 # Journal
 - ~~Setup Jekyll version of the page~~
+- Add line break for month and title?
 
 # Things I Love
 - ~~Tweak font size~~
