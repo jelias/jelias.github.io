@@ -1,8 +1,13 @@
 jelias.github.io
 ================
 
-My Website.
+I finally have made a full website for myself! This is my little corner of the web to share my thoughts, designs, and projects. Enjoy!
 
-# License
+Most of the site was built on Bootstrap, using Jekyll for the journal (see journal repo). 
 
-Please don't just steal my work. Read the license.
+## License
+
+Licensing
+Feel free to inspect the code structure, and reuse what is appropriate. But please respect that the files in the following directories are Copyright by Jacob Elias. You may not reuse anything therein without my written permission:
+
+/images
