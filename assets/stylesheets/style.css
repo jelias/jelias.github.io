@@ -251,7 +251,7 @@ h1 {
 }
 
 .things-toggle a {
-    text-decoration-line: none;
+    text-decoration: none;
     color: #444444;
     transition: 200ms;
     transition-timing-function: ease-in-out;
@@ -364,7 +364,7 @@ h1 {
 /* Start Nav and Footer CSS */
 
 .navbar-light .navbar-nav .nav-link {
-    text-decoration-line: none;
+    text-decoration: none;
     color: #737373;
     font-size: 24px;
     font-weight: 400;
@@ -494,7 +494,7 @@ h1 {
 }
 
 .social a{
-    text-decoration-line: none;
+    text-decoration: none;
     color: #737373;
     
 }
