@@ -3,10 +3,10 @@
 - Minify css
 - Create "clean url" versions
     - temp fix: each page has a `folder > index.html` ...yeah you get it
-- Change page titles!!
+- ~~Change page titles!!~~
 - ~~Consitentcy of font sizes (write out the various text boxes and break down the different "styles", ie. paragraph text/my words, etc.)~~
 - ~~Add transitions to css (nav-scroll bg, hover states?)~~
-- Add css for all anchor links. Put it at the top of the page?
+- ~~Add css for all anchor links. Put it at the top of the page?~~
 
 
 #### Nav
@@ -40,15 +40,13 @@
 - ~~Tweak font size of subheading and main text.~~
 
 # Journal
-- Setup Jekyll version of the page
+- ~~Setup Jekyll version of the page~~
 
 # Things I Love
-- Setup ordered list Jekyll version of the page
 - ~~Tweak font size~~
 - ~~Center things on smaller screens (756px)~~
 
 # Things I've Learned
-- Setup Jekyll version of the page
 - ~~fix font size of giant toggle with scaling~~
 
 
@@ -65,4 +63,5 @@
 - Change all fonts to em? Why tho?
 - Animation or underline on hover of til toggle
 - Add seo to pages?
+- Setup Jekyll version of the page TILs?
 
