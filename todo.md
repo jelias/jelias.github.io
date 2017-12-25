@@ -67,5 +67,6 @@
 - Setup Jekyll version of the page TILs?
 - Create /now page? Link it on my hello page.
     - http://bellebcooper.com/now.html
-- Add parallax to project image? 
+- Add parallax to project image?
+- Image Modals for project pages 
 

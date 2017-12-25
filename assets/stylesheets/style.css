@@ -176,7 +176,7 @@ h1 {
     position: absolute;
     left: 50%;
     transform: translatex(-50%);
-    width: 200px;
+/*    width: 200px;*/
 }
 
 #nav-title {
@@ -237,7 +237,7 @@ h1 {
 .project-title {
     font-size: 32px;
     margin-top: 2rem;
-    margin-bottom: 1rem;
+/*    margin-bottom: 1rem;*/
 }
 
 .project-date {
@@ -251,7 +251,8 @@ h1 {
 }
 
 .project-subhead {
-    font-size: 24px;
+    font-size: 26px;
+    margin-top: 1.2rem;
 }
 
 /*  /journal css  */
@@ -660,6 +661,10 @@ img {
 @media (max-width: 992px){
     .text-paragraph {
         font-size: 1.4em;
+    }
+    
+    .project-subhead {
+        font-size: 1.6em;
     }
     
     .footer .copyright {
