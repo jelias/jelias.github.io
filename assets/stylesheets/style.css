@@ -255,6 +255,13 @@ h1 {
     margin-top: 1.2rem;
 }
 
+.more {
+    margin-top: 1.4rem;
+    margin-bottom: 1.5rem;
+}
+
+
+
 /*  /journal css  */
 
 .journal {
@@ -517,6 +524,7 @@ h1 {
     margin-bottom: 1rem;
 }
 
+
 /* Social Icons (in Footer) */
 
 .social {
@@ -647,7 +655,6 @@ img {
     text-align: right;
     white-space: nowrap;
 }
-
 
 /* Media Breaks */
 
