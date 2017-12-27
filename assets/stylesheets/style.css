@@ -226,7 +226,7 @@ h1 {
 
 .project-hero {
     width: 100vw;
-    max-height: 45vw;
+    max-height: 50vw;
     position: relative;
     left: 50%;
     right: 50%;
@@ -731,6 +731,8 @@ img {
     
     .project-hero{
         min-height: 60vw;
+        width: 120vw;
+        margin-left: -60vw;
     }
     
     .footer .copyright {
@@ -739,6 +741,12 @@ img {
     
     .things-toggle-active {
         font-size: 36px;
+    }
+    
+    #nav-title {
+        width: 306px;
+        font-size: 31px;
+        margin-top: -1px;
     }
 }
 
