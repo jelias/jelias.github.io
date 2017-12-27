@@ -124,6 +124,7 @@ h1 {
 
 .design-img img {
     margin-bottom: 1rem;
+        border: 1px solid #4444446e;
 }
 
 .design-img img:hover {
@@ -729,11 +730,13 @@ img {
         margin-top: 0.5rem;
     }
     
+/*
     .project-hero{
         min-height: 60vw;
         width: 120vw;
         margin-left: -60vw;
     }
+*/
     
     .footer .copyright {
         font-size: 2.6vw;
