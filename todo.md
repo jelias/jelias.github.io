@@ -69,4 +69,5 @@
     - http://bellebcooper.com/now.html
 - Add parallax to project image?
 - Image Modals for project pages 
+- Keep scroll position
 

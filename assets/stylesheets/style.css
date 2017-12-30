@@ -69,7 +69,7 @@ h1 {
 }
 
 .intro .uw:hover {
-    color: #4b2e83;
+    color: #633ab2;
     transition: 200ms;
     transition-timing-function: ease-in-out;
     -webkit-transition: 200ms;
@@ -124,7 +124,7 @@ h1 {
 
 .design-img img {
     margin-bottom: 1rem;
-        border: 1px solid #4444446e;
+/*        border: 1px solid #4444446e;*/
 }
 
 .design-img img:hover {
@@ -401,7 +401,7 @@ h1 {
 }
 
 .thing-text:before {
-    content: '\2014';
+    content: '\2013';
     position: absolute;
     margin-left: -20px;
 }
