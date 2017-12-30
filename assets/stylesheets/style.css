@@ -721,6 +721,10 @@ img {
         display: inherit;
     }
     
+    .nav-spacing {
+    margin-top:  4rem;
+    }
+    
 }
 
 @media (max-width: 576px) {
