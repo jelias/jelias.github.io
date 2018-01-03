@@ -70,4 +70,6 @@
 - Add parallax to project image?
 - Image Modals for project pages 
 - Keep scroll position
+- Add a index of past years of journal! Where to put it though...
+- Make a page for papu, his stories and his life. <3
 
