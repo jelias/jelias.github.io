@@ -669,6 +669,15 @@ img {
     color: #737373;
     font-weight: 400;
     padding: .2rem .4rem;
+    quotes: "“" "”" "‘" "’";
+}
+
+.quote:before {
+    content: open-quote;
+}
+
+.quote:after {
+    content: close-quote;
 }
 
 /* Media Breaks */
