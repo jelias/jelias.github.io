@@ -262,6 +262,10 @@ h1 {
     margin-bottom: 1.3rem;
 }
 
+.project-img img {
+    box-shadow: 0 0px 12px rgba(0,0,0,0.16);
+}
+
 .more {
     margin-top: 1.4rem;
     margin-bottom: 1.5rem;
