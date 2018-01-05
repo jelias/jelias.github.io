@@ -72,4 +72,5 @@
 - Keep scroll position
 - Add a index of past years of journal! Where to put it though...
 - Make a page for papu, his stories and his life. <3
+- Create and archives page for your old design projects (as new ones replace the 6 cards on /design). Link to the archives in the paragraph about design. It can just be a giant version of /design.
 
