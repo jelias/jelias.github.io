@@ -135,6 +135,10 @@ h1 {
     -webkit-transition-timing-function: ease-in-out;
 }
 
+.design-card {
+    margin-bottom: 3.4rem;
+}
+
 .design-card hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -142,8 +146,8 @@ h1 {
 }
 
 .project-type{
-/*    margin-top: 2rem;*/
-    margin-bottom: 1.2rem;
+    margin-top: 3.4rem;
+    margin-bottom: 3.3rem;
     font-size: 32px;
 }
 
