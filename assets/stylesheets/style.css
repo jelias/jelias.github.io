@@ -438,8 +438,10 @@ h1 {
 .navbar-light .navbar-nav .nav-link {
     text-decoration: none;
     color: #737373;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
@@ -481,7 +483,7 @@ h1 {
 }
 
 .footer .navbar-light .navbar-nav .nav-link {
-    font-size: 1.9677996422182469vw;
+    font-size: 17px;
     font-weight: 300;
 }
 
@@ -491,7 +493,7 @@ h1 {
 
 .footer-divider {
     font-weight: 300;
-    font-size: 2vw;
+    font-size: 1.4vw;
     color: #737373;
 }
 
@@ -507,7 +509,7 @@ h1 {
 }
 
 .mobile-footer .navbar-light .navbar-nav .nav-link {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 300;
 }
 
@@ -794,6 +796,10 @@ img {
         width: 306px;
         font-size: 31px;
         margin-top: -1px;
+    }
+    
+    .divider, .footer-divider {
+        display: none;
     }
 }
 
