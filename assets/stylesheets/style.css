@@ -702,8 +702,8 @@ img {
 }
 
 @media (max-width: 992px){
-    .text-paragraph {
-        font-size: 1.4em;
+    .text-paragraph, .foreword p {
+        font-size: 1.5em;
     }
     
     .project-subhead {
@@ -740,8 +740,8 @@ img {
         font-size: 2vw;
     }
     
-    .text-paragraph {
-        font-size: 1.2em;
+    .text-paragraph, .foreword p {
+        font-size: 1.3em;
     }
     
     .things-toggle-active {
