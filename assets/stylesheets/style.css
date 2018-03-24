@@ -483,7 +483,7 @@ h1 {
 }
 
 .footer .navbar-light .navbar-nav .nav-link {
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 300;
 }
 
@@ -717,7 +717,11 @@ img {
     }
     
     .footer .navbar-light .navbar-nav .nav-link {
-    font-size: 20px;
+    font-size: 15px;
+    }
+    
+    .footer-divider {
+        display: none;
     }
 
     .things-toggle-active {
@@ -740,6 +744,10 @@ img {
     
     .footer .copyright {
         font-size: 2vw;
+    }
+    
+    .footer-divider {
+        display: inherit;
     }
     
     .text-paragraph, .foreword p {
@@ -832,7 +840,7 @@ img {
     }
     
     .navbar-light .navbar-nav .nav-link {
-        font-size: 20px;
+        font-size: 18px;
     }
     
     .mobile-footer .navbar-light .navbar-nav .nav-link {
@@ -888,7 +896,7 @@ img {
         }
         
     .navbar a {
-        font-size: 24px;
+        font-size: 18px;
         }
         
     .navbar-expand>.container, .navbar-expand>.container-fluid {
@@ -909,7 +917,7 @@ img {
         }
         
     .footer .navbar-light .navbar-nav .nav-link {
-        font-size: 22px;
+        font-size: 15px;
 }
     
 }
