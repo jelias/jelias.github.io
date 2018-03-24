@@ -1,8 +1,58 @@
-# Site
+# Site v2! Mar 2018/?
+
+### Design
+- Go sketch a bunch of ideas yo
+- New way to display projects.
+    - full page cards? [see Netty's site](https://www.nettylim.com/)
+- Better layout of project pages
+    - more images!?
+    - "show a chronological way of certain concepts or iterations you had that evolved into the final poster or opposed to just a sketch and some writing that would help."
+- Tweak caption font size for projects pages
+- Archives page
+    - Link to the archives in the paragraph about design. It can just be a giant version of /design.
+    #### Maybe
+    - Add parallax to project image?
+    - Image Modals for project pages
+    - Add gloss to project cards
+    - Add inner shaddow for hero image
+
+### Journal
+- Keep scroll position
+- Add a index of past years of journal! Where to put it though...
+
+### Home 
+- Add a line like, "here's a picture of me!" to make the image feel less random below the paragraph?
+- Or make the photo more integrated, like to the left of the paragraph.
+- Create /now page? Link it on my hello page.
+    - http://bellebcooper.com/now.html
+
+### Nav 
+- Make words smaller? why are they so big!?
+
+### Random
+- Make a page for papu, his stories and his life? <3
+- Add subtle shadows to fixed-nav as it scrolls?
+- Better 404 page
+- Add seo to pages?
+- Animate page changing? (gives more flow, less hopping around pages)
+    - transition.js?
+- Create "clean url" version
+    - temp fix: each page has a `folder > index.html` ...yeah you get it, it's real ugly
+
+# Site (v3)
+- All one jekyll site!? Use different page layouts for the different pages. This would be so awesome.
+- Revamp the css. Why are you using a class for text-paragraphs!? Just use 'p'.
+- Create a type style guide/heiarchy system! (in InDesign probably)
+    - Change all fonts to em? Why tho? (Maybe just to keep them all the same?)
+
+### Things I Love
+- Add filters to the things i love list! (see site design file)
+    - use transitions!
+- Animation or underline on hover of til toggle
+
+# Site (v1) - Dec 2017/Jan 2018
 - ~~Create a 404 Page!~~
-- Minify css
-- Create "clean url" versions
-    - temp fix: each page has a `folder > index.html` ...yeah you get it
+- ~~Minify css~~
 - ~~Change page titles!!~~
 - ~~Consitentcy of font sizes (write out the various text boxes and break down the different "styles", ie. paragraph text/my words, etc.)~~
 - ~~Add transitions to css (nav-scroll bg, hover states?)~~
@@ -21,11 +71,11 @@
 - ~~Have copyright auto update based on year (use some js)~~
 
 
-# Home
+### Home
 - ~~Add scaling to "Hi, I'm Jacob"~~
 - ~~Tweak line spacing for P and change font size at media breaks~~
 
-# Design
+### Design
 - ~~Fix font sizing for scaling~~
 - ~~Fix subtle spacing issues~~
 - ~~Add hover shadow for image cards?~~
@@ -35,42 +85,17 @@
             -webkit-transition: 200ms;
             -webkit-transition-timing-function: ease-in-out;
 
-# Project Page
+### Project Page
 - ~~Add adapting nav on page scroll (past the hero image)~~
 - ~~Tweak font size of subheading and main text.~~
 
-# Journal
+### Journal
 - ~~Setup Jekyll version of the page~~
-- Add line break for month and title?
+- ~~Add line break for month and title?~~
 
-# Things I Love
+### Things I Love
 - ~~Tweak font size~~
 - ~~Center things on smaller screens (756px)~~
 
-# Things I've Learned
+### Things I've Learned
 - ~~fix font size of giant toggle with scaling~~
-
-
-# For v2!
-- Add filters to the things i love list! (see site design file)
-    - use transitions
-- Add subtle shadows to fixed-nav as it scrolls
-- Add gloss to project cards
-- Add inner shaddow for hero image
-- Better 404 page
-- Animate page changing? (gives more flow, less hopping around pages)
-    - transition.js?
-- Tweak caption font size for projects pages
-- Change all fonts to em? Why tho?
-- Animation or underline on hover of til toggle
-- Add seo to pages?
-- Setup Jekyll version of the page TILs?
-- Create /now page? Link it on my hello page.
-    - http://bellebcooper.com/now.html
-- Add parallax to project image?
-- Image Modals for project pages 
-- Keep scroll position
-- Add a index of past years of journal! Where to put it though...
-- Make a page for papu, his stories and his life. <3
-- Create and archives page for your old design projects (as new ones replace the 6 cards on /design). Link to the archives in the paragraph about design. It can just be a giant version of /design.
-
