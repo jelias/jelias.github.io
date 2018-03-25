@@ -911,11 +911,11 @@ h2 /* come find me */ {
     font-size: 24px;
 }
 
-.things ul {
+.learned ul {
     margin-bottom: 2rem;
 }
 
-.things li {
+.learned li {
     list-style-type: none;
     font-weight: 300;
     margin-bottom: 1rem;
@@ -926,7 +926,7 @@ h2 /* come find me */ {
     
 }
 
-.things li:before {
+.learned li:before {
     content: '\2013';
     position: absolute;
     margin-left: -20px;
