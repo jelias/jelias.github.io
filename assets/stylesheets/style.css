@@ -1,3 +1,5 @@
+/* jelias */
+
 .fadein {
 
     -webkit-animation: fadein 400ms; 
@@ -292,10 +294,12 @@ h1 {
 .journal-month {
     font-weight: 300;
     font-size: 24px;
+    font-style: normal;
 }
 
 .journal-day {
     font-weight: 400;
+    font-style: normal;
 }
 
 .journal-text {
@@ -352,25 +356,13 @@ h1 {
     margin-bottom: 2rem;
 }
 
-.foreword-til {
-
-/*
-    font-size: 20px;
-    font-size : 18pt;
-*/
-
-    line-height : 1.7em;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-}
-
 .foreword hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
     border-top: 2px solid #E8E8E8;
 }
 
-.love-list {
+.love-list, ol {
     font-size : 26px;
     line-height: 1.3em;
     font-weight: 300;
@@ -379,7 +371,7 @@ h1 {
     color: #444444;
 }
 
-.love-list li {
+.love-list li, ol li {
     margin-bottom: .5rem;
 }
 
@@ -653,10 +645,25 @@ img {
     color: #737373;
 }
 
-.text-paragraph {
-    font-size: 22px;
+.text-paragraph, p, ol {
+    font-size: 24px;
     line-height: 1.6em;
     color: #444444;
+    margin-bottom: 2rem;
+    margin-left: 2px;
+}
+
+/*come find me*/
+
+code {
+    color: #737373;
+    font-size: 20px;
+}
+
+h2, .come-find-me {
+    font-size: 48px;
+    margin-top: 2.3rem;
+    margin-bottom: 1rem;
 }
 
 .foreword p {
@@ -664,7 +671,7 @@ img {
     font-size: 24px;
     font-size : 18pt;
     line-height : 1.7em;
-/*    margin-top: 3rem;*/
+    margin-top: 3.3rem; /*come find me*/
     margin-bottom: 4rem;
 }
 
@@ -694,6 +701,23 @@ img {
     content: close-quote;
 }
 
+.columns {
+    column-count: 2;
+}
+
+.connected-thought {
+    font-weight: 1000;
+    font-style: normal;
+    color: #d1d1d1;
+}
+
+.new-thought {
+    font-weight: 1000;
+    font-style: normal;
+    color: #505050;
+}
+
+
 /* Media Breaks */
 
 /*  when width is less than x, do y  */
@@ -704,10 +728,14 @@ img {
 }
 
 @media (max-width: 992px){
-    .text-paragraph, .foreword p {
+    .text-paragraph, .foreword p, p, ol {
         font-size: 1.5em;
     }
-    
+  
+    code {
+        font-size: 18px;
+    }
+  
     .project-subhead {
         font-size: 1.6em;
     }
@@ -750,10 +778,14 @@ img {
         display: inherit;
     }
     
-    .text-paragraph, .foreword p {
+    .text-paragraph, .foreword p, p, ol {
         font-size: 1.3em;
     }
     
+    code {
+        font-size: 16px;
+    }
+  
     .things-toggle-active {
     font-size: 38px;
     }
@@ -779,6 +811,10 @@ img {
 
 @media (max-width: 576px) {
     
+    .columns {
+        column-count: 1;
+    }
+    
     .project-date {
         display: table;
         margin-top: 0.5rem;
@@ -800,6 +836,16 @@ img {
         font-size: 36px;
     }
     
+    .journal-title, h2 {
+        font-size: 8.333333333333334vw;
+    }
+    
+    .journal-month {
+        font-size: 4.5vw;
+        display: block;
+        margin-top: .6rem;
+    }
+  
     #nav-title {
         width: 306px;
         font-size: 31px;
@@ -819,13 +865,15 @@ img {
         display:none;
     }
     
-    .journal-title {
+/*
+    .journal-title, h2 {
         font-size: 2.3em;
     }
     
     .journal-month {
         font-size: 19px;
     }
+*/
     
     .things-toggle {
         font-size: 26px;

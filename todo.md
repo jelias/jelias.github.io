@@ -27,9 +27,11 @@
     - http://bellebcooper.com/now.html
 
 ### Nav 
-- Make words smaller? why are they so big!?
+- ~~Make words smaller? why are they so big!?~~
 
 ### Random
+- Make all one css doc
+  - fix the margin issue on things i love
 - Make a page for papu, his stories and his life? <3
 - Add subtle shadows to fixed-nav as it scrolls?
 - Better 404 page
