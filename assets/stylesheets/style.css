@@ -364,7 +364,7 @@ h1 {
 
 .love-list, ol {
     font-size : 26px;
-    line-height: 1.3em;
+    line-height: 1.3em; /* come find me, should this be 1.6 */
     font-weight: 300;
     margin-bottom: .2rem;
     list-style-type: decimal-leading-zero;
@@ -901,6 +901,37 @@ h2, .come-find-me {
     }
     
 }
+
+
+/* Thing over ride, come find me uh oh */
+
+/*.things h2 {
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
+    font-size: 24px;
+}
+
+ul {
+    margin-bottom: 2rem;
+}
+
+li {
+    list-style-type: none;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    margin-left: 2px;
+    font-size: 22px;
+    line-height: 1.6em;
+    color: #444
+    
+}
+
+li:before {
+    content: '\2013';
+    position: absolute;
+    margin-left: -20px;
+}*/
+
 
 
 /*  when width is greater than x, do y  */
