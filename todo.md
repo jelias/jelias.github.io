@@ -32,6 +32,7 @@
 ### Random
 - Make all one css doc
   - fix the margin issue on things i love
+  - fix italics issue with journal day
 - Make a page for papu, his stories and his life? <3
 - Add subtle shadows to fixed-nav as it scrolls?
 - Better 404 page
