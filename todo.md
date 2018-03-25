@@ -28,6 +28,7 @@
 
 ### Nav 
 - ~~Make words smaller? why are they so big!?~~
+- lower weight on dividers up top, jeez
 
 ### Random
 - Make all one css doc
