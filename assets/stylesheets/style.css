@@ -660,7 +660,7 @@ code {
     font-size: 20px;
 }
 
-h2, .come-find-me {
+h2 /* come find me */ {
     font-size: 48px;
     margin-top: 2.3rem;
     margin-bottom: 1rem;
@@ -905,17 +905,17 @@ h2, .come-find-me {
 
 /* Thing over ride, come find me uh oh */
 
-/*.things h2 {
+.things h2 {
     margin-top: -0.5rem;
     margin-bottom: 1rem;
     font-size: 24px;
 }
 
-ul {
+.things ul {
     margin-bottom: 2rem;
 }
 
-li {
+.things li {
     list-style-type: none;
     font-weight: 300;
     margin-bottom: 1rem;
@@ -926,11 +926,11 @@ li {
     
 }
 
-li:before {
+.things li:before {
     content: '\2013';
     position: absolute;
     margin-left: -20px;
-}*/
+}
 
 
 
