@@ -638,6 +638,8 @@ img {
 }
 
 .journal img:hover {
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out;
   filter: none;
   -webkit-filter: grayscale(0%);
 }
