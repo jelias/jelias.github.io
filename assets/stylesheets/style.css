@@ -268,7 +268,7 @@ h1 {
     margin-bottom: 1.3rem;
 }
 
-.project-img img, .journal img {
+.project-img img {
     box-shadow: 0 0px 12px rgba(0,0,0,0.16);
 }
 
@@ -632,6 +632,7 @@ img {
 .journal img {
     padding-top: 1.2rem;
     padding-bottom: 1.1rem;
+    box-shadow: 0 0px 12px rgba(0,0,0,0.16);
 }
 
 .nav-spacing {
