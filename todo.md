@@ -19,6 +19,7 @@
 ### Journal
 - Keep scroll position
 - Add a index of past years of journal! Where to put it though...
+- Images grayscale, color on over??
 
 ### Home 
 - Add a line like, "here's a picture of me!" to make the image feel less random below the paragraph?
