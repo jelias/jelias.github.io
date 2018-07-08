@@ -268,7 +268,7 @@ h1 {
     margin-bottom: 1.3rem;
 }
 
-.project-img img {
+.project-img img, .journal img {
     box-shadow: 0 0px 12px rgba(0,0,0,0.16);
 }
 
@@ -567,7 +567,7 @@ h1 {
 }
 
 .social svg {
-    width: 42px;
+    width: 36px;
 }
 
 .social a:hover .dribbble {
@@ -627,6 +627,11 @@ p  {
 img {
     width: 100%;
     display: block;
+}
+
+.journal img {
+    padding-top: 1.2rem;
+    padding-bottom: 1.1rem;
 }
 
 .nav-spacing {
