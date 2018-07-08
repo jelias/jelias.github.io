@@ -634,6 +634,11 @@ img {
     padding-bottom: 1.1rem;
 }
 
+.journal .caption {
+    color: #bbb;
+    font-size: 23px;
+}
+
 .nav-spacing {
     margin-top:  8rem;
 
