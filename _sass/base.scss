@@ -1,0 +1,52 @@
+// Base styling for jelias.me
+$sans-font:    Chivo, Helvetica, sans-serif;
+$serif-font: Spectral, Times, serif;
+
+%heading-type {
+  font-family: $sans-font;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+h1 {
+  @extend %heading-type;
+  font-size: 40px;
+}
+
+h2 {
+  @extend %heading-type;
+  font-size: 36px;
+}
+
+h3 {
+  @extend %heading-type;
+  font-size: 32px;
+}
+
+h4 {
+  @extend %heading-type;
+  font-size: 28px;
+}
+
+h5 {
+  @extend %heading-type;
+  font-size: 24px;
+}
+
+h6 {
+  @extend %heading-type;
+  font-size: 20px;
+}
+
+.guide-descriptor {
+  font-size: 9px;
+  font-style: normal;
+}
+
+small {
+
+}
+
+.current {
+  color: green;
+}

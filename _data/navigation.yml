@@ -1,0 +1,10 @@
+- name: Home
+  link: /
+- name: Design
+  link: /design/
+- name: Photo
+  link: /photography/
+- name: TIL
+  link: /things-ive-learned/
+- name: Style
+  link: /style/
