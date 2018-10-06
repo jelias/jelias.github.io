@@ -1,8 +1,34 @@
 // Base styling for jelias.me
+
+// fonts
 $sans-font:    Chivo, Helvetica, sans-serif;
 $serif-font: Spectral, Times, serif;
 
+// main colors
+$off-black: #2d2d2d;
+$off-white: #f8f8f8;
+$dark-gray: #939598;
+$light-gray: #c7c8ca;
+// other colors
+$highligher-yellow: #fefbd8;
+$link-hover: #3e69c4;
+
+// styles start
+
+nav {
+  a {
+    color: $off-black;
+    text-decoration: none;
+  }
+}
+
+.active-nav {
+  text-decoration: underline;
+}
+
+// headings
 %heading-type {
+  color: $off-black;
   font-family: $sans-font;
   font-weight: 400;
   text-transform: uppercase;
@@ -39,14 +65,137 @@ h6 {
 }
 
 .guide-descriptor {
+  font-family: $sans-font;
   font-size: 9px;
   font-style: normal;
 }
 
-small {
-
+small,
+.small {
+  @extend %heading-type;
+  font-size: 16px;
+  font-style: normal;
+  text-transform: capitalize;
 }
 
-.current {
-  color: green;
+// body copy
+p {
+  font-family: $serif-font;
+  font-size: 19px;
+  line-height: 30px;
+}
+
+.quote {
+  background-color: $highligher-yellow;
+  display: inline;
+  font-style: italic;
+  font-weight: 400;
+  padding: .25em;
+}
+
+// Padding for inline highlights. See https://codepen.io/hotmeteor/pen/ibvJs
+// .quote-wrap {
+//   // position: relative;
+//   left: $title-pad;
+//   padding-left: 0;
+//   box-shadow: $title-pad 0 0 $highligher-yellow,
+//               $title-pad*-1 0 0 $highligher-yellow;
+//
+// }
+
+strong,
+b {
+  font-weight: 600;
+}
+
+blockquote {
+  p {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 36px;
+  }
+}
+
+// .caption {
+//   font-family: $sans-font;
+//   font-size: 15px;
+//   font-style: normal;
+//   line-height: 18px;
+// }
+
+a {
+  color: $dark-gray;
+
+  &:hover {
+    color: $link-hover;
+  }
+}
+
+.journal-day {
+  font-family: $sans-font;
+  font-size: 20px;
+  font-style: normal;
+
+  &::after {
+    content: '.';
+      }
+}
+
+%thought-bullets {
+  font-family: $sans-font;
+  font-size: 24;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.new-thought {
+  @extend %thought-bullets;
+  color: $off-black;
+}
+
+.connected-thought {
+  @extend %thought-bullets;
+  color: $light-gray;
+}
+
+ul {
+  font-family: $serif-font;
+  font-size: 19px;
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 1.5em;
+  position: relative;
+
+  li {
+
+    &::before {
+      content: '–';
+      font-family: $sans-font;
+      left: 0;
+      margin-top: 1px;
+      position: absolute;
+    }
+  }
+}
+
+ol {
+  counter-reset: item;
+  font-family: $serif-font;
+  font-size: 19px;
+  line-height: 30px;
+  list-style: none;
+  padding-left: 0;
+
+  li {
+    counter-increment: item;
+    // margin-bottom: 5px;
+
+    &::before {
+      content: counter(item, decimal-leading-zero) '.';
+      font-family: $sans-font;
+      font-size: 18px;
+      margin-right: 10px;
+     }
+  }
 }
