@@ -13,17 +13,76 @@ $light-gray: #c7c8ca;
 $highligher-yellow: #fefbd8;
 $link-hover: #3e69c4;
 
+// modular scale setup
+
+$modularscale: (
+  base: 1.188em, // 19px = 1.188em?
+  ratio: 1.1321, // 40@6
+  40em: ( // small screens
+    base: 1em,
+    ratio: 1.1321,
+  ),
+  // 52em: ( // medium screens
+  //   base: 1.188em,
+  //   ratio: 1.1321,
+  // ),
+  64em: ( // large screens
+    base: 1.188em,
+    ratio: 1.1321,
+  ),
+);
+
 // styles start
 
+@include scrollbar(.95em, $off-black, $light-gray);
+
+body {
+  background-color: $off-white;
+  border: 3px solid $off-black;
+  color: $off-black;
+  margin: 25px;
+  // position: absolute;
+}
+
+%boarder-elements {
+  background-color: $off-white;
+  margin-left: 65px;
+  margin-right: 65px;
+  padding: 10px;
+  width: fit-content;
+}
+
 nav {
+  @extend %boarder-elements;
+  float: right;
+  margin-top: -22px;
+
   a {
-    color: $off-black;
+    @extend %heading-type;
+    font-size: ms(-1);
+    margin-inline-end: 10px;
+    margin-inline-start: 10px;
     text-decoration: none;
   }
 }
 
 .active-nav {
-  text-decoration: underline;
+  border-bottom: $off-black solid 1px;
+  text-decoration: none;
+}
+
+footer {
+  @extend %boarder-elements;
+  float: left;
+  margin-top: -19px;
+
+  a {
+    @extend %heading-type;
+    font-size: ms(-1.2);
+    margin-inline-end: 10px;
+    margin-inline-start: 10px;
+    text-decoration: none;
+  }
 }
 
 // headings
@@ -31,57 +90,66 @@ nav {
   color: $off-black;
   font-family: $sans-font;
   font-weight: 400;
+  letter-spacing: 1.4px;
+  line-height: 1.2em;
+  margin-bottom: 25px;
+  margin-top: 0;
   text-transform: uppercase;
 }
 
 h1 {
   @extend %heading-type;
-  font-size: 40px;
+  @include ms-respond(font-size, 6);
 }
 
 h2 {
   @extend %heading-type;
-  font-size: 36px;
+  @include ms-respond(font-size, 5);
 }
 
 h3 {
   @extend %heading-type;
-  font-size: 32px;
+  @include ms-respond(font-size, 4);
 }
 
 h4 {
   @extend %heading-type;
-  font-size: 28px;
+  @include ms-respond(font-size, 3);
 }
 
 h5 {
   @extend %heading-type;
-  font-size: 24px;
+  @include ms-respond(font-size, 2);
 }
 
 h6 {
   @extend %heading-type;
-  font-size: 20px;
+  @include ms-respond(font-size, 1);
+  line-height: 1.6em;
+  margin-bottom: 5px;
 }
 
 .guide-descriptor {
+  @include ms-respond(font-size, -6.5);
   font-family: $sans-font;
-  font-size: 9px;
   font-style: normal;
 }
 
 small,
 .small {
   @extend %heading-type;
-  font-size: 16px;
+  // @include ms-respond(font-size, -2);
+  font-size: ms(-2);
   font-style: normal;
+  letter-spacing: 0;
   text-transform: capitalize;
 }
 
 // body copy
 p {
+  // @include ms-respond(font-size, 0);
   font-family: $serif-font;
-  font-size: 19px;
+  font-size: ms(0);
   line-height: 30px;
 }
 
@@ -110,7 +178,7 @@ b {
 
 blockquote {
   p {
-    font-size: 20px;
+    @include ms-respond(font-size, .45);
     font-style: italic;
     font-weight: 700;
     line-height: 36px;
@@ -133,18 +201,20 @@ a {
 }
 
 .journal-day {
+  @include ms-respond(font-size, -1);
   font-family: $sans-font;
-  font-size: 20px;
   font-style: normal;
 
   &::after {
-    content: '.';
+    content: '.' attr(data-tooltip) '\A' attr(data-tooltip);
+    white-space: pre;
       }
 }
 
 %thought-bullets {
   font-family: $sans-font;
-  font-size: 24;
+  font-size: ms(0);
+  // font-size: 24px;
   font-style: normal;
   font-weight: 700;
 }
@@ -160,8 +230,9 @@ a {
 }
 
 ul {
+  // @include ms-respond(font-size, 0);
   font-family: $serif-font;
-  font-size: 19px;
+  font-size: ms(0);
   list-style-type: none;
   margin-left: 0;
   padding-left: 1.5em;
@@ -180,21 +251,22 @@ ul {
 }
 
 ol {
+  // @include ms-respond(font-size, 0);
   counter-reset: item;
   font-family: $serif-font;
-  font-size: 19px;
+  font-size: ms(0);
   line-height: 30px;
   list-style: none;
   padding-left: 0;
 
   li {
     counter-increment: item;
-    // margin-bottom: 5px;
+    margin-bottom: 1px;
 
     &::before {
       content: counter(item, decimal-leading-zero) '.';
       font-family: $sans-font;
-      font-size: 18px;
+      font-size: ms(-2);
       margin-right: 10px;
      }
   }

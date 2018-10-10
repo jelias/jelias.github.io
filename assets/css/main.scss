@@ -1,3 +1,9 @@
 ---
 ---
-@import "base";
+@import 'reset';
+@import 'mathsass/math';
+@import 'modularscale/modularscale';
+@import 'typi/typi';
+@import 'mixin';
+@import 'base';
+@import 'style';

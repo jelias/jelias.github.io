@@ -1,8 +1,11 @@
 <!doctype html>
 <html>
     {% include head.html %}
-  <body class="clearfix max-width-3 mx-auto">
+  <body>
     {% include navigation.html %}
+    <div class="clearfix max-width-3 mx-auto main-page">
     {{ content }}
+    </div>
+    {% include footer.html %}
   </body>
 </html>
