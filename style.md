@@ -41,3 +41,7 @@ _Blockquote_{:.guide-descriptor}
 
  01. Ordered List
  02. Ordered List
+
+![Test](/assets/images/my guy.jpg)
+
+![Round Two](/assets/images/me.jpg)

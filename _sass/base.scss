@@ -22,15 +22,32 @@ $modularscale: (
     base: 1em,
     ratio: 1.1321,
   ),
-  // 52em: ( // medium screens
-  //   base: 1.188em,
-  //   ratio: 1.1321,
-  // ),
+  52em: ( // medium screens
+    base: 1.188em,
+    ratio: 1.1321,
+  ),
   64em: ( // large screens
     base: 1.188em,
     ratio: 1.1321,
   ),
 );
+
+// typi setup
+
+$breakpoints: (
+  small: 40em,
+  large: 64em
+);
+
+$typi: (
+  base: (
+    null: (ms(0), 2),
+    small: (ms(0), 1.875),
+    large: (ms(0), 2)
+  )
+);
+
+
 
 // styles start
 
@@ -67,7 +84,7 @@ nav {
 }
 
 .active-nav {
-  border-bottom: $off-black solid 1px;
+  border-bottom: $off-black solid 2px;
   text-decoration: none;
 }
 
@@ -85,15 +102,20 @@ footer {
   }
 }
 
+.main-page {
+  margin-bottom: 66px;
+  margin-top: 40px;
+}
+
 // headings
 %heading-type {
+  @include ms-respond(margin-bottom, 1.2);
   color: $off-black;
   font-family: $sans-font;
   font-weight: 400;
   letter-spacing: 1.4px;
   line-height: 1.2em;
-  margin-bottom: 25px;
-  margin-top: 0;
+  margin-bottom: vr(1.5); // 1.5 baselines (base font size * line-height)
   text-transform: uppercase;
 }
 
@@ -125,8 +147,8 @@ h5 {
 h6 {
   @extend %heading-type;
   @include ms-respond(font-size, 1);
-  line-height: 1.6em;
-  margin-bottom: 5px;
+  // line-height: 1.6em;
+  // margin-bottom: 5px;
 }
 
 .guide-descriptor {
@@ -148,9 +170,11 @@ small,
 // body copy
 p {
   // @include ms-respond(font-size, 0);
+  @include ms-respond(margin-bottom, 1.2);
   font-family: $serif-font;
   font-size: ms(0);
-  line-height: 30px;
+  line-height: 1.875em;
+  margin-bottom: vr(1);
 }
 
 .quote {
@@ -229,10 +253,17 @@ a {
   color: $light-gray;
 }
 
-ul {
+%lists {
   // @include ms-respond(font-size, 0);
+  @include ms-respond(margin-bottom, 1.2);
   font-family: $serif-font;
   font-size: ms(0);
+  line-height: 1.875em;
+  margin-bottom: vr(1);
+}
+
+ul {
+  @extend %lists;
   list-style-type: none;
   margin-left: 0;
   padding-left: 1.5em;
@@ -251,11 +282,8 @@ ul {
 }
 
 ol {
-  // @include ms-respond(font-size, 0);
+  @extend %lists;
   counter-reset: item;
-  font-family: $serif-font;
-  font-size: ms(0);
-  line-height: 30px;
   list-style: none;
   padding-left: 0;
 

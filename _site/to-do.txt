@@ -1,0 +1,18 @@
+# Site v2!
+
+### Main Todo
+ - [ ] Finish Style Guide
+   - [ ] line heights and vertical rhythm (typi?) 
+   - [ ] paragraph padding
+   - [ ] Image styling?
+
+- [ ] Code
+  - [ ] Home
+  - [ ] Design
+  - [ ] Base Project Page
+  - [ ] Photo
+  - [ ] Learned
+  - [ ] Love
+
+### Home
+- [ ] Create a /now page?
