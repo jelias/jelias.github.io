@@ -2,13 +2,15 @@
 <html>
     {% include head.html %}
   <body>
-    {% include navigation.html %}
-    <div class="max-width-4 mx-auto main-page">
-      <!-- <h3>_{{ page.title }}</h3> -->
-      <div class="clearfix max-width-3 mx-auto">
-        {{ content }}
+    <div class="border">
+      {% include navigation.html %}
+      <div class="main-page">
+        <!-- <div class="wide-column">
+          <h3>_{{ page.title }}</h3>
+        </div> -->
+          {{ content }}
       </div>
+      {% include footer.html %}
     </div>
-    {% include footer.html %}
   </body>
 </html>

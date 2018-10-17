@@ -2,7 +2,9 @@
 layout: default
 title: Style Guide
 ---
+{% include captures.md %}
 
+{{ body }}
 _THE BIG GUIDE_{:.small}
 # Heading 1 _Chivo, 40PX_{:.guide-descriptor}
 ## Heading 2 _Chivo, 36PX_{:.guide-descriptor}
@@ -30,8 +32,14 @@ _Italicized Text_{:.guide-descriptor}
 > “If creativity were anything but random, someone would have figured out the algorithm by now.” - Dilbert \\
 _Blockquote_{:.guide-descriptor}
 
-<!-- _This is a caption for a photo._{:.caption} -->
+_This is a caption for a photo._{:.caption}
+{{end}}
 
+{{ img }}
+![Round Two](/assets/images/me.jpg){:.shadow}
+{{ end }}
+
+{{body}}
 [This is an inline link p y j](#)
 
 *21*{:.journal-day} Journal Entry. *–*{:.new-thought} New Thought. *–*{:.connected-thought} Connected Thought.
@@ -41,7 +49,13 @@ _Blockquote_{:.guide-descriptor}
 
  01. Ordered List
  02. Ordered List
+{{end}}
 
-![Test](/assets/images/my guy.jpg)
+{{ full }}
+![Test](/assets/images/full.png)
+{{ end }}
 
+{{ img }}
 ![Round Two](/assets/images/me.jpg)
+_This is a caption for a photo._{:.caption}
+{{ end }}

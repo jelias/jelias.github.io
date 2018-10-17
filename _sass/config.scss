@@ -1,0 +1,58 @@
+// fonts
+$sans-font:    Chivo, Helvetica, sans-serif;
+$serif-font: Spectral, Times, serif;
+
+// main colors
+$off-black: #2d2d2d;
+$off-white: #f8f8f8;
+$dark-gray: #939598;
+$light-gray: #c7c8ca;
+// other colors
+$highligher-yellow: #fefbd8;
+$link-hover: #3e69c4;
+
+// columns
+$main-column: 43.75rem;
+$wide-column: 65em;
+
+// modular scale setup
+
+$modularscale: (
+  base: 1.188em, // 19px = 1.188em?
+  ratio: 1.1321, // 40@6
+  40em: ( // small screens
+    base: 1em,
+    ratio: 1.1321,
+  ),
+  52em: ( // medium screens
+    base: 1.188em,
+    ratio: 1.1321,
+  ),
+  64em: ( // large screens
+    base: 1.188em,
+    ratio: 1.1321,
+  ),
+);
+
+// typi setup
+
+$breakpoints: (
+  small: 40em,
+  large: 64em
+);
+
+$typi: (
+  base: (
+    null: (ms(0), 2),
+    small: (ms(0), 1.875),
+    large: (ms(0), 2)
+  )
+);
+
+$z-layers: (
+  'top':         100,
+  'above':       50,
+  'default':     1,
+  'below':       -50,
+  'bottom':      -100
+);

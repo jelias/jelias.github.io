@@ -1,3 +1,13 @@
+// Function for Z-index
+
+@function z($layer) {
+  @if not map-has-key($z-layers, $layer) {
+    @warn 'No layer found for `#{$layer}` in $z-layers map. Property omitted.';
+  }
+
+  @return map-get($z-layers, $layer);
+}
+
 /// Mixin to customize scrollbars
 /// Beware, this does not work in all browsers
 /// @author Hugo Giraudel

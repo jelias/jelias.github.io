@@ -2,17 +2,29 @@
 
 ### Main Todo
  - [ ] Finish Style Guide
-   - [ ] line heights and vertical rhythm (typi?) 
-   - [ ] paragraph padding
-   - [ ] Image styling?
+   - [X] line heights and vertical rhythm (typi?)
+   - [X] paragraph padding
+   - [X] Image styling
+   - [ ] Side links, sticky on scroll
 
-- [ ] Code
+- [ ] Code (Desktop)
   - [ ] Home
+    - [ ] Style tagline (big)
+    - [ ] Center tagline
+    - [ ] Set bottom arrow positon
+    - [ ] Make arrow svg? 
+    - [ ] Have arrow fade on scroll?
+
   - [ ] Design
   - [ ] Base Project Page
   - [ ] Photo
   - [ ] Learned
   - [ ] Love
+
+- [ ] Code (Mobile)
+
+- [ ] Extras
+  - [ ] Night Mode
 
 ### Home
 - [ ] Create a /now page?
