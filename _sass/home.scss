@@ -1,32 +1,30 @@
 // Home page stylings
 
-.front-page {
-  @include center(125vw);
-  // @include align(horizontal);
-  // width: 125vw;
-  // position: relative;
-  // margin-left: -105px;
-
+.jeet-columns {
+  @include center;
 }
 
-.cards {
+.main-column {
+  @include column(2/4);
+}
+
+%both-cards {
+  @include column(1/4);
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  // position: absolute;
+  // top: 65px;
+  max-width: 44em;
+  position: sticky;
+  top: 4em;
 
   img {
     // display: block;
     // height: auto;
-    // margin-bottom: 1.5em;
-    max-width: 100%;
+    margin-bottom: 1.5em;
+    width: 100%;
   }
-}
-
-// .img-space {
-// }
-
-%both-cards {
-  @include column(1/4);
-  // position: absolute;
-  // top: 65px;
-  max-width: 44em;
 }
 
 .right-card {
@@ -41,81 +39,24 @@
   }
 }
 
-.home-0 {
-  @include column(2/4);
-
-  .identity {
-    max-width: $main-column;
-  }
+%vcenter-cards {
+  margin-bottom: 50%;
+  margin-top: auto;
+  position: relative;
 }
 
-// .front-page {
-//   display: flex;
-//   flex-direction: column;
-//   height: 90vh;
-// }
-//
-// .cards {
-//   display: flex;
-//   flex-direction: row;
-//   justify-content: center;
-//   // position: absolute;
-//
-//   margin-bottom: 0;
-//   margin-left: 0;
-//   margin-right: auto;
-//   margin-top: auto;
-//
-//   img {
-//     display: block;
-//     height: auto;
-//     margin-bottom: 1.5em;
-//     max-width: 100%;
-//   }
-// }
-//
-// // .img-space {
-// // }
-//
-// %both-cards {
-//   // position: absolute;
-//   // top: 65px;
-//   max-width: 44em;
-// }
-//
-// .right-card {
-//   @extend %both-cards;
-//   // margin-left: 25vw; //pushes center
-//   // margin-right: -30vw; //pulls towards edge
-//   // right: 0;
-// }
-//
-// .left-card {
-//   @extend %both-cards;
-//   // margin-left: -25vw; //pulls towards edge
-//   // margin-right: 25vw; //pushes center
-//   // left: 0;
-//
-//   p {
-//     text-align: right;
-//   }
-// }
-//
-// .home-0 {
-//   // display: flex;
-//   // flex-direction: column;
-//   // height: 90vh;
-//   max-width: $main-column;
-//   padding: 0 25em 0px 25em;
-//   // margin: 0 25em 0 25em; //top right bottom left
-//
-//   .identity {
-//     margin-bottom: 50%;
-//     margin-left: 0;
-//     margin-right: auto;
-//     margin-top: auto;
-//   }
-// }
+.left-offset {
+  @extend %vcenter-cards;
+  left: -90px;
+  margin-left: -95%;
+}
+
+.right-offset {
+  @extend %vcenter-cards;
+  margin-right: -95%;
+  right: -90px;
+}
+
 
 .home-1 {
   display: flex;
@@ -129,7 +70,7 @@
   font-style: italic;
   font-weight: 500;
   margin-bottom: 4%;
-  margin-left: 6%;
+  margin-left: 4%;
   margin-right: auto;
   margin-top: auto;
 }

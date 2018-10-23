@@ -2,43 +2,41 @@
 layout: default
 title: Home
 ---
-<div class="front-page">
-  <div class="cards">
+<div class="jeet-columns">
     <div class="left-card">
-      <a href="#"><img src="{{ page.photo-thumb }}"/></a>
-      <p>
-        _Photo
+      <div class="left-offset">
+        <a href="#"><img src="{{ page.photo-thumb }}"/></a>
+        <p>
+          _Photo
+        </p>
+      </div>
+    </div>
+
+  <div class="main-column">
+    <div class="home-1">
+      <h1 class="identity">{{ page.identity }} <span class="tagline">{{ page.tagline }}</span></h1>
+      <section class="arrow">
+      </section>
+    </div>
+
+    <div class="home-2">
+      <p id="bio">
+        {{ content }}
       </p>
     </div>
 
-    <div class="home-0">
-      <h1 class="identity">{{ page.identity }} <span class="tagline">{{ page.tagline }}</span></h1>
+    <div class="home-3">
+      <img src="{{ page.photo }}"/>
+      <p class="caption">{{page.caption}}</p>
     </div>
+  </div>
 
-    <div class="right-card">
+  <div class="right-card">
+    <div class="right-offset">
       <a href="#"><img src="{{ page.design-thumb }}"/></a>
       <p>
         _Design
       </p>
     </div>
-  </div>
-</div>
-
-<div class="main-column">
-  <div class="home-1">
-    <h1 class="identity">{{ page.identity }} <span class="tagline">{{ page.tagline }}</span></h1>
-    <section class="arrow">
-    </section>
-  </div>
-
-  <div class="home-2">
-    <p id="bio">
-      {{ content }}
-    </p>
-  </div>
-
-  <div class="home-3">
-    <img src="{{ page.photo }}"/>
-    <p class="caption">{{page.caption}}</p>
   </div>
 </div>

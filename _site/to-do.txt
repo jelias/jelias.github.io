@@ -6,6 +6,8 @@
    - [X] paragraph padding
    - [X] Image styling
    - [ ] Side links, sticky on scroll
+    - [ ] Add padding on images (break the border lines)
+    - [ ] Fix vertical centering on browser size change (copy h1 code?)
 
 - [ ] Code (Desktop)
   - [ ] Home
