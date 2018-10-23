@@ -9,22 +9,25 @@
 
 - [ ] Code (Desktop)
   - [ ] Home
-    - [ ] Style tagline (big)
-    - [ ] Center tagline
-    - [ ] Set bottom arrow positon
-    - [ ] Make arrow svg? 
-    - [ ] Have arrow fade on scroll?
+    - [X] Style tagline (big)
+    - [X] Center tagline
+    - [X] Set bottom arrow positon
+    - [ ] Make arrow svg?
+    - [X] Have arrow fade on scroll?
 
   - [ ] Design
   - [ ] Base Project Page
   - [ ] Photo
   - [ ] Learned
   - [ ] Love
+  - [ ] 404
 
 - [ ] Code (Mobile)
+  - [ ] It breaks at ~596px
 
 - [ ] Extras
   - [ ] Night Mode
+  - [ ] Add Google Analytics
 
 ### Home
 - [ ] Create a /now page?

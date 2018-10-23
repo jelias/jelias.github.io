@@ -46,7 +46,54 @@ nav {
 .active-nav {
   border-bottom: $off-black solid 2px;
   text-decoration: none;
+
+  &:hover {
+    color: $off-black;
+  }
 }
+
+// %vertical-text {
+//   @extend %heading-type;
+//   font-size: ms(-.8);
+//   text-decoration: none;
+//   text-transform: uppercase;
+//   width: fit-content;
+// }
+//
+// %vertical-bar {
+//   background-color: $off-white;
+//   // margin-left: 65px;
+//   // margin-right: 65px;
+//   // margin-top: 480px;
+//   padding: 10px;
+//   position: sticky;
+//   top: 24em;
+//   width: fit-content;
+// }
+//
+// .vertical-left {
+//   @extend %vertical-bar;
+//   // float: left;
+//   left: -130px;
+//   // position: absolute;
+//   transform: rotate(-90deg);
+//
+//   a {
+//     @extend %vertical-text;
+//   }
+// }
+//
+// .vertical-right {
+//   @extend %vertical-bar;
+//   // float: right;
+//   // position: absolute;
+//   right: 0;
+//   transform: rotate(90deg);
+//
+//   a {
+//     @extend %vertical-text;
+//   }
+// }
 
 footer {
   @extend %boarder-elements;

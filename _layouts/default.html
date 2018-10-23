@@ -12,5 +12,15 @@
       </div>
       {% include footer.html %}
     </div>
+
+    {% if page.js %}
+      <script>
+        {{ page.js }}
+      </script>
+    {% endif %}
+
+    {% if page.js-file %}
+      <script src="{{ page.js-file }}"></script>
+    {% endif %}
   </body>
 </html>

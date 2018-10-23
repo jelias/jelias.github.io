@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Style Guide
+# previous: /
+# next: /
 ---
 {% include captures.md %}
 
@@ -59,3 +61,5 @@ _This is a caption for a photo._{:.caption}
 ![Round Two](/assets/images/me.jpg)
 _This is a caption for a photo._{:.caption}
 {{ end }}
+
+<!-- *Previous*{:.vertical-left}  *Next*{:.vertical-right} -->

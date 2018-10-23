@@ -1,11 +1,15 @@
 ---
 layout: home
 title: Home
-tagline: Hi, I'm Jacob.
+identity: Designer + Artist
+tagline: verb on verb adj adj that verb people and verb adj adj.
+design-thumb: /assets/images/me-june-2018.jpg
+photo-thumb: /assets/images/me-june-2018.jpg
 photo: /assets/images/me-june-2018.jpg
 caption: Me, Circa June 2018
+js-file: /assets/js/arrow-fade.js
 ---
-
+###### Hi, I'm Jacob.
 I’m from Chicago, IL and am currently pursuing a Bachelor of Design at the University of Washington.
 Outside of design, my biggest passions are waterskiing, snowboarding, and rock climbing. From time to time, you can find me writing on Medium, posting shots on Dribbble, and pushing commits to GitHub.
 

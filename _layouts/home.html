@@ -2,9 +2,29 @@
 layout: default
 title: Home
 ---
+<div class="cards">
+  <div class="left-card">
+    <img src="{{ page.photo-thumb }}" href="#" />
+    <p>
+      _Photo
+    </p>
+  </div>
+
+  <div class="home-0">
+    <h1 class="identity">{{ page.identity }} <span class="tagline">{{ page.tagline }}</span></h1>
+  </div>
+
+  <div class="right-card">
+    <img src="{{ page.design-thumb }}" href="#" />
+    <p>
+      _Design
+    </p>
+  </div>
+</div>
+
 <div class="main-column">
   <div class="home-1">
-    <h1 class="tagline">{{ page.tagline }}</h1>
+    <h1 class="identity">{{ page.identity }} <span class="tagline">{{ page.tagline }}</span></h1>
     <section class="arrow">
     </section>
   </div>
