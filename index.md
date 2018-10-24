@@ -2,9 +2,9 @@
 layout: home
 title: Home
 identity: Designer + Artist
-tagline: verb on verb adj adj that verb people and verb adj adj.
-design-thumb: /assets/images/color-bars.png
-photo-thumb: /assets/images/color-bars.png
+tagline: focused on creating digital experiences that empower people and solve real-world problems.
+design-thumb: /assets/images/setting-type.png
+photo-thumb: /assets/images/Da Moon.jpg
 photo: /assets/images/me-june-2018.jpg
 caption: Me, Circa June 2018
 js-file: /assets/js/arrow-fade.js
