@@ -17,7 +17,7 @@
     - [X] Image cards
       - [X] Add padding on images (break the border lines)
       - [X] Fix vertical centering on browser size change (copy h1 code?)
-    - [ ] Might have to fix VH (test on 13" MBP)
+    - [ ] Might have to fix VH stuff (test on 13" MBP)
 
   - [ ] Design
   - [ ] Base Project Page

@@ -23,6 +23,13 @@ dribbble_username: jelias
 #Project URL
 permalink:  /design/:title/
 
+#collections
+
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
+
 # Build settings
 markdown: kramdown
 sass:

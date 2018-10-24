@@ -1,0 +1,24 @@
+
+.projects {
+  @include center;
+  margin-bottom: 60%;
+}
+
+.project-link {
+  @include column(6/10);
+}
+
+.project-thumbnail {
+  @include column(4/10);
+	// position: absolute;
+  float: right;
+
+.project-thumbnail:last-child {
+  margin-right: 3%;
+}
+
+a:hover {
+    .project-thumbnail {
+      visibility: visible;
+    }
+}

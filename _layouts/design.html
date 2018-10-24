@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div class="wide-column">
+  <h3>_{{ page.title }}</h3>
+</div>
+
+<div class="main-column">
+  {{content}}
+</div>
+
+<div class="wide-column">
+  <div class="projects">
+    <ol class="project-list">
+      {% assign mid = site.projects | sort: 'date' %}
+      {% assign projects = mid | reverse %}
+      {% for project in projects limit:6 %}
+        <a href="{{ project.url }}" class="project-link">
+          <li>{{ project.title }}</li>
+        </a>
+        <span class="project-thumbnail"><img src="{{ project.thumbnail }}" alt=""></span>
+      {% endfor %}
+    </ol>
+  </div>
+
+</div>
