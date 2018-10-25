@@ -37,8 +37,8 @@ nav {
   a {
     @extend %heading-type;
     font-size: ms(-1);
-    margin-inline-end: 10px;
-    margin-inline-start: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     text-decoration: none;
   }
 }
@@ -103,8 +103,8 @@ footer {
   a {
     @extend %heading-type;
     font-size: ms(-1.2);
-    margin-inline-end: 10px;
-    margin-inline-start: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     text-decoration: none;
   }
 }

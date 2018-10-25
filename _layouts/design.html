@@ -13,15 +13,22 @@ layout: default
 <div class="wide-column">
   <div class="projects">
     <ol class="project-list">
-      {% assign mid = site.projects | sort: 'date' %}
-      {% assign projects = mid | reverse %}
+      {% assign mid = site.projects | sort: 'order' %}
+      {% assign projects = mid %}
       {% for project in projects limit:6 %}
-        <a href="{{ project.url }}" class="project-link">
+        <a href="{{ project.url }}" onmouseover = "switchImage({{project.order}})" id="{{project.order}}_order" class="project-link">
           <li>{{ project.title }}</li>
         </a>
-        <span class="project-thumbnail"><img src="{{ project.thumbnail }}" alt=""></span>
       {% endfor %}
     </ol>
+    <div class="project-thumbnail">
+      {% assign projects = site.projects | sort: 'order' %}
+      {% assign projects = mid %}
+      {% for project in projects limit:6 %}
+      <img src="{{ project.thumbnail }}" id="{{ project.order }}" class = "rightImage" alt="">
+      {% endfor %}
+    </div>
+
   </div>
 
 </div>

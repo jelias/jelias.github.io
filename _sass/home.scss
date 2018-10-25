@@ -6,13 +6,14 @@
 
 .home-column {
   @include column(2/4);
+  height: 100%;
 }
 
 %both-cards {
   @include column(1/4);
   display: flex;
   flex-direction: column;
-  height: 90vh;
+  height: 50em;
   // position: absolute;
   // top: 65px;
   max-width: 44em;
@@ -89,7 +90,7 @@
 .home-1 {
   display: flex;
   flex-direction: column;
-  height: 90vh;
+  height: 50em;
 }
 
 .identity {
@@ -110,13 +111,16 @@
 }
 
 // scroll-arrow
+.arrow-div {
+}
+
 .arrow {
   @include center;
   border-bottom: 3px solid $off-black;
   border-left: 3px solid $off-black;
   box-sizing: border-box;
   height: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 45px;
   margin-top: auto;
   opacity: 1;
   transform: rotate(-45deg);
@@ -130,11 +134,12 @@
  }
 
 .home-2 {
-  height: 80vh;
+  height: 50em;
+  margin-top: 10em;
 }
 
 .home-3 {
-  height: 79vh;
+  height: 42.4em;
 }
 
 img {

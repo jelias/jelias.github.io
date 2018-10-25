@@ -59,22 +59,31 @@
       
       
       
-        <a href="/projects/other/" class="project-link">
-          <li>Other</li>
-        </a>
-        <span class="project-thumbnail"><img src="/assets/images/projects-test-1.png" alt=""></span>
-      
-        <a href="/projects/setting-type/" class="project-link">
-          <li>Setting Type</li>
-        </a>
-        <span class="project-thumbnail"><img src="/assets/images/projects-test-2.png" alt=""></span>
-      
-        <a href="/projects/test/" class="project-link">
+        <a href="/projects/test/" onmouseover = "switchImage(1)" id="1_order" class="project-link">
           <li>Test</li>
         </a>
-        <span class="project-thumbnail"><img src="/assets/images/projects-test-3.png" alt=""></span>
+      
+        <a href="/projects/other/" onmouseover = "switchImage(2)" id="2_order" class="project-link">
+          <li>Other</li>
+        </a>
+      
+        <a href="/projects/setting-type/" onmouseover = "switchImage(3)" id="3_order" class="project-link">
+          <li>Setting Type</li>
+        </a>
       
     </ol>
+    <div class="project-thumbnail">
+      
+      
+      
+      <img src="/assets/images/projects-test-3.png" id="1" class = "rightImage" alt="">
+      
+      <img src="/assets/images/projects-test-1.png" id="2" class = "rightImage" alt="">
+      
+      <img src="/assets/images/projects-test-2.png" id="3" class = "rightImage" alt="">
+      
+    </div>
+
   </div>
 
 </div>
@@ -101,6 +110,8 @@
 
     
 
+    
+      <script src="/assets/js/design.js"></script>
     
   </body>
 </html>

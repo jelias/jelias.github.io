@@ -4,6 +4,7 @@ title: Test
 date: 2016-02-12
 type: Typography
 thumbnail: /assets/images/projects-test-3.png
+order: 1
 
 ---
 
