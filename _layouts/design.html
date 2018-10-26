@@ -15,20 +15,29 @@ layout: default
     <ol class="project-list">
       {% assign mid = site.projects | sort: 'order' %}
       {% assign projects = mid %}
-      {% for project in projects limit:6 %}
+      {% for project in projects limit:4 %}
         <a href="{{ project.url }}" onmouseover = "switchImage({{project.order}})" id="{{project.order}}_order" class="project-link">
-          <li>{{ project.title }}</li>
+          <li>_0{{project.order}} {{ project.title }}</li>
         </a>
       {% endfor %}
     </ol>
     <div class="project-thumbnail">
       {% assign projects = site.projects | sort: 'order' %}
       {% assign projects = mid %}
-      {% for project in projects limit:6 %}
+      {% for project in projects limit:4 %}
       <img src="{{ project.thumbnail }}" id="{{ project.order }}" class = "rightImage" alt="">
       {% endfor %}
     </div>
-
+</div>
+<div class="explore">
+  <h6>_More</h6>
+  <div class="gallery">
+    {% for photo in site.static_files %}
+      {% if photo.path contains 'assets/photos' %}
+          <img src="{{ site.baseurl }}{{ photo.path }}" alt="image" />
+      {% endif %}
+    {% endfor %}
   </div>
+</div>
 
 </div>

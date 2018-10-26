@@ -39,3 +39,10 @@ sass:
 plugins:
     # - jekyll-minifier
     - jekyll-sitemap
+
+defaults:
+  -
+    scope:
+      path: "photos"
+    # values:
+    #   permalink: /:path/:basename:output_ext

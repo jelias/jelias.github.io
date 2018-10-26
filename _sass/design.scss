@@ -1,30 +1,18 @@
 
 .projects {
   @include center;
-  margin-bottom: 40em;
-  margin-top: 2em;
+  margin-bottom: 16.5em;
+  margin-top: 4em;
 }
 
 .project-list {
   @include column(2/10);
-}
-
-li {
-    width: fit-content;
-  }
-
-// a {
-//   &:hover {
-//     li {
-//       background-color: $off-black;
-//     }
-//   }
-// }
-
-.hover {
-  li {
   width: fit-content;
-  background-color: $off-black;
+
+  margin-top: 1.625em;
+
+  a {
+    text-decoration: none;
   }
 }
 
@@ -34,29 +22,47 @@ li {
 
 .project-thumbnail {
   @include column(4/10);
-	position: relative;
   float: right;
-  // top: 0;
+  position: relative;
 
 
   img {
-    position: absolute;
-    visibility: hidden;
     margin-bottom: 0;
     margin-top: 0;
+    position: absolute;
+    visibility: hidden;
   }
 }
 
-// ol {
-//   &:hover {
-//     + .project-thumbnail {
-//       img {
-//         visibility: visible;
-//       }
-//     }
-//   }
-// }
-//
-// ol li:hover:nth-child(5) + .project-thumbnail img:nth-child(2) {
-//   visibility: visible;
-// }
+.hover {
+  li {
+    background-color: $off-black;
+    color: $off-white;
+    width: fit-content;
+  }
+}
+
+.project-link {
+
+  li {
+    @extend %heading-type;
+    @include ms-respond(font-size, 1);
+    margin-right: 10px;
+    text-decoration: none;
+    width: fit-content;
+
+    &::before {
+      content: none;
+     }
+  }
+}
+
+.gallery {
+  // @include column(1/3, $cycle: 2);
+  column-count: 3;
+  column-gap: .5em;
+  img {
+    margin-top: 0;
+    margin-bottom: .25em;
+  }
+}
