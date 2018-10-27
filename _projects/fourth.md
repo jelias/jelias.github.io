@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: Last
 date: 2016-02-12
 type: Typography

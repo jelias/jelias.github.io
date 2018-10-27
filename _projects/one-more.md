@@ -1,10 +1,11 @@
 ---
-layout: post
+layout: project
 title: Ok, Last One
 date: 2018-03-21
 type: Typography
 thumbnail: /assets/images/projects-test-2.png
 order: 5
+published: false
 
 ---
 

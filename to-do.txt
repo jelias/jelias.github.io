@@ -20,15 +20,20 @@
     - [ ] Fix Vh, different screen sizes break it... (test on 13" MBP)
 
   - [ ] Design
-    - [ ] Project links + images
+    - [X] Project links + images
     - [ ] Style project links, add animations
+    - [ ] Setup Photoswipe
+    - [ ] Responsive Images (diff size used based on screen size)
+      - [ ] Use images.weserv.nl and build different tags for different screen sizes?
+    - [ ] Lazy Loading for Explore images?
+    - [ ]
 
 
   - [ ] Base Project Page
   - [ ] Photo
   - [ ] Coming Soon Page
     - [ ] TIL
-    - [ ] Mobile screen
+    - [ ] for Mobile Screens
 
   ----
   - [ ] Learned

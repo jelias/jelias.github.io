@@ -34,7 +34,10 @@ layout: default
   <div class="gallery">
     {% for photo in site.static_files %}
       {% if photo.path contains 'assets/photos' %}
-          <img src="{{ site.baseurl }}{{ photo.path }}" alt="image" />
+      <img src="http://images.weserv.nl/?url=jelias.me{{ site.baseurl }}{{ photo.path }}&w=600&h=600&output=jpg&q=65" />
+
+
+          <!-- <img src="{{ site.baseurl }}{{ photo.path }}" alt="image" /> -->
       {% endif %}
     {% endfor %}
   </div>

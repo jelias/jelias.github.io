@@ -6,7 +6,7 @@ title: Style Guide
 ---
 {% include captures.md %}
 
-{{ body }}
+{{ main }}
 _THE BIG GUIDE_{:.small}
 # Heading 1 _Chivo, 40PX_{:.guide-descriptor}
 ## Heading 2 _Chivo, 36PX_{:.guide-descriptor}
@@ -37,11 +37,11 @@ _Blockquote_{:.guide-descriptor}
 _This is a caption for a photo._{:.caption}
 {{end}}
 
-{{ img }}
+{{ wide }}
 ![Round Two](/assets/images/me.jpg){:.shadow}
 {{ end }}
 
-{{body}}
+{{main}}
 [This is an inline link p y j](#)
 
 *21*{:.journal-day} Journal Entry. *–*{:.new-thought} New Thought. *–*{:.connected-thought} Connected Thought.
@@ -57,7 +57,7 @@ _This is a caption for a photo._{:.caption}
 ![Test](/assets/images/full.png)
 {{ end }}
 
-{{ img }}
+{{ wide }}
 ![Round Two](/assets/images/me.jpg)
 _This is a caption for a photo._{:.caption}
 {{ end }}

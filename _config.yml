@@ -21,7 +21,7 @@ dribbble_username: jelias
 
 
 #Project URL
-permalink:  /design/:title/
+#permalink:  /projects/:title/
 
 #collections
 
@@ -41,8 +41,14 @@ plugins:
     - jekyll-sitemap
 
 defaults:
-  -
-    scope:
-      path: "photos"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: project
+
+# -
+#     scope:
+#       path: "photos"
     # values:
     #   permalink: /:path/:basename:output_ext
