@@ -22,15 +22,21 @@
   - [ ] Design
     - [X] Project links + images
     - [ ] Style project links, add animations
+
+    Later
     - [ ] Setup Photoswipe
     - [ ] Responsive Images (diff size used based on screen size)
       - [ ] Use images.weserv.nl and build different tags for different screen sizes?
-    - [ ] Lazy Loading for Explore images?
+    - [ ] Lazy Loading for Explore images?! (see https://jekyllcodex.org/without-plugin/lazy-loading/)
     - [ ]
 
 
   - [ ] Base Project Page
-  - [ ] Photo
+    - [ ]
+
+  - [X] Photo
+    - Done until Photoswipe/Lightbox (see https://jekyllcodex.org/without-plugin/lightbox/)
+    
   - [ ] Coming Soon Page
     - [ ] TIL
     - [ ] for Mobile Screens

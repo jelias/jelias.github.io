@@ -3,7 +3,7 @@ layout: project
 title: Setting Type
 date: 2018-02-21
 type: Typography
-thumbnail: /assets/images/projects-test-2.png
+thumbnail: /assets/images/cards/projects-test-2.png
 order: 3
 ---
 {% include captures.md %}

@@ -17,6 +17,7 @@
   // position: absolute;
   // top: 65px;
   max-width: 44em;
+  position: -webkit-sticky;
   position: sticky;
   top: 4em;
 
@@ -111,8 +112,8 @@
 }
 
 // scroll-arrow
-.arrow-div {
-}
+// .arrow-div {
+// }
 
 .arrow {
   @include center;

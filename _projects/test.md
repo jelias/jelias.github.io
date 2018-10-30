@@ -3,7 +3,7 @@ layout: project
 title: Test
 date: 2018-03-21
 type: Typography
-thumbnail: /assets/images/projects-test-3.png
+thumbnail: /assets/images/cards/projects-test-3.png
 order: 1
 
 ---

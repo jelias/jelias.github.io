@@ -29,18 +29,21 @@ layout: default
       {% endfor %}
     </div>
 </div>
+
 <div class="explore">
   <h6>_More</h6>
-  <div class="gallery">
-    {% for photo in site.static_files %}
-      {% if photo.path contains 'assets/photos' %}
-      <img src="http://images.weserv.nl/?url=jelias.me{{ site.baseurl }}{{ photo.path }}&w=600&h=600&output=jpg&q=65" />
 
+  <div class="gallery" itemscope itemtype="http://schema.org/ImageGallery">
 
-          <!-- <img src="{{ site.baseurl }}{{ photo.path }}" alt="image" /> -->
+    {% for image in site.static_files %}
+      {% if image.path contains 'assets/images/photos' %}
+      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+          <a href="http://images.weserv.nl/?url=jelias.me{{ site.baseurl }}{{ image.path }}&w=2000&h=2000&output=jpg&q=90" class="bigImage" itemprop="contentUrl" data-size="">
+              <img src="http://images.weserv.nl/?url=jelias.me{{ site.baseurl }}{{ image.path }}&w=800&h=800&output=jpg&q=80" itemprop="thumbnail" alt="Dynamic image descriptions coming soon" />
+          </a>
+      </figure>
       {% endif %}
     {% endfor %}
   </div>
 </div>
-
 </div>

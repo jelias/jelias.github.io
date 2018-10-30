@@ -47,8 +47,8 @@ defaults:
     values:
       layout: project
 
-# -
-#     scope:
-#       path: "photos"
-    # values:
-    #   permalink: /:path/:basename:output_ext
+  # - scope:
+  #     path: "photos"
+  #   values:
+  #     height: {{ dimensions.height }}
+  #     width: {{ dimensions.width }}

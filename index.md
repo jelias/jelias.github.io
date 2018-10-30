@@ -3,8 +3,8 @@ layout: home
 title: Home
 identity: Designer + Artist
 tagline: focused on creating digital experiences that empower people and solve real-world problems.
-design-thumb: /assets/images/setting-type.png
-photo-thumb: /assets/images/Da Moon.jpg
+design-thumb: /assets/images/cards/design.png
+photo-thumb: /assets/images/cards/photo.jpg
 photo: /assets/images/me-june-2018.jpg
 caption: Me, Circa June 2018
 js-file: /assets/js/arrow-fade.js

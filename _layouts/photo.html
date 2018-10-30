@@ -1,3 +1,26 @@
 ---
 layout: default
 ---
+
+<div class="wide-column">
+  <h3>_{{ page.title }}</h3>
+</div>
+<!--
+<div class="main-column photo-text">
+  {{content}}
+</div> -->
+
+<div class="wide-column">
+  <div class="gallery" itemscope itemtype="http://schema.org/ImageGallery">
+
+    {% for image in site.static_files %}
+      {% if image.path contains 'assets/images/photos' %}
+      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+          <a href="http://images.weserv.nl/?url=jelias.me{{ site.baseurl }}{{ image.path }}&w=2000&h=2000&output=jpg&q=90" class="bigImage" itemprop="contentUrl" data-size="">
+              <img src="http://images.weserv.nl/?url=jelias.me{{ site.baseurl }}{{ image.path }}&w=800&h=800&output=jpg&q=80" itemprop="thumbnail" alt="Dynamic image descriptions coming soon" />
+          </a>
+      </figure>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
