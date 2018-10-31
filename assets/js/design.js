@@ -8,11 +8,14 @@ function switchImage(i) {
 
   document.getElementById(i + "_order").classList.add("hover");
 
-  var elements = document.getElementsByClassName("rightImage");
+  var elements = document.getElementsByClassName("right-image");
   for(var x=0; x<elements.length; x++) {
-    elements[x].style.visibility = "hidden"
+    // elements[x].style.visibility = "hidden"
+    elements[x].classList.remove("hover");
   }
-  document.getElementById(i).style.visibility = "visible";
+
+  document.getElementById(i).classList.add("hover");
+  // document.getElementById(i).style.visibility = "visible";
 }
 
 

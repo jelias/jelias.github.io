@@ -7,13 +7,20 @@
 
 .project-list {
   @include column(2/10);
-  width: fit-content;
-
   margin-top: 1.625em;
+  width: fit-content;
 
   a {
     text-decoration: none;
-  }
+
+    li {
+      margin-left: -12px;
+      padding: 12px;
+      // padding-bottom: 0px;
+      }
+
+    }
+
 }
 
 .project-gap {
@@ -25,29 +32,64 @@
   float: right;
   position: relative;
 
-
   img {
     margin-bottom: 0;
     margin-top: 0;
     position: absolute;
-    visibility: hidden;
+    // visibility: hidden;
+    opacity: 0;
+    // transition: .01s;
+  }
+
+  .hover {
+    // visibility: visible;
+    opacity: 100;
+    // transition: .2s;
+    // transition-timing-function: ease;
   }
 }
 
+
 .hover {
+
   li {
+    // @include shutter-out-horizontal();
     background-color: $off-black;
     color: $off-white;
+    transition: .5s;
     width: fit-content;
+
+    // &::after {
+    //   background: $off-black;
+    //   content: '';
+    //   display: block;
+    //   height: 2px;
+    //   margin: 10px;
+    //   position: relative;
+    //   width: 400%;
+    //   left: 110%;
+    //   opacity: 1;
+    //   z-index: z('above');
+    //   transition: .3s ease-in-out;
+    //
+    // }
   }
+
 }
+
+//
+// img .hover {
+//   transition: .5s;
+//   // opacity: 100%;
+// }
 
 .project-link {
 
   li {
     @extend %heading-type;
+    @include ms-respond(margin-bottom, -2);
     @include ms-respond(font-size, 1);
-    margin-right: 10px;
+    // margin-right: 10px;
     text-decoration: none;
     width: fit-content;
 

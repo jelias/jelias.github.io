@@ -1,6 +1,22 @@
 # Site v2!
 
 ### Main Todo
+- [ ] CONTENT
+  - [ ] Home
+    - [ ] Tagline
+    - [ ] Bio
+
+  - [ ] Design
+    - [ ] Pick 4 Projects and write em
+      - [ ] Setting Type
+      - [ ]
+    - [ ] Gather at least 8 "_more" design things
+
+  - [ ] Photo
+    - [ ] Pick at least 6 photos
+
+---
+
  - [ ] Finish Style Guide
    - [X] line heights and vertical rhythm (typi?)
    - [X] paragraph padding
@@ -36,7 +52,7 @@
 
   - [X] Photo
     - Done until Photoswipe/Lightbox (see https://jekyllcodex.org/without-plugin/lightbox/)
-    
+
   - [ ] Coming Soon Page
     - [ ] TIL
     - [ ] for Mobile Screens
@@ -45,6 +61,8 @@
   - [ ] Learned
   - [ ] Love
   - [ ] 404
+  - [ ] Journal
+    - [ ] Make collections for each year?
 
 - [ ] Code (Mobile)
   - [ ] It breaks at ~596px

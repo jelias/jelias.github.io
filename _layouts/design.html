@@ -17,7 +17,7 @@ layout: default
       {% assign projects = mid %}
       {% for project in projects limit:4 %}
         <a href="{{ project.url }}" onmouseover = "switchImage({{project.order}})" id="{{project.order}}_order" class="project-link">
-          <li>_0{{project.order}} {{ project.title }}</li>
+          <li>_0{{project.order}} {{ project.title }} <span class="line"></span></li>
         </a>
       {% endfor %}
     </ol>
@@ -25,7 +25,7 @@ layout: default
       {% assign projects = site.projects | sort: 'order' %}
       {% assign projects = mid %}
       {% for project in projects limit:4 %}
-      <img src="{{ project.thumbnail }}" id="{{ project.order }}" class = "rightImage" alt="">
+      <img src="{{ project.thumbnail }}" id="{{ project.order }}" class = "right-image shadow" alt="">
       {% endfor %}
     </div>
 </div>

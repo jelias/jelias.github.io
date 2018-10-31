@@ -2,6 +2,15 @@
 <html>
     {% include head.html %}
   <body>
+    <div class="coming" id="coming-soon" style="display:inline-block">
+      <div class="soon">
+          <h1>Coming soon...</h1>
+          <p>
+            Check it out on the big screen!
+          </p>
+      </div>
+    </div>
+
     {% if page.photoswipe == true %}
     <!-- Root element of PhotoSwipe. Must have class pswp. -->
       <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
@@ -71,7 +80,7 @@
       </div>
     {% endif %}
 
-    <div class="border">
+    <div class="border" id="main-page" style="display:none">
       {% include navigation.html %}
       <div class="main-page">
           {{ content }}
@@ -93,5 +102,7 @@
     {% if page.js-file %}
       <script src="{{ page.js-file }}"></script>
     {% endif %}
+
+    <script src="/assets/js/coming-soon.js"></script>
   </body>
 </html>

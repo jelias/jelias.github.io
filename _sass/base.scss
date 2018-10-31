@@ -362,3 +362,18 @@ ol {
      }
   }
 }
+
+// .coming {
+//   display: inline-block;
+// }
+
+.soon {
+  @include center;
+  @include align(both);
+  width: 90%;
+
+  h1 {
+    margin-bottom: .5em;
+    margin-left: -1px;
+  }
+}

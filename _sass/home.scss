@@ -11,6 +11,9 @@
 
 %both-cards {
   @include column(1/4);
+  // @include media('>=tablet') {
+  //   visibility: hidden;
+  // }
   display: flex;
   flex-direction: column;
   height: 50em;
@@ -29,7 +32,6 @@
     padding-bottom: 30px;
     padding-top: 30px;
     height: 25em;
-
   }
 }
 
