@@ -20,6 +20,8 @@ linkedin_username: jacobelias
 dribbble_username: jelias
 
 
+exclude: ["CNAME", "MIT-LICENSE", "README.md"]
+
 #Project URL
 #permalink:  /projects/:title/
 

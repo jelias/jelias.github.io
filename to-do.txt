@@ -9,11 +9,22 @@
   - [ ] Design
     - [ ] Pick 4 Projects and write em
       - [ ] Setting Type
-      - [ ]
+      - [ ] Albers Pong
+      - [ ] 
+
     - [ ] Gather at least 8 "_more" design things
+      - [ ] animations
+      - [ ] breadth of work
+      - [ ] micro-interactions
+      - [ ] unfinished/unpolished stuff?
 
   - [ ] Photo
     - [ ] Pick at least 6 photos
+
+  - [ ] Medium
+    - [ ] Building the Steltman Chair
+    - [ ] Exploring Microinteractions
+    - [ ] My 10 weeks as an Industrial Designer
 
 ---
 
