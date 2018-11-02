@@ -13,7 +13,7 @@ Setting Type was my fourth project in _DES 209 - Fundamentals of Typography_. Th
 {{end}}
 
 {{wide}}
-![1](/assets/images/projects/Setting Type/1.png)
+![1](/assets/images/projects/Setting%20Type/1.png)
 {{end}}
 
 {{main}}
@@ -23,7 +23,7 @@ You don’t need captions because the images and photos are intertwined. They fl
 {{end}}
 
 {{full}}
-![full-test](/assets/images/projects/Setting Type/full-test.png)
+![full-test](/assets/images/projects/Setting%20Type/full-test.png)
 {{end}}
 
 {{main}}
