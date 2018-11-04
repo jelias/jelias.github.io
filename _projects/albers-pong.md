@@ -3,7 +3,7 @@ layout: project
 title: Albers Pong
 date: 2018-03-21
 type: Interaction
-thumbnail: /assets/images/cards/projects-test-3.png
+thumbnail: /assets/images/cards/albers-pong.png
 order: 2
 
 ---

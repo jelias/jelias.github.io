@@ -1,10 +1,10 @@
 ---
 layout: project
-title: Other
+title: Steavie
 date: 2018-03-21
-type: Typography
+type: Interaction
 thumbnail: /assets/images/cards/projects-test-1.png
-order: 3
+order: 4
 
 ---
 

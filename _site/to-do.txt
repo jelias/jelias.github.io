@@ -10,7 +10,7 @@
     - [ ] Pick 4 Projects and write em
       - [ ] Setting Type
       - [ ] Albers Pong
-      - [ ] 
+      - [ ]
 
     - [ ] Gather at least 8 "_more" design things
       - [ ] animations
@@ -74,6 +74,9 @@
   - [ ] 404
   - [ ] Journal
     - [ ] Make collections for each year?
+
+  - [ ] Fix
+    - [ ] Scaling cards on home page
 
 - [ ] Code (Mobile)
   - [ ] It breaks at ~596px

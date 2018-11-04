@@ -3,17 +3,16 @@ layout: project
 title: Setting Type
 date: 2018-02-21
 type: Typography
-thumbnail: /assets/images/cards/projects-test-2.png
+thumbnail: /assets/images/cards/setting-type.png
 order: 1
 ---
 {% include captures.md %}
-
 {{ main }}
 Setting Type was my fourth project in _DES 209 - Fundamentals of Typography_. The goal of this project was to organize the required information—a sport from the XXIII Winter Olympic Games, 150+ words of text, the date and location of the Olympic Games, and at least three athletes from your chosen sport—on an 8 ×10 inch composition.
 {{end}}
 
 {{wide}}
-![1](/assets/images/projects/Setting%20Type/1.png)
+![1](/assets/images/projects/Setting%20Type/Final.png)
 {{end}}
 
 {{main}}
