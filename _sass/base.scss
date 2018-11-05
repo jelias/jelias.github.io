@@ -141,8 +141,8 @@ footer {
 }
 
 .full-width {
-  margin-left: -50px;
-  margin-right: -50px;
+  margin-left: -90px;
+  margin-right: -90px;
   z-index: z('below');
 
   img {
@@ -153,6 +153,10 @@ footer {
     position: relative;
     right: 0;
     top: 0;
+    z-index: z('below');
+  }
+
+  video {
     z-index: z('below');
   }
 }
@@ -232,6 +236,11 @@ em {
 }
 
 img {
+  margin-bottom: vr(2);
+  margin-top: vr(2);
+}
+
+video {
   margin-bottom: vr(2);
   margin-top: vr(2);
 }

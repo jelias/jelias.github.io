@@ -2,7 +2,7 @@
 layout: home
 title: Home
 identity: Designer + Creative
-tagline: driven to foster human interaction through forward-thinking technology.
+tagline: exploring the intersections of science and humanity to connect individuals, communities, and systems.
 design-thumb: /assets/images/cards/design.png
 photo-thumb: /assets/images/cards/photo.jpg
 photo: /assets/images/me-june-2018.jpg
@@ -10,11 +10,14 @@ caption: Me, Circa June 2018
 js-file: /assets/js/arrow-fade.js
 ---
 ###### Hi, I'm Jacob.
-I’m from Chicago, IL and am currently studying [Interaction Design]() at the University of Washington. I am passionate about using 
+Born and raised in Chicago, IL, I am currently studying [Interaction Design](https://art.washington.edu/design/interaction-design-bdes) at the University of Washington. My explorations utilize design as a medium capable of connecting individuals, communities, and systems. I work across the sciences and humanities to explore the following research questions: 
+- How might we facilitate human connection through the discovery and sharing of music?
+- How can the curation of media explore the moments and memories that life has to offer?
+- What might an inclusive future look like and how can technology play a role in promoting equity?
 
-Outside of design, my biggest passions are waterskiing, snowboarding, and rock climbing. From time to time, you can find me writing on Medium, posting shots on Dribbble, and pushing commits to GitHub.
+Using design as a lense to view the world, I also write on Medium, post shots on Dribbble, and—occasionally—push commits to GitHub. To inspire creativity and stay active in other areas I also water ski, snowboard, and rock climb.
 
-I built this website as a place to share my designs, thoughts, and lists. Thanks for stopping by and please feel free to contact me—whether you just want to chat or are interested in working together.
+Thanks for stopping by and please feel free to [contact me](mailto&#58;%6Aa%&#54;&#51;obee&#37;&#54;C&#37;6&#57;&#37;61s&#64;gm&#37;61%69&#108;&#46;co&#37;6D)—whether you just want to chat or are interested in working together! I am **open for summer 2019 internships** and my resume is available on request.
 
 {::comment}
 tagline:

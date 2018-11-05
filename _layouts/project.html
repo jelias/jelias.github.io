@@ -58,3 +58,10 @@ layout: default
     <a href="{{ next.url }}" class="next">Next</a>
   </div>
 {% endif %} -->
+
+{% if prev and next %}
+  <div class="prev-next">
+    <a href="{{ prev.url }}" class="prev">Previous</a>
+    <a href="{{ next.url }}" class="next">Next</a>
+  </div>
+{% endif %}

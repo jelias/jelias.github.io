@@ -3,7 +3,7 @@ layout: project
 title: Harmony Kit
 date: 2016-02-12
 type: Interaction
-thumbnail: /assets/images/cards/projects-test-1.png
+thumbnail: /assets/images/cards/harmony-kit.jpg
 order: 3
 
 ---

@@ -1,35 +1,29 @@
 ---
 layout: project
 title: Setting Type
-date: 2018-02-21
+date: 2018-03-21
 type: Typography
 thumbnail: /assets/images/cards/setting-type.png
 order: 1
 ---
 {% include captures.md %}
 {{ main }}
-Setting Type was my fourth project in _DES 209 - Fundamentals of Typography_. The goal of this project was to organize the required information—a sport from the XXIII Winter Olympic Games, 150+ words of text, the date and location of the Olympic Games, and at least three athletes from your chosen sport—on an 8 ×10 inch composition.
+Setting Type was my fourth project in _DES 209 - Fundamentals of Typography_. The goal of this project was to design four 8×10 inch compositions, each with specific limitations on what could be changed (weight, size, style, and color). Exploring hiearchy, type setting, and the use of grids, these are my final designs:
 {{end}}
 
 {{wide}}
-![1](/assets/images/projects/Setting%20Type/Final.png)
+![Final designs](/assets/images/projects/setting-type/Final.png)
 {{end}}
 
 {{main}}
-##### Next Heading
+##### Process
 
-You don’t need captions because the images and photos are intertwined. They flow together, to tell a story. Filler Text... Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside, the sable cloud beneath was dished out.
+For me, it always starts out with rough sketches in my notebook. Then, it's a race to iterate...
 {{end}}
 
+{{wide}}
+![Original sketches](/assets/images/projects/setting-type/sketches.png)
+{{end}}
 {{full}}
-![full-test](/assets/images/projects/Setting%20Type/full-test.png)
-{{end}}
-
-{{main}}
-##### There must be a reason there is another heading
-If there is no purpose, there better be more images. No one wants to read. You don’t need captions because the images and photos are intertwined. They flow together, to tell a story.
-{{end}}
-
-{{wide}}
-
+![Marked up iterations](/assets/images/projects/setting-type/iterations.png)
 {{end}}
