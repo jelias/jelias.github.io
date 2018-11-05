@@ -10,7 +10,7 @@ order: 2
 {% include captures.md %}
 
 {{ main }}
-The Albers Principle states that a color’s communication is affected by its relationship to its surrounding colors. With this principle in mind, I set out to develop my own web game to explain the importance of context in a fun and interactive manner—creating a new twist on an old school game.\\
+For my main project in _Des 210 - Color and Composition_ I decided to develop my own web game. The goal was to teach players how the same color can look different depending on its background, in a fun and interactive manner.\\
 **Check out the [game](http://jelias.me/albers-pong) and [code](http://github.com/jelias/albers-pong).**
 {{end}}
 
