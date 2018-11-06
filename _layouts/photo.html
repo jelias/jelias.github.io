@@ -13,7 +13,7 @@ layout: default
 <div class="wide-column">
   <div class="gallery" itemscope itemtype="http://schema.org/ImageGallery">
 
-    {% for image in site.static_files %}
+    {% for image in site.static_files reversed  %}
       {% if image.path contains 'assets/images/photos' %}
       <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
           <a href="http://images.weserv.nl/?url=jelias.me{{ site.baseurl }}{{ image.path }}&w=2000&h=2000&output=jpg&q=90" class="bigImage" itemprop="contentUrl" data-size="">

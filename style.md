@@ -38,7 +38,7 @@ _This is a caption for a photo._{:.caption}
 {{end}}
 
 {{ wide }}
-![Round Two](/assets/images/me.jpg){:.shadow}
+![Round Two](/assets/images/me-june-2018.jpg){:.shadow}
 {{ end }}
 
 {{main}}
@@ -58,7 +58,7 @@ _This is a caption for a photo._{:.caption}
 {{ end }}
 
 {{ wide }}
-![Round Two](/assets/images/me.jpg)
+![Round Two](/assets/images/me-june-2018.jpg)
 _This is a caption for a photo._{:.caption}
 {{ end }}
 

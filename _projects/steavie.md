@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Steavie
-date: 2018-03-21
+date: 2018-06-05
 type: Interaction
 thumbnail: /assets/images/cards/steavie.png
 order: 4
@@ -11,8 +11,7 @@ order: 4
 
 {{ main }}
 
-Wooooo!
+
+**Teammates:** Katelyn Hirata and Peter Mach
 
 {{end}}
-
-Huh

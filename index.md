@@ -18,24 +18,3 @@ Born and raised in Chicago, IL, I am currently studying [Interaction Design](htt
 Using design as a lense to view the world, I also write on Medium, post shots on Dribbble, and—occasionally—push commits to GitHub. To inspire creativity and stay active in other areas I also water ski, snowboard, and rock climb.
 
 Thanks for stopping by and please feel free to [contact me](mailto&#58;%6Aa%&#54;&#51;obee&#37;&#54;C&#37;6&#57;&#37;61s&#64;gm&#37;61%69&#108;&#46;co&#37;6D)—whether you just want to chat or are interested in working together! I am **open for summer 2019 internships** and my resume is available on request.
-
-{::comment}
-tagline:
-
-i am passionate in learning, using technology and design to empower people, improve society and promote culture through human interaction.
-
-i have strong values, and am excited to learn.
-what am i interested in working in/pointed (searching for)
-
---bio--
-what i want to say:
-
-- I am from chicago
-- studying design
-- passionate about making the world a better place though design
-- I want to cultivate culture and empower people!
-
-- i also do other stuff! I rock climb, snowboard, waterski. I take photos, shoot videos, and chat with friends.
-- I love photography and film because they can capture moments and memories in a unique way.
-- I am a hard worker. link to my resume?
-{:/comment}
