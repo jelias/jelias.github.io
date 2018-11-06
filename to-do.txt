@@ -76,7 +76,7 @@
     - [ ] Make collections for each year?
 
   - [ ] Fix
-    - [ ] Scaling cards on home page
+    - [ ] Scaling cards on home page`
 
 - [ ] Code (Mobile)
   - [ ] It breaks at ~596px
