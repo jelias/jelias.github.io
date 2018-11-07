@@ -1,0 +1,29 @@
+.font-base-fix {
+  font-size: 16px;
+}
+
+
+.prev-next {
+  @extend %heading-type;
+  @include center;
+  @include ms-respond(font-size, -1);
+  padding-bottom: 2em;
+  padding-top: 4.5em;
+  text-decoration: none;
+  width: fit-content;
+
+  a {
+    color: $off-black;
+    text-decoration: none;
+  }
+
+  .prev {
+    // @include ms-respond(margin-right, 6);
+    margin-right: 4em;
+  }
+
+  .next {
+    // @include ms-respond(margin-left, 6);
+    margin-left: 4em;
+  }
+}

@@ -1,0 +1,4 @@
+.photo-text {
+  @include ms-respond(margin-bottom, 3.2);
+  margin-bottom: vr(3.5); // 1.5 baselines (base font size * line-height)
+}

@@ -1,0 +1,67 @@
+---
+layout: default
+---
+
+<div class="main-column">
+  <div>
+    <h3>{{page.title}} <span class="font-base-fix small">{{ page.date | date: "%m.%d.%Y"}}</span></h3>
+    </div>
+</div>
+
+{{content}}
+
+
+{% if page.collection %}
+  {% assign collection = site[page.collection] | sort: 'order' %}
+  {% assign prev = collection | last %}
+  {% assign next = collection | first %}
+
+  {% for item in collection %}
+    {% if item.title == page.title %}
+      {% unless forloop.first %}
+        {% assign prev = iterator %}
+      {% endunless %}
+
+      {% unless forloop.last %}
+        {% assign next = collection[forloop.index] %}
+      {% endunless %}
+    {% endif %}
+
+    {% assign iterator = item %}
+  {% endfor %}
+{% endif %}
+
+<!-- {% if prev %}
+  <div class="vertical-left">
+    <a href="{{ prev.url }}">Previous</a>
+  </div>
+{% endif %}
+
+{% if next %}
+  <div class="vertical-right">
+    <a href="{{ next.url }}">Next</a>
+  </div>
+{% endif %} -->
+
+<!-- {% if prev and next %}
+  <div class="vertical-nav">
+    <div class="vertical-left">
+      <a href="{{ prev.url }}">Previous</a>
+    </div>
+    <div class="vertical-right">
+      <a href="{{ next.url }}">Next</a>
+    </div>
+  </div>
+
+  <div class="prev-next">
+    <a href="{{ prev.url }}" class="prev">Previous</a>
+    <a href="{{ next.url }}" class="next">Next</a>
+  </div>
+{% endif %} -->
+
+{% if prev and next %}
+  <div class="prev-next">
+    <a href="{{ prev.url }}" class="prev">Previous</a>
+    <a href="{{ next.url }}" class="next">Next</a>
+  </div>
+{% endif %}

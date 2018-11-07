@@ -1,0 +1,8 @@
+<footer class="footer">
+  {% for item in site.data.footer %}
+    <a href="{{ item.link }}" class="footer">{{ item.name }}</a>
+  {% endfor %}
+</footer>
+<footer class="copyright footer">
+<a href="/" class="footer">&copy; Jacob Elias {{ site.time | date: '%Y' }}</a>
+</footer>

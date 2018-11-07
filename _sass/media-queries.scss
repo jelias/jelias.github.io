@@ -1,0 +1,19 @@
+.soon {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .border {
+    display: none;
+  }
+
+  .soon {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 1024px) {
+  .right-card, .left-card {
+    visibility: hidden;
+  }
+}

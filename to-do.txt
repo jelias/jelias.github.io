@@ -1,0 +1,89 @@
+# Site v2!
+
+### Main Todo
+- [ ] CONTENT
+  - [ ] Home
+    - [ ] Tagline
+    - [ ] Bio
+
+  - [ ] Design
+    - [ ] Pick 4 Projects and write em
+      - [ ] Setting Type
+      - [ ] Albers Pong
+      - [ ]
+
+    - [ ] Gather at least 8 "_more" design things
+      - [ ] animations
+      - [ ] breadth of work
+      - [ ] micro-interactions
+      - [ ] unfinished/unpolished stuff?
+
+  - [ ] Photo
+    - [ ] Pick at least 6 photos
+
+  - [ ] Medium
+    - [ ] Building the Steltman Chair
+    - [ ] Exploring Microinteractions
+    - [ ] My 10 weeks as an Industrial Designer
+
+---
+
+ - [ ] Finish Style Guide
+   - [X] line heights and vertical rhythm (typi?)
+   - [X] paragraph padding
+   - [X] Image styling
+   - [ ] Side links, sticky on scroll
+
+- [ ] Code (Desktop)
+  - [ ] Home
+    - [X] Style tagline (big)
+    - [X] Center tagline
+    - [X] Set bottom arrow positon
+    - [ ] Make arrow svg?
+    - [X] Have arrow fade on scroll?
+    - [X] Image cards
+      - [X] Add padding on images (break the border lines)
+      - [X] Fix vertical centering on browser size change (copy h1 code?)
+    - [ ] Fix Vh, different screen sizes break it... (test on 13" MBP)
+
+  - [ ] Design
+    - [X] Project links + images
+    - [ ] Style project links, add animations
+
+    Later
+    - [ ] Setup Photoswipe
+    - [ ] Responsive Images (diff size used based on screen size)
+      - [ ] Use images.weserv.nl and build different tags for different screen sizes?
+    - [ ] Lazy Loading for Explore images?! (see https://jekyllcodex.org/without-plugin/lazy-loading/)
+    - [ ]
+
+
+  - [ ] Base Project Page
+    - [ ]
+
+  - [X] Photo
+    - Done until Photoswipe/Lightbox (see https://jekyllcodex.org/without-plugin/lightbox/)
+
+  - [ ] Coming Soon Page
+    - [ ] TIL
+    - [ ] for Mobile Screens
+
+  ----
+  - [ ] Learned
+  - [ ] Love
+  - [ ] 404
+  - [ ] Journal
+    - [ ] Make collections for each year?
+
+  - [ ] Fix
+    - [ ] Scaling cards on home page`
+
+- [ ] Code (Mobile)
+  - [ ] It breaks at ~596px
+
+- [ ] Extras
+  - [ ] Night Mode
+  - [ ] Add Google Analytics
+
+### Home
+- [ ] Create a /now page?

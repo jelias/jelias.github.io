@@ -1,0 +1,392 @@
+// Base styling for jelias.me
+
+// styles start
+
+@include scrollbar(.95em, $off-black, $light-gray);
+
+html {
+  background-color: $off-white;
+  overflow-x: hidden;
+}
+
+body {
+  // background-color: $off-white;
+  font-size: 16px;
+
+  .border {
+    // background-color: $off-white;
+    border: 3px solid $off-black;
+    color: $off-black;
+    margin: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+  }
+}
+
+%boarder-elements {
+  background-color: $off-white;
+  margin-left: 65px;
+  margin-right: 65px;
+  padding: 10px;
+  width: fit-content;
+}
+
+nav {
+  @extend %boarder-elements;
+  float: right;
+  margin-top: -22px;
+
+  a {
+    @extend %heading-type;
+    font-size: ms(-1);
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+}
+
+.active-nav {
+  border-bottom: $off-black solid 2px;
+  text-decoration: none;
+
+  &:hover {
+    color: $off-black;
+  }
+}
+
+%vertical-text {
+  @extend %heading-type;
+  font-size: ms(-.8);
+  text-decoration: none;
+  text-transform: uppercase;
+  width: fit-content;
+  position: sticky;
+  top: 4em;
+}
+
+%vertical-bar {
+  background-color: $off-white;
+  // margin-left: 65px;
+  // margin-right: 65px;
+  // margin-top: 480px;
+  padding: 10px;
+  position: sticky;
+  top: 24em;
+  width: fit-content;
+}
+
+// .vertical-nav {
+  // position: sticky;
+  // top: 0;
+// }
+
+.vertical-left {
+  @extend %vertical-bar;
+  // float: left;
+  // left: -130px;
+  position: absolute;
+  transform: rotate(-90deg);
+
+  a {
+    @extend %vertical-text;
+  }
+}
+
+.vertical-right {
+  @extend %vertical-bar;
+  // float: right;
+  position: absolute;
+  right: 0;
+  transform: rotate(90deg);
+
+  a {
+    @extend %vertical-text;
+  }
+}
+
+footer {
+  @extend %boarder-elements;
+  float: left;
+  margin-top: -19px;
+
+  a {
+    @extend %heading-type;
+    font-size: ms(-1.2);
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+}
+
+.main-page {
+  margin-bottom: 66px;
+  margin-top: 40px;
+}
+
+.main-column {
+  @include center($main-column);
+
+  img {
+    width: 100%;
+  }
+}
+
+.wide-column {
+  @include center($wide-column);
+
+  img {
+    width: 100%;
+  }
+}
+
+.full-width {
+  margin-left: -90px;
+  margin-right: -90px;
+  z-index: z('below');
+
+  img {
+    bottom: 0;
+    left: 0;
+    max-height: 100%;
+    max-width: 100%;
+    position: relative;
+    right: 0;
+    top: 0;
+    z-index: z('below');
+  }
+
+  video {
+    z-index: z('below');
+  }
+}
+
+// headings
+%heading-type {
+  @include ms-respond(margin-bottom, 1.2);
+  color: $off-black;
+  font-family: $sans-font;
+  font-weight: 400;
+  letter-spacing: 1.4px;
+  line-height: 1.2em;
+  margin-bottom: vr(1.5); // 1.5 baselines (base font size * line-height)
+  text-transform: uppercase;
+}
+
+h1 {
+  @extend %heading-type;
+  @include ms-respond(font-size, 6);
+}
+
+h2 {
+  @extend %heading-type;
+  @include ms-respond(font-size, 5);
+}
+
+h3 {
+  @extend %heading-type;
+  @include ms-respond(font-size, 4);
+}
+
+h4 {
+  @extend %heading-type;
+  @include ms-respond(font-size, 3);
+}
+
+h5 {
+  @extend %heading-type;
+  @include ms-respond(font-size, 2);
+}
+
+h6 {
+  @extend %heading-type;
+  @include ms-respond(font-size, 1);
+  // line-height: 1.6em;
+  // margin-bottom: 5px;
+}
+
+.guide-descriptor {
+  @include ms-respond(font-size, -6.5);
+  font-family: $sans-font;
+  font-style: normal;
+}
+
+small,
+.small {
+  @extend %heading-type;
+  // @include ms-respond(font-size, -2);
+  font-size: ms(-2);
+  font-style: normal;
+  letter-spacing: 0;
+  text-transform: capitalize;
+}
+
+// body copy
+p {
+  // @include ms-respond(font-size, 0);
+  @include ms-respond(margin-bottom, 1.2);
+  font-family: $serif-font;
+  font-size: ms(0);
+  line-height: 1.875em;
+  margin-bottom: vr(1);
+}
+
+em {
+  font-style: italic;
+}
+
+img {
+  margin-bottom: vr(2);
+  margin-top: vr(2);
+}
+
+video {
+  margin-bottom: vr(2);
+  margin-top: vr(2);
+}
+
+.shadow {
+  box-shadow: 0 0 20px 10px rgba(136, 136, 136, .1);
+}
+
+.quote {
+  background-color: $highligher-yellow;
+  display: inline;
+  font-style: italic;
+  font-weight: 400;
+  padding: .25em;
+}
+
+// Padding for inline highlights. See https://codepen.io/hotmeteor/pen/ibvJs
+// .quote-wrap {
+//   // position: relative;
+//   left: $title-pad;
+//   padding-left: 0;
+//   box-shadow: $title-pad 0 0 $highligher-yellow,
+//               $title-pad*-1 0 0 $highligher-yellow;
+//
+// }
+
+strong,
+b {
+  font-weight: 600;
+}
+
+blockquote {
+  p {
+    @include ms-respond(font-size, .45);
+    font-style: italic;
+    font-weight: 700;
+    line-height: 36px;
+  }
+}
+
+.caption,
+caption {
+  font-family: $sans-font;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 18px;
+  margin-bottom: vr(1.4);
+  margin-top: vr(-1.6);
+}
+
+a {
+  color: $dark-gray;
+
+  &:hover {
+    color: $link-hover;
+  }
+}
+
+.journal-day {
+  @include ms-respond(font-size, -1);
+  font-family: $sans-font;
+  font-style: normal;
+
+  &::after {
+    content: '.' attr(data-tooltip) '\A' attr(data-tooltip);
+    white-space: pre;
+      }
+}
+
+%thought-bullets {
+  font-family: $sans-font;
+  font-size: ms(0);
+  // font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.new-thought {
+  @extend %thought-bullets;
+  color: $off-black;
+}
+
+.connected-thought {
+  @extend %thought-bullets;
+  color: $light-gray;
+}
+
+%lists {
+  // @include ms-respond(font-size, 0);
+  @include ms-respond(margin-bottom, 1.2);
+  font-family: $serif-font;
+  font-size: ms(0);
+  line-height: 1.875em;
+  margin-bottom: vr(1);
+}
+
+ul {
+  @extend %lists;
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 1.5em;
+  position: relative;
+
+  li {
+
+    &::before {
+      content: '–';
+      font-family: $sans-font;
+      left: 0;
+      margin-top: 1px;
+      position: absolute;
+    }
+  }
+}
+
+ol {
+  @extend %lists;
+  counter-reset: item;
+  list-style: none;
+  padding-left: 0;
+
+  li {
+    counter-increment: item;
+    margin-bottom: 1px;
+
+    &::before {
+      content: counter(item, decimal-leading-zero) '.';
+      font-family: $sans-font;
+      font-size: ms(-2);
+      margin-right: 10px;
+     }
+  }
+}
+
+// .coming {
+//   display: inline-block;
+// }
+
+.soon {
+  @include center;
+  @include align(both);
+  width: 90%;
+
+  h1 {
+    margin-bottom: .5em;
+    margin-left: -1px;
+  }
+}

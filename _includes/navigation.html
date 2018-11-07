@@ -1,0 +1,8 @@
+<nav class="nav-name">
+<a href="/">Jacob Elias</a>
+</nav>
+<nav>
+  {% for item in site.data.navigation %}
+    <a href="{{ item.link }}" {% if page.url == item.link %}class="active-nav"{% endif %}>{{ item.name }}</a>
+  {% endfor %}
+</nav>

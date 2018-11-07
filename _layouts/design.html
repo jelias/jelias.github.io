@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<div class="wide-column">
+  <h3>_{{ page.title }}</h3>
+</div>
+
+<div class="main-column">
+  {{content}}
+</div>
+
+<div class="wide-column">
+  <div class="projects">
+    <ol class="project-list">
+      {% assign mid = site.projects | sort: 'order' %}
+      {% assign projects = mid %}
+      {% for project in projects limit:4 %}
+        <a href="{{ project.url }}" onmouseover = "switchImage({{project.order}})" id="{{project.order}}_order" class="project-link">
+          <li>_0{{project.order}} {{ project.title }} <span class="line"></span></li>
+        </a>
+      {% endfor %}
+    </ol>
+    <div class="project-thumbnail">
+      {% assign projects = site.projects | sort: 'order' %}
+      {% assign projects = mid %}
+      {% for project in projects limit:4 %}
+      <img src="{{ project.thumbnail }}" id="{{ project.order }}" class = "right-image shadow" alt="">
+      {% endfor %}
+    </div>
+</div>
+
+<div class="explore">
+  <h6>_Weekend Projects</h6>
+
+  <div class="gallery" itemscope itemtype="http://schema.org/ImageGallery">
+
+    {% for image in site.static_files reversed %}
+      {% if image.path contains 'assets/images/designs' %}
+      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+          <a href="http://images.weserv.nl/?url=jelias.me{{ site.baseurl }}{{ image.path }}&w=2000&h=2000&output=jpg&q=90" class="bigImage" itemprop="contentUrl" data-size="">
+              <img src="http://images.weserv.nl/?url=jelias.me{{ site.baseurl }}{{ image.path }}&w=800&h=800&output=jpg&q=80" itemprop="thumbnail" alt="Dynamic image descriptions coming soon" />
+          </a>
+      </figure>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+</div>
