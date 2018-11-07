@@ -8,7 +8,7 @@ order: 1
 ---
 {% include captures.md %}
 {{ main }}
-Setting Type was my fourth project in _DES 209 - Fundamentals of Typography_. The goal of this project was to design four 8×10 inch compositions, each with specific limitations on what could be changed (weight, size, style, and color). Exploring hiearchy, type setting, and the use of grids, these are my final designs:
+Setting Type was my fourth project in _DES 209 - Fundamentals of Typography_. The goal of this project was to design four 8×10 inch compositions, each with specific limitations on what could be changed (weight, size, style, and color). Exploring hierarchy, type setting, and the use of grids, these are my final designs:
 {{end}}
 {{wide}}
 ![Final designs](/assets/images/projects/setting-type/final.png)
