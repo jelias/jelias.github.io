@@ -1,8 +1,8 @@
 - name: Home
   link: /
 - name: Design
-  link: /design/
+  link: /design
 - name: Photo
-  link: /photo/
+  link: /photo
 - name: TIL
-  link: /things-ive-learned/
+  link: /things-ive-learned
