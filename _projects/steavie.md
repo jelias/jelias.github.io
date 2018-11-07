@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: soon
 title: Steavie
 date: 2018-06-05
 type: Interaction
