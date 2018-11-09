@@ -15,6 +15,6 @@ Born and raised in Chicago, IL, I am currently studying [Interaction Design](htt
 - How can the curation of media explore the moments and memories that life has to offer?
 - What might an inclusive future look like and how can technology play a role in promoting equity?
 
-Using design as a lense to view the world, I also write on Medium, post shots on Dribbble, and—occasionally—push commits to GitHub. To inspire creativity and stay active in other areas I also water ski, snowboard, and rock climb.
+Using design as a lense to view the world, I also write on [Medium](https://medium.com/@jelias), post shots on [Dribbble](https://dribbble.com/jelias), and—occasionally—push commits to [GitHub](https://github.com/jelias). To inspire creativity and stay active in other areas I also water ski, snowboard, and rock climb.
 
 Thanks for stopping by and please feel free to [contact me](mailto&#58;%6Aa%&#54;&#51;obee&#37;&#54;C&#37;6&#57;&#37;61s&#64;gm&#37;61%69&#108;&#46;co&#37;6D)—whether you just want to chat or are interested in working together! I am **open for summer 2019 internships** and my resume is available on request.
