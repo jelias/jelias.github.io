@@ -29,7 +29,8 @@ With detailed task analyses and user research, we uncovered the difficulties of 
 ![Ideation](/assets/images/projects/steavie/ideation.jpg)
 {{end}}
 {{main}}
-After six weeks, we produced Steavie, a smart tea maker accessible to all.
+##### Outcomes
+**After six weeks, we produced Steavie, a smart tea maker accessible to all.** While we all wore multiple hats for the project, I focused on directing the storytelling and designing the interface and animations of Steavie. 
 {{end}}
 {{wide}}
 ![Final storyboard](/assets/images/projects/steavie/final-storyboard.png)
