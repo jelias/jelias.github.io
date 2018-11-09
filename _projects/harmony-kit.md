@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Harmony Kit
+team: Lulu McRoberts, Brys Fleming-Henning, and Luke Raddue
 date: 2018-03-15
 type: Interaction
 thumbnail: /assets/images/cards/harmony-kit.png
@@ -11,8 +12,6 @@ order: 3
 
 {{ main }}
 After a nine week particpatory design process, we developed a system that allows for quick strap length adjustment between two different sized people, on any backpack. Through multiple workshops with our design participants we were able to zero in on the pain points of co-travel and build a solution to meet their needs.
-
-**Teammates:** Lulu McRoberts, Brys Fleming-Henning, and Luke Raddue
 {{end}}
 
 {{wide}}

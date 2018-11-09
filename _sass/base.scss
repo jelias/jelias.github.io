@@ -274,10 +274,14 @@ b {
 
 blockquote {
   p {
-    @include ms-respond(font-size, .45);
+    @include ms-respond(font-size, 2);
     font-style: italic;
     font-weight: 700;
     line-height: 36px;
+
+    strong {
+      font-weight: 400;
+    }
   }
 }
 

@@ -35,6 +35,6 @@ After exploring various arcade classics, I decided on Pong because of its simpli
 ![Main code of the game](/assets/images/projects/albers-pong/code.png)
 {{ end }}
 {{main}}
-##### Going Forward
+##### Reflection
 I learned a lot developing Albers Pong, both in the world of development and design. Looking back, I do wish I spent a little more time exploring the color scheme of the game as well as tweaking the subtle details of the game's design.  Coding wise, a future version might include a 'hard mode' that restricts users from changing paddle color unless the ball is on the other side of the screen.
 {{end}}

@@ -1,9 +1,9 @@
 jelias.github.io
 ================
 
-I finally have made a full website for myself! This is my little corner of the web to share my thoughts, designs, and projects. Enjoy!
+Hey I made a website! This is my corner of the web to share thoughts, designs, and projects. Enjoy!
 
-Most of the site was built on Bootstrap, using Jekyll for the journal (see /journal repo). 
+The site was built using Jekyll for a backend, and Jeet as the grid system. 
 
 ## Licensing
 

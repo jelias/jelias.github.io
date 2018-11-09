@@ -4,7 +4,13 @@ layout: default
 
 <div class="main-column">
   <div>
-    <h3>{{page.title}} <span class="font-base-fix small">{{ page.date | date: "%m.%d.%Y"}}</span></h3>
+    <h3>{{page.title}}
+    <br />
+    {% if page.team %}
+    <span class="font-base-fix small team">with {{ page.team}}</span>
+    {% endif %}
+    </h3>
+    <!-- <span class="font-base-fix small">{{ page.date | date: "%m.%d.%Y"}}</span> -->
     </div>
 </div>
 
