@@ -45,3 +45,19 @@
     text-decoration: none;
   }
 }
+
+// enable site on mobile-journal
+
+@media (max-width: 900px) {
+  .mobile-journal {
+
+    .border {
+      border: 0;
+      display: inherit;
+    }
+
+    nav {
+      display: none;
+    }
+  }
+}
