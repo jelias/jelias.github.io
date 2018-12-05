@@ -22,8 +22,8 @@
   h2 {
     @extend %heading-type;
     @include ms-respond(font-size, 3);
-    margin-top: vr(2);
     margin-bottom: vr(.75);
+    margin-top: vr(2);
   }
 }
 
