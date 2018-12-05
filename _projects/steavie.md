@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Steavie
-team: Katelyn Hirata and Peter Mach
+team: <a href="#">Katelyn Hirata</a> and Peter Mach
 date: 2018-06-05
 type: Interaction
 thumbnail: /assets/images/cards/steavie.png
@@ -14,6 +14,8 @@ order: 4
 **Prompt:** Identify a common activity that involves an interaction in the world. Through user research, design a new experience with [inclusive design](https://www.microsoft.com/design/inclusive/) in mind.
 
 **Problem statement:** How might we design a safe and efficient experience to respect time-honored tea making processes that is accessible to a wide range of users?
+
+**Contribution:** Animation
 {{end}}
 {{wide}}
 ![Concept sketch](/assets/images/projects/steavie/concept-sketch.png)
