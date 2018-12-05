@@ -3,7 +3,13 @@
 </nav>
 <nav>
   {% for item in site.data.navigation %}
-    <!-- {% assign link = item.link | append: ".html" %} -->
     <a href="{{ item.link }}" {% if page.url == item.link %}class="active-nav"{% endif %}>{{ item.name }}</a>
   {% endfor %}
 </nav>
+
+<script>
+  {% for item in site.data.navigation %}
+console.log ("Url {{page.url}}")
+console.log ("Link {{item.link}}")
+  {% endfor %}
+</script>
