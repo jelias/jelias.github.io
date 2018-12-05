@@ -1,14 +1,48 @@
 ---
 layout: default
 ---
+{% if page.collection %}
+  {% assign collection = site[page.collection] | sort: 'order' %}
+  {% assign prev = collection | last %}
+  {% assign next = collection | first %}
 
-{% if page.previous %}
+  {% for item in collection %}
+    {% if item.title == page.title %}
+      {% unless forloop.first %}
+        {% assign prev = iterator %}
+      {% endunless %}
+
+      {% unless forloop.last %}
+        {% assign next = collection[forloop.index] %}
+      {% endunless %}
+    {% endif %}
+
+    {% assign iterator = item %}
+  {% endfor %}
+{% endif %}
+
+<div class="wide-column">
+  <h3 class="journal-top-fix">_{{ page.title }}</h3>
+</div>
+
+
+<div class="main-column journal">
+    <!-- <div class="prev-next-journal">
+      {% for item in collection %}
+      <a href="{{ item.url }}" class="prev">{{item.title}}</a>
+      {% endfor %}
+    </div> -->
+
+  {{content}}
+</div>
+
+{% if page.previous.off %}
   <div class="vertical-left">
     <a href="{{ page.previous }}">Previous</a>
   </div>
 {% endif %}
 
-{% if page.next %}
+{% if page.next.off %}
   <div class="vertical-right">
     <a href="{{ page.next }}">Next</a>
   </div>

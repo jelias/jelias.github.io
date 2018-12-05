@@ -1,0 +1,37 @@
+home
+  - add resume direct link
+  - more accesible direct links
+  - on scoll (on home), fade card images transparency
+    - then on hover bring it back!
+
+footer
+  - give underline to footer links?
+
+- remove dates from projects
+- maybe too many sketches on harmony kit (drop a row or two?)
+- tell a story!! (prompt, problem, what we did, outcomes/reflection)
+- can you convey more passion in your bio? "why do you do design"
+
+
+setting type
+- explain limitations (subtle call outs on the final images)
+- show thought process (they want to know how you think about design)
+- explain the choices you made
+- just a row or two of scans
+- zoom in on specific elements 
+
+albers pong
+- no one cares what the course was
+  - how much time did you get for the project
+
+harmony
+  - process
+  - Participatory deisgn
+  - ideation
+  - show user testing!!
+  - final
+  - make it a case study!
+
+steavie
+  - what did YOU do.
+    - show how you think, how you contribute

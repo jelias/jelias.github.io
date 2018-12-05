@@ -31,6 +31,9 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
+  journal:
+    output: true
+    permalink: /:collection/:path/
 
 # Build settings
 markdown: kramdown

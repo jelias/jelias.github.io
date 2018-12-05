@@ -1,0 +1,47 @@
+.journal-day {
+  @include ms-respond(font-size, -1);
+  font-family: $sans-font;
+  font-style: normal;
+
+  &::after {
+    content: '.' attr(data-tooltip) '\A' attr(data-tooltip);
+    white-space: pre;
+      }
+}
+
+.journal-month {
+  @extend %heading-type;
+  // @include ms-respond(font-size, -2);
+  font-size: ms(-7);
+  font-style: normal;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+}
+
+.journal {
+  h2 {
+    @extend %heading-type;
+    @include ms-respond(font-size, 3);
+    margin-top: vr(2);
+    margin-bottom: vr(.75);
+  }
+}
+
+.journal-top-fix {
+  margin-bottom: vr(-1);
+}
+
+.prev-next-journal {
+  @extend %heading-type;
+  @include center;
+  @include ms-respond(font-size, -1);
+  padding-bottom: 2em;
+  padding-top: 4.5em;
+  text-decoration: none;
+  width: fit-content;
+
+  a {
+    color: $off-black;
+    text-decoration: none;
+  }
+}

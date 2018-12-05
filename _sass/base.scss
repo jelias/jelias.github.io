@@ -304,17 +304,6 @@ a {
   }
 }
 
-.journal-day {
-  @include ms-respond(font-size, -1);
-  font-family: $sans-font;
-  font-style: normal;
-
-  &::after {
-    content: '.' attr(data-tooltip) '\A' attr(data-tooltip);
-    white-space: pre;
-      }
-}
-
 %thought-bullets {
   font-family: $sans-font;
   font-size: ms(0);
