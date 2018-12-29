@@ -12,10 +12,11 @@ layout: default
 
 <div class="wide-column">
   <div class="projects">
+    <h4 style="margin-top: -1.2em; margin-bottom: 1.2em;">Featured Work:</h4>
     <ol class="project-list">
       {% assign mid = site.projects | sort: 'order' %}
       {% assign projects = mid %}
-      {% for project in projects limit:4 %}
+      {% for project in projects limit: 4 %}
         <a href="{{ project.url }}" onmouseover = "switchImage({{project.order}})" id="{{project.order}}_order" class="project-link">
           <li>_0{{project.order}} {{ project.title }} <span class="line"></span></li>
         </a>
@@ -24,7 +25,7 @@ layout: default
     <div class="project-thumbnail">
       {% assign projects = site.projects | sort: 'order' %}
       {% assign projects = mid %}
-      {% for project in projects limit:4 %}
+      {% for project in projects limit: 4 %}
       <img src="{{ project.thumbnail }}" id="{{ project.order }}" class = "right-image shadow" alt="">
       {% endfor %}
     </div>
