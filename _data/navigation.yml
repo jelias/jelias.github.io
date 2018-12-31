@@ -1,7 +1,7 @@
-- name: Home
-  link: /
 - name: Design
   link: /design
+- name: About
+  link: /about
 - name: Photo
   link: /photo
 - name: TIL

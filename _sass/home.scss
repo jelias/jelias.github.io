@@ -1,16 +1,17 @@
 // Home page stylings
 
 .jeet-columns {
-  @include center;
+  @include center($main-column);
+
 }
 
 .home-column {
-  @include column(2/4);
+  // @include column(2/4);
   height: 100%;
 }
 
 %both-cards {
-  @include column(1/4);
+  // @include column(1/4);
   // @include media('>=tablet') {
   //   visibility: hidden;
   // }
