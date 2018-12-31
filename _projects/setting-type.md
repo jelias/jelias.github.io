@@ -4,7 +4,7 @@ title: Setting Type
 date: 2018-03-21
 type: Typography
 thumbnail: /assets/images/cards/setting-type.png
-order: 1
+order: 4
 ---
 {% include captures.md %}
 {{ main }}
@@ -14,7 +14,7 @@ Setting Type was my fourth project in _DES 209 - Fundamentals of Typography_. Th
 ![Final designs](/assets/images/projects/setting-type/final.png)
 {{end}}
 {{main}}
-##### Process
+##### My Approach
 
 For me, it always starts out with rough sketches in my notebook. Then, it's a race to iterate...
 {{end}}
