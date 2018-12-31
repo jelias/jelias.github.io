@@ -114,7 +114,7 @@ This project was also an exercise in successful leadership. Helping guide brains
 <br/>
 
 ###### Reflection
-Working on Encounter was an amazing experience. As a team we were able to create strong lines of communication and trust, allowing each member to focus on their contribution. While at first we struggle with time management, hurting the quality of our work, we quickly acknowledged the issue and began working together to be better on top of things.
+Working on Encounter was an amazing experience. As a team we were able to create strong lines of communication and trust, allowing each member to focus on their contribution. While at first we struggled with time management, our group quickly addressed the issue by working together to plan out personal deadlines.
 
 With more time we would have liked to further explore the idea of repeat listeners. Perhaps after linking up for a second or third time you would be able to learn more about the other listener, perhaps other music they like or even their name. Lastly, I would have liked to explore additional methods to drive interaction past just music listening, hoping to better bridge the digital world with the physical.
 {{end}}
