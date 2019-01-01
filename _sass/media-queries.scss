@@ -28,10 +28,12 @@
   }
 
   nav {
+    // margin: 0 auto;
     margin-bottom: 50px;
     margin-left: -10px;
     margin-right: -10px;
     padding: 0;
+    // width: fit-content;
   }
 
   .footer {
@@ -96,10 +98,12 @@
   }
 
   .footers {
-    @include center($main-column);
+    // @include center($main-column);
     font-size: 16.5px;
-    margin-left: -21px;
-    margin-right: -21px;
+    margin: 0 auto;
+    width: fit-content;
+    // margin-left: -21px;
+    // margin-right: -21px;
   }
 
   .footer {
@@ -123,7 +127,7 @@
 
 @media (max-width: 500px) {
   .til-title {
-  font-size: 1.517em;
+    font-size: 1.517em;
   }
 }
 
