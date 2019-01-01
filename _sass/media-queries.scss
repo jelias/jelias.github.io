@@ -129,6 +129,18 @@
   .til-title {
     font-size: 1.517em;
   }
+
+  nav {
+    margin-left: -12px;
+    margin-right: -42px;
+  }
+}
+
+@media (max-width: 320px) {
+  nav {
+    margin-left: -42px;
+    margin-right: -50px;
+  }
 }
 
 
