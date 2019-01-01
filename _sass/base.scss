@@ -343,8 +343,9 @@ ul {
     &::before {
       content: '–';
       font-family: $sans-font;
+      font-weight: 300;
       left: 0;
-      margin-top: 1px;
+      margin-top: -1px;
       position: absolute;
     }
   }

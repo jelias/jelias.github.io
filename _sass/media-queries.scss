@@ -3,17 +3,138 @@
 }
 
 @media (max-width: 900px) {
-  .border {
+  body {
+    .border {
+      border: 0;
+    }
+  }
+
+  .nav-name {
     display: none;
   }
 
-  .soon {
-    display: inline-block;
+  nav,
+  .footer {
+    float: none;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding: 0;
+    width: fit-content;
+
+    // width: 80%;
+    // margin: auto;
+    // float: inherit;
+  }
+
+  nav {
+    margin-bottom: 50px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 0;
+  }
+
+  .footer {
+    float: left;
+    margin-top: 0;
+    padding: 0 10px;
+
+    &.copyright {
+      float: right;
+    }
+
+  }
+
+  .footers {
+    // @include center($main-column);
+    margin-left: -21px;
+    margin-right: -21px;
+  }
+  // .main-page {
+  //   margin-bottom: 50px;
+  // }
+}
+
+@media (max-width: 700px) {
+  .gallery {
+    column-count: 2;
+    /* @include column(1/3, $cycle: 2);
+    column-gap: .5em;
+
+    img {
+      margin-bottom: .25em;
+      margin-top: 0;
+    } */
   }
 }
 
-@media (max-width: 1024px) {
-  .right-card, .left-card {
-    visibility: hidden;
+@media (max-width: 500px) {
+  .projects {
+    margin-bottom: 4em;
+    margin-top: 6.5em;
   }
+
+  .project-gap {
+    display: none;
+  }
+
+  .project-list {
+    @include column(10/10);
+    // @include center;
+  }
+
+  .project-thumbnail {
+    display: none;
+  }
+
+  .gallery {
+    column-count: 1;
+  }
+
+  .prev-next {
+    font-size: 16px;
+  }
+
+  .footers {
+    @include center($main-column);
+    font-size: 16.5px;
+    margin-left: -21px;
+    margin-right: -21px;
+  }
+
+  .footer {
+    float: none;
+    padding-bottom: 15px;
+
+    &.copyright {
+      float: none;
+    }
+  }
+}
+
+
+//   .border {
+//     display: none;
+//   }
+//
+//   .soon {
+//     display: inline-block;
+//   }
+
+@media (max-width: 500px) {
+  .til-title {
+  font-size: 1.517em;
+  }
+}
+
+
+@media (max-width: 1200px) {
+  // body {
+  //   .border {
+  //     border: 0;
+  //   }
+  // }
+  // .right-card, .left-card {
+  //   visibility: hidden;
+  // }
 }
