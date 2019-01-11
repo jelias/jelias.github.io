@@ -12,7 +12,7 @@ order: 1
 
 {{ main }}
 **Overview:** \\
-As a team, we were prompted to design a future-focused music listening experience and pair our product with AR technologies. Encounter is a Spotify feature that connects people through shared listening experiences in real-time. Working to drive further interactions in the real world, we used Augmented Reality to help users identify who they are listening with.
+As a team, we were prompted to design a future-focused music listening experience and pair our product with AR technologies. Encounter is a Spotify feature that connects people through shared listening experiences in real-time. Working to drive further interactions in the real world, we used Augmented Reality to help users identify with whom they are listening with.
 
 **Context:**\\
  5 Weeks, Foundations of Interaction Design Course, University of Washington
