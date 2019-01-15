@@ -10,7 +10,7 @@ caption: Me, Circa June 2018
 js-file: /assets/js/arrow-fade.js
 ---
 ###### Hi, I'm Jacob.
-Born and raised in Chicago, IL, I am currently studying [Interaction Design](https://art.washington.edu/design/interaction-design-bdes) at the University of Washington. To inspire creativity and stay active I water ski, snowboard, and rock climb as much as possible.
+Born and raised in Chicago, IL, I am currently studying [Interaction Design](https://art.washington.edu/design/interaction-design-bdes) and researching direct interaction models for augmented reality with Google AR/VR at the University of Washington. To inspire creativity and stay active I water ski, snowboard, and rock climb as much as possible.
 
 Using design as a lens to view the world, I also make films on [Vimeo](https://vimeo.com/jelias), post shots on [Dribbble](https://dribbble.com/jelias), and—occasionally—publish my writing on [Medium](https://medium.com/@jelias).
 
