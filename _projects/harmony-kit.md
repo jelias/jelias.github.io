@@ -19,7 +19,7 @@ After a nine week participatory design process, we developed a system that allow
 {{end}}
 {{main}} 
 ##### Participatory Design
-We started out drawing concepts to solve rather narrow problems, some were focused on security, others on ease of access. After fifty different backpack ideas, we had to take a step back and reasses. We would not be able design a solution without exploring the core problem: the shared backpack experience.
+We started out drawing concepts to solve rather narrow problems, some were focused on security, others on ease of access. After fifty different backpack ideas, we had to take a step back and reassess. We would not be able design a solution without exploring the core problem: the shared backpack experience.
 {{end}}
 {{wide}}
 ![Emily's breakup letter + Participatory design workshop](/assets/images/projects/harmony-kit/letter_workshop.png)
