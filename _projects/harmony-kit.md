@@ -90,7 +90,6 @@ With a how might we statement and design principles to guide the team, we began 
 After taking a step back over the weekend, I realized that a custom backpack was not what they needed, or wanted. What seemed like critiques on the bag itself were merely surface level, it was the act of sharing a backpack that was so frustrating. As a team we agreed to simplify, looking through our notes one idea stood out: Harmony Kit.
 
 <br/>
-![breakup-letter-2](../assets/images/projects/harmony-kit/breakup-letter-2.jpg)
 {{end}}
 
 {{main}}
