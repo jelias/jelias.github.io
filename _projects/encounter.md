@@ -18,7 +18,7 @@ As a team, we were prompted to design a future-focused music listening experienc
  5 Weeks, Foundations of Interaction Design Course, University of Washington
 
 **What I did:**\\
- Feature Design, Product Brainstorming, and Script Editing
+ Feature Design, Product Brainstorming, and Script and Video Editing
 
 {{end}}
 {{wide}}

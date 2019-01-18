@@ -25,6 +25,7 @@ I always have enjoyed learning from others and being able to pick apart their li
 -   Its a small world out there, be nice to everyone you meet. Odds are that your paths will cross again.
 -   Walks are wonderful and a great time to reflect and think. Or not think.
 -   Listen. It can be easy to get caught up in sharing your opinions and and thoughts, but make sure to take the time and listen to those around you.
+-   Surround yourself with people who make you laugh, remind who you are, and tell you it’s gonna be ok.  
 {{end}}
 
 {{wide}}
