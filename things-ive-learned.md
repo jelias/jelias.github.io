@@ -38,7 +38,7 @@ I always have enjoyed learning from others and being able to pick apart their li
 -   Fail Fast. Yeah it’s a cliche, but burning your old ideas will help you come up with new ones.
 -   Take a break once in a while, let your brain recharge before you fry it.
 -   Often the little things are what make a design complete, every detail counts.
--   **Every. Designer. Has. An. Opinion.** Doesn't mean they're all right.
+-   **Every. Designer. Has. An. Opinion.** Doesn't mean they are all right.
 -   Ask yourself why you are making specific decisions often. Your work will be better because of it.
 -   When working in a team, make time to hangout, at least once, and get to know each other organically—the group will be better because of it.
 -   Restraint. Sometimes the simplest solution can be an extremely effective one. You don't always need to "go big".
