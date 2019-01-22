@@ -28,7 +28,7 @@ albers pong
 
 harmony
   - process
-  - Participatory deisgn
+  - Participatory design
   - ideation
   - show user testing!!
   - final
@@ -40,14 +40,14 @@ steavie
     - link your friends yo.
 
 
-The layout and visual design of all the project pages are super mature and stands out with a high-level of polish. 
+The layout and visual design of all the project pages are super mature and stands out with a high-level of polish.
 
-Put some more work in the "storytelling" of each project. 
-  - For each page, **what is the 1 point about your skills or experience you want someone reading to take away?** 
+Put some more work in the "storytelling" of each project.
+  - For each page, **what is the 1 point about your skills or experience you want someone reading to take away?**
   - Can you **tell these projects more like stories** where there is some "conflict" that you use your skills to resolve?
   - You do a great job keeping things simple, but can you **keep it simple while also making it feel like scrolling through the page takes me on a journey?**
-  
+
 Other 2 pieces of feedback:
   - On the Design page, maybe a header to the section with "_01 Setting Type, _02 Albers Pong, etc."...something like "Featured Projects"
-  - Really like how hovering over the project names changes the thumbnail previews. 
+  - Really like how hovering over the project names changes the thumbnail previews.
   - Suggestion to consider: also having **a 1-sentence summary of the project** as well. _It gives me better signals of which projects I'd want to click into & learn more._
