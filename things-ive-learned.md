@@ -26,6 +26,8 @@ I always have enjoyed learning from others and being able to pick apart their li
 -   Walks are wonderful and a great time to reflect and think. Or not think.
 -   Listen. It can be easy to get caught up in sharing your opinions and and thoughts, but make sure to take the time and listen to those around you.
 -   Surround yourself with people who make you laugh, remind who you are, and tell you it’s gonna be ok.  
+-   You want to do something big? You better get a good team together.
+-   Call your parents. Often. You’re busy and stressed? Perfect, that’s what they’re there for.
 {{end}}
 
 {{wide}}
@@ -43,4 +45,5 @@ I always have enjoyed learning from others and being able to pick apart their li
 -   When working in a team, make time to hangout, at least once, and get to know each other organically—the group will be better because of it.
 -   Restraint. Sometimes the simplest solution can be an extremely effective one. You don't always need to "go big".
 -   You're gonna get critique from people that you don't want to hear. Take a moment to sulk and then suck it up and listen to them, they're probably right.
+-   Keep creating. 
 {{end}}
