@@ -5,7 +5,7 @@ team: Lulu McRoberts, Brys Fleming-Henning, and Luke Raddue
 date: 2018-03-15
 type: Interaction
 thumbnail: /assets/images/cards/harmony-kit.png
-order: 3
+order: 5
 
 ---
 {% include captures.md %}
@@ -24,7 +24,7 @@ Research Lead, Product Brainstorming, Poster and Presentation Design
 {{wide}}
 ![Harmony Kit hero shot](/assets/images/projects/harmony-kit/hero.png)
 {{end}}
-{{main}} 
+{{main}}
 #### Identifying the Problem
 Sitting down with our participants, we conducted design ethnography learn more about their frustrations with travel.
 
@@ -44,7 +44,7 @@ Sitting down with our participants, we conducted design ethnography learn more a
 
 *"You just fit a 5′ 10″ dude better than a 5′ 2″ woman"*{: .quote}
 
-Meeting with Emily and Dave we discovered the strain that “the backpack” caused on their trips. Emily explained how their shared day pack often felt like a third person they had to take care of. 
+Meeting with Emily and Dave we discovered the strain that “the backpack” caused on their trips. Emily explained how their shared day pack often felt like a third person they had to take care of.
 
 {{end}}
 
@@ -68,17 +68,17 @@ Meeting with Emily and Dave we discovered the strain that “the backpack” cau
 {{main}}
 
 ###### Principles
-**Productive – Adaptable – Harmonious – Durable** 
-- Not over-functioned. Straight and to the point. A final product that furthers the experience of traveling by creating a more enjoyable user experience. 
-- The product should fit the constantly changing needs of the individual users by accommodating the many conditions and environments of travel. 
-- A product that encourages harmony between travel partners by preventing unnecessary “friction” situations. 
+**Productive – Adaptable – Harmonious – Durable**
+- Not over-functioned. Straight and to the point. A final product that furthers the experience of traveling by creating a more enjoyable user experience.
+- The product should fit the constantly changing needs of the individual users by accommodating the many conditions and environments of travel.
+- A product that encourages harmony between travel partners by preventing unnecessary “friction” situations.
 - The product should withstand prolonged and frequent use.
 {{end}}
 
 
 {{main}}
 #### Ideation
-With a how might we statement and design principles to guide the team, we began to explore possible solutions. What started out as an exercise to keep our options broad ended up leading us away from our original goals. This was a problem. We became obsessed with designing backpacks, discussing possible features and mechanisms for our new bag. 
+With a how might we statement and design principles to guide the team, we began to explore possible solutions. What started out as an exercise to keep our options broad ended up leading us away from our original goals. This was a problem. We became obsessed with designing backpacks, discussing possible features and mechanisms for our new bag.
 {{end}}
 
 {{full}}
@@ -101,4 +101,3 @@ Harmony Kit was designed to enable two people to share a single daypack througho
 ![Storyboard of the product](/assets/images/projects/harmony-kit/storyboard.png)
 ![harmony](/assets/images/projects/harmony-kit/harmony.gif)
 {{end}}
-
