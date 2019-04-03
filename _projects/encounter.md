@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Encounter
-team: <a href="http://arianagarland.com/">Ariana Garland</a> and Cecilia Zhao
+team: <a href="http://arianagarland.com/">Ariana Garland</a> and <a href="http://ceciliazhao.com/">Cecilia Zhao</a>
 date: 2018-12-05
 type: Interaction
 thumbnail: /assets/images/cards/encounter.png
