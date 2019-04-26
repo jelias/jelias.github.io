@@ -25,7 +25,7 @@ As a team, we were prompted to design a future-focused music listening experienc
 ![Cover image](/assets/images/projects/encounter/ariana.png)
 
 <div style="position:relative;padding-top:54.35%;margin-bottom: 4rem;margin-top: 4rem;">
-  <iframe src="https://player.vimeo.com/video/308856811" frameborder="0" allowfullscreen
+  <iframe src="https://player.vimeo.com/video/308856811?color=f2f2f2&title=0&byline=0&portrait=0" frameborder="0" allowfullscreen
     style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
 </div>
 

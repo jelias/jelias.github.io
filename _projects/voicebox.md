@@ -5,7 +5,7 @@ team: <a href="http://sofiacababawood.com/">Sofia Cababa Wood</a> and <a href="h
 date: 2019-03-19
 type: Interaction
 thumbnail: /assets/images/cards/voicebox.png
-order: 4
+order: 3
 
 ---
 {% include captures.md %}
@@ -18,18 +18,19 @@ Together we created a mobile application for IssueVoter a website focused on “
  6 Weeks, Interface Design I Course, University of Washington
 
 **What I did:**\\
- Prototyping and Microinteractions, Information Architecture, Lead Interaction Designer
+ Prototyping and Microinteractions, Information Architecture, Led Interaction Design
 
 {{end}}
 {{wide}}
 <div style="position:relative;padding-top:54.35%;margin-bottom: 4rem;margin-top: 4rem;">
-  <iframe src="https://player.vimeo.com/video/325293619" frameborder="0" allowfullscreen
+  <iframe src="https://player.vimeo.com/video/325293619?color=f2f2f2&title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; allowfullscreen"
     style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
 </div>
 
 {{end}}
+{{main}}
 
-{{ main }}
 ###### Full write up coming soon!
 {: style="width: 51%;margin: auto;"}
 {{end}}
+
