@@ -1,8 +1,8 @@
 - name: Design
   link: /
-- name: About
-  link: /about
 - name: Media
   link: /media
+- name: About
+  link: /about
 - name: TIL
   link: /things-ive-learned

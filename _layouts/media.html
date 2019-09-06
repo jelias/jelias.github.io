@@ -7,6 +7,20 @@ layout: default
 </div> -->
 
 <div class="wide-column">
+  <h3>_Writing</h3>
+</div>
+
+<div class="main-column writing-list">
+  {% assign sorted-writing = site.writing | sort: "date" | reverse %}
+  {% for post in sorted-writing %}
+    <div class="list-item">
+      <h6><a href="{{ post.url }}">{{ post.title }}</a></h6>
+      {{ post.excerpt }}
+    </div>
+  {% endfor %}
+</div>
+
+<div class="wide-column">
   <h3>_Film</h3>
 </div>
 

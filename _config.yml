@@ -22,6 +22,8 @@ dribbble_username: jelias
 
 exclude: ["CNAME", "LICENSE.md", "README.md"]
 
+excerpt_separator: "<!-- more -->"
+
 #Project URL
 #permalink:  /projects/:title/
 
@@ -32,6 +34,9 @@ collections:
     output: true
     permalink: /:collection/:path/
   journal:
+    output: true
+    permalink: /:collection/:path/
+  writing:
     output: true
     permalink: /:collection/:path/
 
