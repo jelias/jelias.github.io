@@ -7,7 +7,7 @@ photoswipe: false
 **My explorations utilize design as a medium** capable of connecting individuals, communities, and systems. I work across the sciences and humanities to explore the following research questions:
 
 - [How might we facilitate human connection through the discovery and sharing of music?](/projects/encounter)
-- What factors contribute to Emergency First Responders effectively responding to situations involving people with mental disabilities?
+- What factors contribute to Emergency First Responders effectively responding to situations involving people with mental illness?
 - What might an inclusive future look like and how can technology play a role in promoting equity?
 - How can motion libraries and everyday affordances inform direct interaction models for augmented reality?
 
