@@ -4,7 +4,7 @@ title: Yolk
 team: <a href="https://danielcasey.weebly.com/">Daniel Casey</a> and <a href="https://www.linkedin.com/in/jamespdwyer/">James Dwyer</a>
 date: 2019-04-11
 type: Interaction
-thumbnail: /assets/images/cards/motus.png
+thumbnail: /assets/images/cards/yolk.png
 order: 4
 
 ---
