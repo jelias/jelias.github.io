@@ -15,6 +15,11 @@
 <div class="full-width" markdown="1">
 {% endcapture %}
 
+<!-- almost full width  -->
+{% capture near-full %}
+<div class="near-full-width" markdown="1">
+{% endcapture %}
+
 <!-- close div -->
 {% capture end %}
 </div>
