@@ -34,6 +34,8 @@ In a diverse team of three, we worked to explore the future of transportation sy
 
 {{ main }}
 Thank you to all the academic fellows, corporate partners, and IDEO Cambridge for such an amazing experience!
+
+
 {::comment}
 <br/>
 
