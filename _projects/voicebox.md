@@ -32,8 +32,11 @@ https://player.vimeo.com/video/325293619?color=f2f2f2&title=0&byline=0&portrait=
 {:/comment}
 
 {{end}}
+<br/>
 
 {{main}}
+###### Bias in Design
+
 First I led the team in a teardown of the current systems. We walked-through the design of IssueVoter, the original app, and **called out two key problems: the hierarchy of information and the bias of color.** 
 
 Then we looked at the raw text of a bill on Congress.gov and realized how important  concise, well laid out information would be to helping inform votes before they make a decision.
@@ -61,6 +64,7 @@ Then we looked at the raw text of a bill on Congress.gov and realized how import
 {:/comment}
 
 {{main}}
+###### Defining our scope 
 We decided to focus on millennials who are passionate about the political process, but are not necessarily sure where to start. After we laid out who we were designing for, I helped draw out the information architecture of the app. **The IA was a vital step in talking through the features and core moments of Voicebox as a team.** 
 {{end}}
 
@@ -70,7 +74,10 @@ We decided to focus on millennials who are passionate about the political proces
 {{end}}
 
 {{main}}
-Together we designed the user flows and look and feel of Voicebox, focused on creating an approachable and playful tone that respected the weight of the topic. This balance was key to creating an inviting but meaningful application experience. Our insights from user testing taught us that our approach to reducing color bias, using orange and purple, worked! Users were able to quickly learn the relationships of color through our use of repetition throughout the app.
+###### Designing a playful and serious app
+Together we designed the user flows and look and feel of Voicebox, focused on creating an approachable and playful tone that respected the maturity of the topic. This balance was key to creating an inviting but meaningful application experience. 
+
+Finally, our insights from user testing helped us that focus approach to reducing color bias, using orange and purple! Users were able to quickly learn the relationships of color through our use of repetition throughout the app.
 {{end}}
 
 {{full}}
@@ -89,3 +96,10 @@ Finally, I built the final prototype of our app.
 </div>
 
 {{end}}
+
+{::comment}
+{{main}}
+###### Reflection
+- This was the best team project. I learned so much from 
+{{end}}
+{:/comment} 
