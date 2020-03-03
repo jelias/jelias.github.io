@@ -68,6 +68,10 @@
       margin-top: 0;
     } */
   }
+
+  body {
+    overflow-x: hidden;
+  }
 }
 
 @media (max-width: 500px) {
