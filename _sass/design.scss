@@ -19,7 +19,21 @@
       // padding-bottom: 0px;
       }
 
+    // &:hover {
+    //   .one-liner {
+    //
+    //   text-decoration: none;
+    //   // left: 105%;
+    //   }
+    // }
+
     }
+
+  // .one-liner {
+  //   position: relative;
+  //   top: -63px;
+  //   left: 100%;
+  // }
 
 }
 
@@ -115,4 +129,8 @@
   margin-left: 4%;
   margin-right: auto;
   margin-top: auto;
+}
+
+.archive-gallery {
+  @include column(1/4, $cycle: 4);
 }
