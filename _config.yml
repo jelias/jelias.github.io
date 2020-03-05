@@ -33,6 +33,9 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
+  archives:
+    output: true
+    permalink: /:collection/:path/
   journal:
     output: true
     permalink: /:collection/:path/
