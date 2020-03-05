@@ -131,19 +131,36 @@
   margin-top: auto;
 }
 
+// Start Archives Sass
+
 .archive-gallery {
   @include column(1/4, $cycle: 4);
   text-decoration: none;
 
-  // H5 {
-  //   opacity: 50%;
-  // }
-  //
-  // :hover {
-  //   H5 {
-  //     opacity: 100%;
-  //   }
-  // }
+  &:hover {
+    H5 {
+      color: $link-hover;
+
+      &::after {
+        background: $link-hover;
+        left: 0;
+        width: 100%;
+      }
+
+      &::after {
+        -webkit-transition: width .35s ease;
+        background: $link-hover;
+        content: '';
+        display: block;
+        height: 3px;
+        margin-top: 3px;
+        position: absolute;
+        right: 0;
+        transition: width .35s ease;
+        width: 0;
+      }
+    }
+  }
 }
 
 .archives-img{
