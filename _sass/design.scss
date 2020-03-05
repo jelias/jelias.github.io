@@ -134,3 +134,7 @@
 .archive-gallery {
   @include column(1/4, $cycle: 4);
 }
+
+.archives-img{
+  margin-bottom: 1.5rem;
+}

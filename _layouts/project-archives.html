@@ -16,7 +16,7 @@ layout: default
     {% assign projects = mid %}
     {% for project in projects %}
           <a href="{{ project.url }}" class="archive-gallery">
-              <img src="{{ project.thumbnail }}" id="{{ project.order }}" class = "right-image shadow" alt="">
+              <img src="{{ project.thumbnail }}" id="{{ project.order }}" class = "right-image shadow archives-img" alt="">
               <h4>{{ project.title }}</h4>
               <!-- <img src="http://images.weserv.nl/?url=jelias.me{{ site.baseurl }}{{ image.path }}&w=800&h=800&output=jpg&q=80" itemprop="thumbnail" alt="Dynamic image descriptions coming soon" /> -->
           </a>
