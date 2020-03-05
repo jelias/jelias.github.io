@@ -139,27 +139,28 @@
   text-decoration: none;
 
   .archives-link {
-    position: relative;
     display: inline-block;
-      &::after {
-        -webkit-transition: width .35s ease;
-        background: $link-hover;
-        content: '';
-        display: block;
-        height: 3px;
-        margin-top: 3px;
-        position: absolute;
-        right: 0;
-        transition: width .35s ease;
-        width: 0;
-      }
+    position: relative;
+
+    &::after {
+      -webkit-transition: width .35s ease;
+      background: $link-hover;
+      content: '';
+      display: block;
+      height: 3px;
+      margin-top: 3px;
+      position: absolute;
+      right: 0;
+      transition: width .35s ease;
+      width: 0;
+    }
   }
 
   &:hover {
 
     .archives-link {
       color: $link-hover;
-      
+
       &::after {
         background: $link-hover;
         left: 0;
