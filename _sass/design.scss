@@ -133,6 +133,17 @@
 
 .archive-gallery {
   @include column(1/4, $cycle: 4);
+  text-decoration: none;
+
+  // H5 {
+  //   opacity: 50%;
+  // }
+  //
+  // :hover {
+  //   H5 {
+  //     opacity: 100%;
+  //   }
+  // }
 }
 
 .archives-img{
