@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="wide-column">
+  <h3>_{{ page.title }}</h3>
+</div>
+
+<div class="main-column">
+    {{content}}
+</div>
+
+<div class="wide-column">
+  <div class="">
+    {% assign mid = site.archives | sort: 'date' | reverse %}
+    {% assign projects = mid %}
+    {% for project in projects %}
+          <a href="{{ project.url }}" class="archive-gallery">
+              <img src="{{ project.thumbnail }}" id="{{ project.order }}" class = "right-image shadow" alt="">
+              <h4>{{ project.title }}</h4>
+              <!-- <img src="http://images.weserv.nl/?url=jelias.me{{ site.baseurl }}{{ image.path }}&w=800&h=800&output=jpg&q=80" itemprop="thumbnail" alt="Dynamic image descriptions coming soon" /> -->
+          </a>
+    {% endfor %}
+  </div>
+</div>
