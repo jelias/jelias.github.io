@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Harmony Kit
-team: Lulu McRoberts, Brys Fleming-Henning, and Luke Raddue
+team:<a href="https://www.lulumcroberts.com/">Lulu McRoberts</a>, <a href="https://brys-fleming-henning.webflow.io/">Brys Fleming-Henning</a>, and <a href="https://lukeraddue.me/">Luke Raddue</a>
 date: 2018-03-15
 type: Interaction
 thumbnail: /assets/images/cards/harmony-kit.png

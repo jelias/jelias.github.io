@@ -28,12 +28,6 @@ In a diverse team of four, we worked to incentivize housing construction in dens
 {{end}}
 
 {{ main }}
-I am excited to share that I will be working at the IDEO Cambridge office as a CoLab Fellow from April 8th to the 12th!
-
-<br/>
-
-###### Full write up coming soon!
-{: style="width: 51%;margin: auto;"}
-
+I am excited to share that I have been invited to the IDEO Cambridge office as a CoLab Fellow!
 
 {{end}}
