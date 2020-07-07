@@ -300,14 +300,19 @@ b {
 
 blockquote {
   p {
-    @include ms-respond(font-size, 2);
+    @include ms-respond(font-size, .5);
+    border-left: .25em solid $blockquote-border;
+    color: $blockquote-text;
     font-style: italic;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 36px;
+    padding: 0 1em;
 
-    strong {
-      font-weight: 400;
-    }
+    // strong {
+    //   font-weight: 700;
+    // }
+
+
   }
 }
 

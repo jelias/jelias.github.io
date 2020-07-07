@@ -30,6 +30,7 @@ I always have enjoyed learning from others and being able to pick apart their li
 -   Call your parents. Often. You’re busy and stressed? Perfect, that’s what they’re there for.
 -   Everything can be negotiated.
 -   It takes a lot of energy to hate. 
+-   Never look too long at the big picture, just glance periodically, otherwise your head will explode.
 {{end}}
 
 {{wide}}
