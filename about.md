@@ -6,16 +6,22 @@ tagline: exploring the intersection of the humanities and sciences to connect in
 design-thumb: /assets/images/cards/design.png
 photo-thumb: /assets/images/cards/photo.jpg
 photo: /assets/images/me-may-2020.png
-caption: Shot on Film, circa May 2020
+caption: <a href="https://www.uwdesignshow.com/apart-together/disposable-camera-connection">Shot on Film</a>, circa May 2020
 js-file: /assets/js/arrow-fade.js
 ---
-###### Hi, I'm Jacob.
-Born and raised in Chicago, IL, I am currently studying [Interaction Design](https://art.washington.edu/design/interaction-design-bdes) and researching direct interaction models for augmented reality with Google AR/VR at the University of Washington. To inspire creativity and stay active I water ski, snowboard, and rock climb as much as possible.
+###### Hi, I'm Jacob. 
 
-Using design as a lens to view the world, I also make films on [Vimeo](https://vimeo.com/jelias), post shots on [Dribbble](https://dribbble.com/jelias), and—occasionally—publish my writing on [Medium](https://medium.com/@jelias).
+{::comment}
+(he/him)
+{:/comment}
 
-Thanks for stopping by and please feel free to [contact me](mailto&#58;%6Aa%&#54;&#51;obee&#37;&#54;C&#37;6&#57;&#37;61s&#64;gm&#37;61%69&#108;&#46;co&#37;6D)—whether you just want to chat or are interested in working together! I am currently seeking full time opportunities and my resume is available [here](/assets/Elias_Resume_Jan_2020.pdf).
+I'm an Interaction Designer passionate about people, complex problems, and abstract ideas. I grew up in the [Midwest](https://en.wikipedia.org/wiki/Northbrook,_Illinois) and graduated from the [University of Washington](https://art.washington.edu/design/interaction-design-bdes) in 2020. My past work includes collaborations with Google, IDEO, and Short of the Week.
 
+Complimenting design, my passions in filmmaking and writing have opened my world and provided an opportunity to communicate ideas and powerful emotions. At the core, storytelling, and designing, is what I do. Outside, I love to bike, climb, snowboard, (the list goes on) as much as possible to [clear my head, slow down, and focus](https://web.stanford.edu/~cbross/Ecospeak/wildernessletter.html).
+
+Please feel free to [reach out](mailto&#58;%6Aa%&#54;&#51;obee&#37;&#54;C&#37;6&#57;&#37;61s&#64;gm&#37;61%69&#108;&#46;co&#37;6D)—whether you just want to chat or are interested in working together! I am always happy to talk :). My resume is available [here](/assets/Elias_Resume_Jan_2020.pdf).
 
 **Quick Links:**\\
-[Email](mailto&#58;%6Aa%&#54;&#51;obee&#37;&#54;C&#37;6&#57;&#37;61s&#64;gm&#37;61%69&#108;&#46;co&#37;6D) [LinkedIn](https://www.linkedin.com/in/jacobelias/) [Dribbble](https://dribbble.com/jelias) [Vimeo](https://vimeo.com/jelias)
+[Email](mailto&#58;%6Aa%&#54;&#51;obee&#37;&#54;C&#37;6&#57;&#37;61s&#64;gm&#37;61%69&#108;&#46;co&#37;6D) [LinkedIn](https://www.linkedin.com/in/jacobelias/) [arc (latest project)](https://arc.jelias.me) [Vimeo](https://vimeo.com/jelias)
+
+
