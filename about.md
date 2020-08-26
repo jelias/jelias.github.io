@@ -5,8 +5,8 @@ identity: Designer + Creative
 tagline: exploring the intersection of the humanities and sciences to connect individuals, communities, and systems.
 design-thumb: /assets/images/cards/design.png
 photo-thumb: /assets/images/cards/photo.jpg
-photo: /assets/images/me-may-2020.jpg
-caption: Me, Circa May 2020 (Shot on Film)
+photo: /assets/images/me-may-2020.png
+caption: Shot on Film, circa May 2020
 js-file: /assets/js/arrow-fade.js
 ---
 ###### Hi, I'm Jacob.
