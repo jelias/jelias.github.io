@@ -17,7 +17,7 @@ js-file: /assets/js/arrow-fade.js
 
 I'm an Interaction Designer passionate about people, complex problems, and abstract ideas. I grew up in the [Midwest](https://en.wikipedia.org/wiki/Northbrook,_Illinois) and graduated from the [University of Washington](https://art.washington.edu/design/interaction-design-bdes) in 2020. My past work includes collaborations with Google, IDEO, and Short of the Week.
 
-Complimenting design, my passions in film and writing have opened my world and provided an opportunity to communicate ideas and powerful emotions. At the core, storytelling, and designing, is what I do. Outside, I love to bike, climb, snowboard, (the list goes on) as much as possible to [clear my head, slow down, and focus](https://web.stanford.edu/~cbross/Ecospeak/wildernessletter.html).
+Complimenting design, my passions in filmmaking and writing have opened my world and provided an opportunity to communicate ideas and powerful emotions. At the core, storytelling, and designing, is what I do. Outside, I love to bike, climb, snowboard, (the list goes on) as much as possible to [clear my head, slow down, and focus](https://web.stanford.edu/~cbross/Ecospeak/wildernessletter.html).
 
 Please feel free to [reach out](mailto&#58;%6Aa%&#54;&#51;obee&#37;&#54;C&#37;6&#57;&#37;61s&#64;gm&#37;61%69&#108;&#46;co&#37;6D)—whether you just want to chat or are interested in working together! I am always happy to talk :). My resume is available [here](/assets/Elias_Resume_Jan_2020.pdf).
 
