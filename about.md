@@ -9,11 +9,8 @@ photo: /assets/images/me-may-2020.png
 caption: <a href="https://www.uwdesignshow.com/apart-together/disposable-camera-connection">Shot on Film</a>, circa May 2020
 js-file: /assets/js/arrow-fade.js
 ---
-###### Hi, I'm Jacob. 
 
-{::comment}
-(he/him)
-{:/comment}
+###### Hi, I'm Jacob. _(he/him)_{:.xsmall .font-base-fix}
 
 I'm an Interaction Designer passionate about people, complex problems, and abstract ideas. I grew up in the [Midwest](https://en.wikipedia.org/wiki/Northbrook,_Illinois) and graduated from the [University of Washington](https://art.washington.edu/design/interaction-design-bdes) in 2020. My past work includes collaborations with Google, IDEO, and Short of the Week.
 
