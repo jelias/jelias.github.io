@@ -53,6 +53,7 @@ plugins:
     # - jekyll-minifier
     - jekyll-sitemap
     - jekyll-seo-tag
+    - kramdown-parser-gfm
     # https://rubygems.org/gems/jekyll-seo-tag
 
 defaults:
