@@ -52,6 +52,8 @@ sass:
 plugins:
     # - jekyll-minifier
     - jekyll-sitemap
+    - jekyll-seo-tag
+    # https://rubygems.org/gems/jekyll-seo-tag
 
 defaults:
   - scope:
