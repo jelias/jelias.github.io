@@ -434,3 +434,11 @@ ol {
   font-style: normal;
   margin-bottom: vr(2); // 1.5 baselines (base font size * line-height)
 }
+
+hr {
+  background-color: $blockquote-border;
+  border: 0;
+  height: .25em;
+  margin: 0 20px 20px 0;
+  width: 8%;
+}
