@@ -32,6 +32,11 @@ I always have enjoyed learning from others and being able to pick apart their li
 -   It takes a lot of energy to hate. 
 -   Never look too long at the big picture, just glance periodically, otherwise your head will explode.
 -   Sometimes work, plans, etc can feel like the most important thing in the world. Try not to get caught in the tunnel vision. Trust me, there's nothing more important than your family, it may feel like it, but whatever it is, you probably won't even remember what you were stressing about in a year.
+-   It won't always be easy to jump out of bed. And that is ok. 
+
+{::comment}
+Just being here is a victory. Keep up the great work.
+{:/comment}
 {{end}}
 
 {{wide}}
@@ -51,4 +56,6 @@ I always have enjoyed learning from others and being able to pick apart their li
 -   You're gonna get critique from people that you don't want to hear. Take a moment to sulk and then suck it up and listen to them, they're probably right.
 -   Keep creating.
 -   Be critical of "solving problems", blanket statements usually have large blind spots—_whom_ are you really solving problems for? Have you considered what problems your design response could be creating?
+-   Progress can be super abstract and extremely intangible. Remember that. Figure out the end game, help things might click into place. But remember to check your pace or you'll tire out in the first half.
+- 
 {{end}}
