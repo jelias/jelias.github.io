@@ -1,3 +1,5 @@
+// /YYYY.md page Sass:
+
 .journal-day {
   @include ms-respond(font-size, -1);
   font-family: $sans-font;
@@ -56,6 +58,62 @@
 
     nav {
       display: none;
+    }
+  }
+}
+
+
+// /journal index page Sass:
+.journal-list {
+  .list-item {
+    @include ms-respond(margin-bottom, 5);
+
+    p {
+      color: $dark-gray;
+    }
+  }
+
+  h5 {
+    @include ms-respond(margin-bottom, -6);
+  }
+
+  a {
+    // color: $off-black;
+    position: relative;
+    text-decoration: none;
+
+    &:hover {
+      color: $link-hover;
+
+      &::after {
+        background: $link-hover;
+        left: 0;
+        width: 100%;
+      }
+    }
+
+    &::after {
+      -webkit-transition: width .35s ease;
+      background: $link-hover;
+      content: '';
+      display: block;
+      height: 3px;
+      margin-top: 3px;
+      position: absolute;
+      right: 0;
+      transition: width .35s ease;
+      width: 0;
+    }
+  }
+
+  .text {
+
+    a {
+      color: $dark-gray;
+
+      &:hover {
+        color: $link-hover;
+      }
     }
   }
 }

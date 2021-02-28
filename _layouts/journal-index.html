@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="wide-column">
+  <h3>_{{ page.title }}</h3>
+</div>
+
+<div class="main-column journal-list">
+  {% assign sorted-journal = site.journal | sort: "date" | reverse %}
+  {% for post in sorted-journal %}
+
+    <div class="list-item">
+      <h5><a href="{{ post.url }}">{{ post.title }}</a></h5>
+      <a href="{{ post.url }}">
+        {{ post.sample | markdownify }}
+      </a>
+    </div>
+
+  {% endfor %}
+</div>
