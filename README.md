@@ -10,8 +10,3 @@ The site was built using Jekyll for a backend, and Jeet as the grid system.
 Feel free to inspect the code structure, and reuse what is appropriate. But please respect that the files in the following directories are Copyright by Jacob Elias. You may not reuse anything therein without my written permission:
 
     /images
-
-
----
-
-This is the dev environment! Welcome :D. Don't merge this document ok?
