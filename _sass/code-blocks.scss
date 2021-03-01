@@ -1,0 +1,72 @@
+// stylelint-disable selector-max-type
+// .markdown-body {
+  // Inline code snippets
+  code,
+  tt {
+    // stylelint-disable-next-line primer/spacing
+    padding: 0.2em 0.4em;
+    margin: 0;
+    // stylelint-disable-next-line primer/typography
+    font-size: ms(-4);
+    // stylelint-disable-next-line primer/colors
+    background-color: rgba($off-black, 0.05);
+    border-radius: .375em;
+    font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+    opacity: 0.9;
+    overflow-wrap: break-word;
+
+    br { display: none; }
+  }
+
+  del code { text-decoration: inherit; }
+
+  pre {
+    word-wrap: normal;
+
+    // Code tags within code blocks (<pre>s)
+    > code {
+      padding: 0;
+      margin: 0;
+      // stylelint-disable-next-line primer/typography
+      font-size: 100%;
+      word-break: normal;
+      white-space: pre;
+      background: transparent;
+      border: 0;
+    }
+  }
+
+  .highlighter-rouge {
+    margin-bottom: 1em;
+
+    pre {
+      margin-bottom: 0;
+      word-break: normal;
+    }
+  }
+
+  .highlighter-rouge pre,
+  pre {
+    padding: 1em;
+    overflow: auto;
+    // stylelint-disable-next-line primer/typography
+    font-size: 85%;
+    // stylelint-disable-next-line primer/typography
+    line-height: 1.45;
+    background-color: $lighter-gray;
+    border-radius: .375em;
+  }
+
+  pre code,
+  pre tt {
+    display: inline;
+    max-width: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    line-height: inherit;
+    word-wrap: normal;
+    background-color: transparent;
+    border: 0;
+  }
+// }
