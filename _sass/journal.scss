@@ -66,7 +66,7 @@
 // /journal index page Sass:
 .journal-list {
   .list-item {
-    @include ms-respond(margin-bottom, 5);
+    @include ms-respond(margin-bottom, 7.5);
 
     p {
       color: $dark-gray;
