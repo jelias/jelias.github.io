@@ -21,7 +21,8 @@
     position: relative;
     text-decoration: none;
 
-    &:hover {
+    &:hover,
+    &:active {
       color: $link-hover;
 
       &::after {
@@ -50,7 +51,8 @@
     a {
       color: $dark-gray;
 
-      &:hover {
+      &:hover,
+      &:active {
         color: $link-hover;
       }
     }
