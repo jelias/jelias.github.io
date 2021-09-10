@@ -4,11 +4,11 @@ title: Design
 js-file: /assets/js/design.js
 photoswipe: false
 ---
-**My explorations utilize the design process as a framework** capable of connecting individuals, communities, and systems. I work across media and tools to explore speculatvie worlds, complex systems, and the forefront of technologies. 
+**My explorations utilize the design process as a framework** capable of connecting individuals, communities, and systems. I work across media and tools to explore speculative worlds, complex systems, and the forefront of technologies. 
 
-Most recently I built arc, [a collaborative installation in AI and gerenative filmmaking](https://arc.jelias.me). I am currently powering prosperity at [Intuit](https://quickbooks.intuit.com/) and [reinventing the film festival](https://www.shortoftheweek.com/news/the-biggest-thing-weve-ever-done/) at [Short of the Week](https://www.shortoftheweek.app/).
+Most recently I built arc, [a collaborative installation in AI and generative filmmaking](https://arc.jelias.me). I am currently powering prosperity at [Intuit](https://quickbooks.intuit.com/) and [reinventing the film festival](https://www.shortoftheweek.com/news/the-biggest-thing-weve-ever-done/) at [Short of the Week](https://www.shortoftheweek.app/).
 
-I thrive breaking down complex problems into more tangible experiences. Current projects are available [upon request](mailto&#58;&#106;&#64;%6Ae%6Cia%7&#51;&#46;%6De?subject=Howdy).
+I thrive on breaking down complex problems into more tangible experiences. Current projects are available [upon request](mailto&#58;&#106;&#64;%6Ae%6Cia%7&#51;&#46;%6De?subject=Howdy).
 
 
 {::comment}
