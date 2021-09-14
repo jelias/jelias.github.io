@@ -58,6 +58,6 @@ Just being here is a victory. Keep up the great work.
 -   You're gonna get critique from people that you don't want to hear. Take a moment to sulk and then suck it up and listen to them, they're probably right.
 -   Keep creating.
 -   Be critical of "solving problems", blanket statements usually have large blind spots—_whom_ are you really solving problems for? Have you considered what problems your design response could be creating?
--   Progress can be super abstract and extremely intangible. Remember that. Figure out the end game, help things might click into place. But remember to check your pace or you'll tire out in the first half.
-- 
+-   Progress can be super abstract and extremely intangible. Remember that. Figure out the end game, it will help things click into place.
+- Remember to check your pace or you'll tire out in the first half.
 {{end}}
