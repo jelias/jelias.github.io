@@ -4,6 +4,8 @@ title: Things I've Learned
 ---
 {% include captures.md %}
 
+{:.new-lesson}
+
 {{main}}
 I always have enjoyed learning from others and being able to pick apart their life lessons and experiences, thus Things I've Learned was born. Here I write down the lessons I've learned through personal life experiences, stories, and lessons I have stolen from others. This page is as much a way to share what I've learned as it is a place of reference for me.
 {{end}}
