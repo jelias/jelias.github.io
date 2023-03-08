@@ -1,6 +1,8 @@
 // List functions courtesy of Team Sass.
 
 // Get  percentage from a given ratio.
+@use "sass:math";
+
 @function _get-span($ratio: 1) {
   @return $ratio * 100;
 }
@@ -11,7 +13,7 @@
   $width: 100;
 
   @each $ratio in $ratios {
-    $gutter: $gutter / $width * 100;
+    $gutter: math.div($gutter, $width) * 100;
     $width: 100 * $ratio - $gutter + $ratio * $gutter;
   }
 
@@ -59,7 +61,7 @@
   }
 
   // Sass 3.3
-  @for $i from 1 through floor(length($list) / 2) + 1 {
+  @for $i from 1 through floor(length($list) * 0.5) + 1 {
     $tmp: nth($list, $i);
     $list: set-nth($list, $i, nth($list, -$i));
     $list: set-nth($list, -$i, $tmp);

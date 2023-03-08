@@ -70,7 +70,7 @@
   }
 
   .archive-gallery {
-    @include column(1/2, $cycle: 2);
+    @include column(1*0.5, $cycle: 2);
   }
 
   body {
@@ -89,7 +89,7 @@
   }
 
   .project-list {
-    @include column(10/10);
+    @include column(10*0.1);
     // @include center;
   }
 
