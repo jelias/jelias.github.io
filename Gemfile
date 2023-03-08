@@ -7,4 +7,4 @@ gem "kramdown-parser-gfm"
 # gem 'github-pages', group: :jekyll_plugins
 # gem 'jekyll-minifier'
 
-gem "webrick", "~> 1.7"
+# gem "webrick", "~> 1.7"
