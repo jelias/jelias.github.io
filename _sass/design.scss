@@ -6,7 +6,7 @@
 }
 
 .project-list {
-  @include column(2*0.1);
+  @include column(2/10);
   margin-top: 1.625em;
   width: fit-content;
 
@@ -38,11 +38,11 @@
 }
 
 .project-gap {
-  @include column(4*0.1);
+  @include column(4/10);
 }
 
 .project-thumbnail {
-  @include column(4*0.1);
+  @include column(4/10);
   float: right;
   position: relative;
 
@@ -134,7 +134,7 @@
 // Start Archives Sass
 
 .archive-gallery {
-  @include column(1*0.25, $cycle: 4);
+  @include column(1/4, $cycle: 4);
   // position: relative;
   text-decoration: none;
 

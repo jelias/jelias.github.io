@@ -1,5 +1,3 @@
-@use "sass:math";
-
 @mixin column($ratios: 1, $offset: 0, $cycle: 0, $gutter: map-get($jeet, 'gutter'), $clearfix: true, $nth: map-get($jeet, 'nth')) {
   $side: _get-layout-direction();
   $opposite-side: _opposite-direction($side);
@@ -83,7 +81,7 @@
   $w: 100;
 
   @each $ratio in $ratios {
-    $gutter: math.div($gutter, $w) * 100;
+    $gutter: $gutter / $w * 100;
   }
 
   @return unquote($gutter + '%');

@@ -1,5 +1,3 @@
-@use "sass:math";
-
 @import 'baseline';
 ////
 /// @param {Map} $typefaces [$typefaces]
@@ -41,7 +39,7 @@
     $_rhythm-multiplier: 1;
     $_return: 1;
     @if $typeface {
-      $_rhythm-multiplier: math.div(1, _ty-get-typeface-multiplier($typeface, $typefaces));
+      $_rhythm-multiplier: 1 / _ty-get-typeface-multiplier($typeface, $typefaces);
     }
 
     @if unit($current-font-size) == 'px' {
