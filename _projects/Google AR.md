@@ -5,7 +5,7 @@ one-liner: UI/UX Internship
 date: 2019-08-23
 type: Interaction
 thumbnail: /assets/images/cards/google-ar.png
-order: 1
+order: 4
 
 ---
 {% include captures.md %}
@@ -18,7 +18,7 @@ We began with a research question focused on how our interactions day to day cou
 
 White Paper [available upon request](mailto&#58;&#106;&#64;%6Ae%6Cia%7&#51;&#46;%6De?subject=AR/VR White Paper).
 
-<!-- 
+
 **Overview:** \\
 
 
