@@ -2,10 +2,10 @@
 
 // styles start
 
-@include scrollbar(.95em, $off-black, $light-gray);
+@include scrollbar(0.95em, $off-black, $light-gray);
 
 html {
-  background-color: $off-white;
+  background-color: var(--background-color);
   overflow-x: hidden;
 }
 
@@ -15,8 +15,8 @@ body {
 
   .border {
     // background-color: $off-white;
-    border: 3px solid $off-black;
-    color: $off-black;
+    border: 3px solid var(--text-color);
+    color: var(--text-color);
     margin: 25px;
     padding-left: 20px;
     padding-right: 20px;
@@ -57,7 +57,7 @@ nav {
 
 %vertical-text {
   @extend %heading-type;
-  font-size: ms(-.8);
+  font-size: ms(-0.8);
   text-decoration: none;
   text-transform: uppercase;
   width: fit-content;
@@ -77,8 +77,8 @@ nav {
 }
 
 // .vertical-nav {
-  // position: sticky;
-  // top: 0;
+// position: sticky;
+// top: 0;
 // }
 
 .vertical-left {
@@ -143,7 +143,7 @@ footer {
 .near-full-width {
   margin-left: -90px;
   margin-right: -90px;
-  z-index: z('below');
+  z-index: z("below");
 
   img {
     background-color: $off-white;
@@ -166,7 +166,7 @@ footer {
 .full-width {
   margin-left: -90px;
   margin-right: -90px;
-  z-index: z('below');
+  z-index: z("below");
 
   img {
     background-color: $off-white;
@@ -183,7 +183,7 @@ footer {
   }
 
   video {
-    z-index: z('below');
+    z-index: z("below");
   }
 }
 
@@ -281,7 +281,7 @@ video {
 }
 
 .shadow {
-  box-shadow: 0 0 20px 10px rgba(136, 136, 136, .1);
+  box-shadow: 0 0 20px 10px rgba(136, 136, 136, 0.1);
 }
 
 .quote {
@@ -289,7 +289,7 @@ video {
   display: inline;
   font-style: italic;
   font-weight: 400;
-  padding: .25em;
+  padding: 0.25em;
 }
 
 // Padding for inline highlights. See https://codepen.io/hotmeteor/pen/ibvJs
@@ -309,8 +309,8 @@ b {
 
 blockquote {
   p {
-    @include ms-respond(font-size, .5);
-    border-left: .25em solid $blockquote-border;
+    @include ms-respond(font-size, 0.5);
+    border-left: 0.25em solid $blockquote-border;
     color: $blockquote-text;
     font-style: italic;
     font-weight: 500;
@@ -320,8 +320,6 @@ blockquote {
     // strong {
     //   font-weight: 700;
     // }
-
-
   }
 }
 
@@ -379,9 +377,8 @@ ul {
   position: relative;
 
   li {
-
     &::before {
-      content: '–';
+      content: "–";
       font-family: $sans-font;
       font-weight: 300;
       left: 0;
@@ -402,11 +399,11 @@ ol {
     margin-bottom: 1px;
 
     &::before {
-      content: counter(item, decimal-leading-zero) '.';
+      content: counter(item, decimal-leading-zero) ".";
       font-family: $sans-font;
       font-size: ms(-2);
       margin-right: 10px;
-     }
+    }
   }
 }
 
@@ -420,14 +417,14 @@ ol {
   width: 90%;
 
   h1 {
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
     margin-left: -1px;
   }
 }
 
 .remove-btm-margin {
   font-style: normal;
-  margin-bottom: vr(.2); // 1.5 baselines (base font size * line-height)
+  margin-bottom: vr(0.2); // 1.5 baselines (base font size * line-height)
 }
 
 .subheader-margin {
@@ -438,7 +435,7 @@ ol {
 hr {
   background-color: $blockquote-border;
   border: 0;
-  height: .25em;
+  height: 0.25em;
   margin: 0 20px 20px 0;
   width: 8%;
 }

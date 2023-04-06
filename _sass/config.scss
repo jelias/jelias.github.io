@@ -1,5 +1,5 @@
 // fonts
-$sans-font:    Chivo, Helvetica, sans-serif;
+$sans-font: Recursive, Chivo, Helvetica, sans-serif;
 $serif-font: Spectral, Times, serif;
 
 // main colors
@@ -15,7 +15,6 @@ $link-hover: #3e69c4;
 $blockquote-text: #6e6e6e;
 $blockquote-border: $lighter-gray;
 
-
 // columns
 $main-column: 43.75rem;
 $wide-column: 65em;
@@ -23,17 +22,23 @@ $wide-column: 65em;
 // modular scale setup
 
 $modularscale: (
-  base: 1.188em, // 19px = 1.188em?
-  ratio: 1.1321, // 40@6
-  40em: ( // small screens
-    base: 1em,
-    ratio: 1.1321,
-  ),
-  52em: ( // medium screens
+  base: 1.188em,
+  // 19px = 1.188em?
+  ratio: 1.1321,
+  // 40@6
+  40em:
+    (
+      // small screens
+      base: 1em,
+      ratio: 1.1321,
+    ),
+  52em: (
+    // medium screens
     base: 1.188em,
     ratio: 1.1321,
   ),
-  64em: ( // large screens
+  64em: (
+    // large screens
     base: 1.188em,
     ratio: 1.1321,
   ),
@@ -43,29 +48,66 @@ $modularscale: (
 
 $breakpoints: (
   small: 40em,
-  large: 64em
+  large: 64em,
 );
 
 $typi: (
   base: (
-    null: (ms(0), 2),
-    small: (ms(0), 1.875),
-    large: (ms(0), 2)
-  )
+    null: (
+      ms(0),
+      2,
+    ),
+    small: (
+      ms(0),
+      1.875,
+    ),
+    large: (
+      ms(0),
+      2,
+    ),
+  ),
 );
 
 $z-layers: (
-  'top':         100,
-  'above':       50,
-  'default':     1,
-  'below':       -50,
-  'bottom':      -100
+  "top": 100,
+  "above": 50,
+  "default": 1,
+  "below": -50,
+  "bottom": -100,
 );
 
 // Media Querries
 
 $breakpoints: (
-  'phone': 320px,
-  'tablet': 768px,
-  'desktop': 1024px
+  "phone": 320px,
+  "tablet": 768px,
+  "desktop": 1024px,
 ) !default;
+
+:root {
+  --sans-font: #{$sans-font};
+  --serif-font: #{$serif-font};
+
+  --off-black: #{$off-black};
+  --off-white: #{$off-white};
+  --dark-gray: #{$dark-gray};
+  --light-gray: #{$light-gray};
+  --lighter-gray: #{$lighter-gray};
+  --lighter-gray: #{$lighter-gray};
+
+  --highligher-yellow: #{$highligher-yellow};
+  --link-hover: #{$link-hover};
+
+  $blockquote-text: #6e6e6e;
+  $blockquote-border: $lighter-gray;
+
+  --background-color: var(--off-white);
+  --text-color: var(--off-black);
+
+  // @todo JE, maybe change these to primary color, secondary, etc
+}
+
+:root.dark-mode {
+  --background-color: var(--off-black);
+  --text-color: var(--off-white);
+}
