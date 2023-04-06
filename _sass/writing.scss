@@ -1,15 +1,15 @@
 .writing-heading {
   h3,
   span {
-    color: $light-gray;
+    color: var(--background-color);
   }
 }
 
 .writing {
   p {
-    color: $off-black;
+    color: var(--text-color);
   }
   del {
-    color: $light-gray;
+    color: var(--light-gray);
   }
 }

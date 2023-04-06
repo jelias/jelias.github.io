@@ -2,7 +2,7 @@
 
 // styles start
 
-@include scrollbar(0.95em, $off-black, $light-gray);
+@include scrollbar(0.95em, var(--background-color), var(--text-color));
 
 html {
   background-color: var(--background-color);
@@ -10,11 +10,9 @@ html {
 }
 
 body {
-  // background-color: $off-white;
   font-size: 16px;
 
   .border {
-    // background-color: $off-white;
     border: 3px solid var(--text-color);
     color: var(--text-color);
     margin: 25px;
@@ -25,7 +23,7 @@ body {
 }
 
 %boarder-elements {
-  background-color: $off-white;
+  background-color: var(--background-color);
   margin-left: 65px;
   margin-right: 65px;
   padding: 10px;
@@ -47,11 +45,11 @@ nav {
 }
 
 .active-nav {
-  border-bottom: $off-black solid 2px;
+  border-bottom: var(--text-color) solid 2px;
   text-decoration: none;
 
   &:hover {
-    color: $off-black;
+    color: var(--text-color);
   }
 }
 
@@ -66,7 +64,7 @@ nav {
 }
 
 %vertical-bar {
-  background-color: $off-white;
+  background-color: var(--background-color);
   // margin-left: 65px;
   // margin-right: 65px;
   // margin-top: 480px;
@@ -146,7 +144,7 @@ footer {
   z-index: z("below");
 
   img {
-    background-color: $off-white;
+    background-color: var(--background-color);
     bottom: 0;
     display: flex;
     left: 0;
@@ -169,7 +167,7 @@ footer {
   z-index: z("below");
 
   img {
-    background-color: $off-white;
+    background-color: var(--background-color);
     bottom: 0;
     left: 0;
     max-height: 100%;
@@ -190,7 +188,7 @@ footer {
 // headings
 %heading-type {
   @include ms-respond(margin-bottom, 1.2);
-  color: $off-black;
+  color: var(--text-color);
   font-family: $sans-font;
   font-weight: 400;
   letter-spacing: 1.4px;
@@ -285,7 +283,7 @@ video {
 }
 
 .quote {
-  background-color: $highligher-yellow;
+  background-color: var(--highlighter-yellow);
   display: inline;
   font-style: italic;
   font-weight: 400;
@@ -297,8 +295,8 @@ video {
 //   // position: relative;
 //   left: $title-pad;
 //   padding-left: 0;
-//   box-shadow: $title-pad 0 0 $highligher-yellow,
-//               $title-pad*-1 0 0 $highligher-yellow;
+//   box-shadow: $title-pad 0 0 $highlighter-yellow,
+//               $title-pad*-1 0 0 $highlighter-yellow;
 //
 // }
 
@@ -310,8 +308,8 @@ b {
 blockquote {
   p {
     @include ms-respond(font-size, 0.5);
-    border-left: 0.25em solid $blockquote-border;
-    color: $blockquote-text;
+    border-left: 0.25em solid var(--blockquote-border);
+    color: var(--blockquote-text);
     font-style: italic;
     font-weight: 500;
     line-height: 36px;
@@ -335,7 +333,7 @@ caption {
 }
 
 a {
-  color: $dark-gray;
+  color: var(--text-color);
 
   &:hover {
     color: $link-hover;
@@ -352,7 +350,7 @@ a {
 
 .new-thought {
   @extend %thought-bullets;
-  color: $off-black;
+  color: var(--text-color);
 }
 
 .connected-thought {
@@ -433,7 +431,7 @@ ol {
 }
 
 hr {
-  background-color: $blockquote-border;
+  background-color: var(--blockquote-border);
   border: 0;
   height: 0.25em;
   margin: 0 20px 20px 0;

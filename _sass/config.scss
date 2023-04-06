@@ -5,15 +5,15 @@ $serif-font: Spectral, Times, serif;
 // main colors
 $off-black: #2d2d2d;
 $off-white: #f8f8f8;
+$medium-gray: #6e6e6e;
 $dark-gray: #778189;
 $light-gray: #c7c8ca;
 $lighter-gray: #e3e3e3;
 // other colors
-$highligher-yellow: #fefbd8;
+$highligther-yellow: #fefbd8;
+$light-yellow: #fefbd8;
+$dark-yellow: #626043;
 $link-hover: #3e69c4;
-
-$blockquote-text: #6e6e6e;
-$blockquote-border: $lighter-gray;
 
 // columns
 $main-column: 43.75rem;
@@ -95,19 +95,25 @@ $breakpoints: (
   --lighter-gray: #{$lighter-gray};
   --lighter-gray: #{$lighter-gray};
 
-  --highligher-yellow: #{$highligher-yellow};
+  --background-color: #{$off-white};
+  --text-color: #{$off-white};
+
+  --blockquote-text: $medium-gray;
+  --blockquote-border: #{$lighter-gray};
   --link-hover: #{$link-hover};
+  --highlighter-yellow: #{$light-yellow};
 
-  $blockquote-text: #6e6e6e;
-  $blockquote-border: $lighter-gray;
-
-  --background-color: var(--off-white);
-  --text-color: var(--off-black);
-
-  // @todo JE, maybe change these to primary color, secondary, etc
+  --shadow-color: rgba(136, 136, 136, 0.1);
 }
 
 :root.dark-mode {
-  --background-color: var(--off-black);
-  --text-color: var(--off-white);
+  --background-color: #{$off-black};
+  --text-color: #{$off-white};
+
+  --blockquote-text: #{$lighter-gray};
+  --blockquote-border: #{$lighter-gray};
+  --link-hover: #{$link-hover};
+  --highlighter-yellow: #{$dark-yellow};
+
+  --shadow-color: rgba(98, 98, 98, 0.1);
 }
