@@ -22,98 +22,99 @@ $wide-column: 65em;
 // modular scale setup
 
 $modularscale: (
-  base: 1.188em,
-  // 19px = 1.188em?
-  ratio: 1.1321,
-  // 40@6
-  40em:
-    (
-      // small screens
-      base: 1em,
-      ratio: 1.1321,
-    ),
-  52em: (
-    // medium screens
-    base: 1.188em,
-    ratio: 1.1321,
-  ),
-  64em: (
-    // large screens
-    base: 1.188em,
-    ratio: 1.1321,
-  ),
+	base: 1.188em,
+	// 19px = 1.188em?
+	ratio: 1.1321,
+	// 40@6
+	40em:
+		(
+			// small screens
+			base: 1em,
+			ratio: 1.1321,
+		),
+	52em: (
+		// medium screens
+		base: 1.188em,
+		ratio: 1.1321,
+	),
+	64em: (
+		// large screens
+		base: 1.188em,
+		ratio: 1.1321,
+	),
 );
 
 // typi setup
 
 $breakpoints: (
-  small: 40em,
-  large: 64em,
+	small: 40em,
+	large: 64em,
 );
 
 $typi: (
-  base: (
-    null: (
-      ms(0),
-      2,
-    ),
-    small: (
-      ms(0),
-      1.875,
-    ),
-    large: (
-      ms(0),
-      2,
-    ),
-  ),
+	base: (
+		null: (
+			ms(0),
+			2,
+		),
+		small: (
+			ms(0),
+			1.875,
+		),
+		large: (
+			ms(0),
+			2,
+		),
+	),
 );
 
 $z-layers: (
-  "top": 100,
-  "above": 50,
-  "default": 1,
-  "below": -50,
-  "bottom": -100,
+	'top': 100,
+	'above': 50,
+	'default': 1,
+	'below': -50,
+	'bottom': -100,
 );
 
 // Media Querries
 
 $breakpoints: (
-  "phone": 320px,
-  "tablet": 768px,
-  "desktop": 1024px,
+	'phone': 320px,
+	'tablet': 768px,
+	'desktop': 1024px,
 ) !default;
 
 :root {
-  --sans-font: #{$sans-font};
-  --serif-font: #{$serif-font};
+	--sans-font: #{$sans-font};
+	--serif-font: #{$serif-font};
 
-  --off-black: #{$off-black};
-  --off-white: #{$off-white};
-  --dark-gray: #{$dark-gray};
-  --light-gray: #{$light-gray};
-  --lighter-gray: #{$lighter-gray};
-  --lighter-gray: #{$lighter-gray};
+	--off-black: #{$off-black};
+	--off-white: #{$off-white};
+	--dark-gray: #{$dark-gray};
+	--light-gray: #{$light-gray};
+	--lighter-gray: #{$lighter-gray};
 
-  --background-color: #{$off-white};
-  --text-color: #{$off-white};
+	// ---
 
-  --blockquote-text: $medium-gray;
-  --blockquote-border: #{$lighter-gray};
-  --link-hover: #{$link-hover};
-  --highlighter-yellow: #{$light-yellow};
+	--background-color: #{$off-white};
+	--text-color: #{$off-black};
 
-  --shadow-color: rgba(136, 136, 136, 0.1);
+	--blockquote-text: $medium-gray;
+	--blockquote-border: #{$lighter-gray};
+	--link-hover: #{$link-hover};
+	--highlighter-yellow: #{$light-yellow};
+
+	--shadow-color: rgba(136, 136, 136, 0.1);
 }
 
 :root.dark-mode {
-  --background-color: #{$off-black};
-  --text-color: #{$off-white};
+	--background-color: #{$off-black};
+	--text-color: #{$off-white};
 
-  --blockquote-text: #{$lighter-gray};
-  --blockquote-border: #{$lighter-gray};
-  --link-hover: #{$link-hover};
-  --highlighter-yellow: #{$dark-yellow};
+	--blockquote-text: #{$lighter-gray};
+	--blockquote-border: #{$lighter-gray};
+	--link-hover: #{$link-hover};
+	--highlighter-yellow: #{$dark-yellow};
 
-  --shadow-color: rgba(98, 98, 98, 0.1);
+	--shadow-color: rgba(98, 98, 98, 0.1);
 }
