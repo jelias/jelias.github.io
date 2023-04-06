@@ -1,119 +1,116 @@
 // /YYYY.md page Sass:
 
 .journal-day {
-  @include ms-respond(font-size, -1);
-  font-family: $sans-font;
-  font-style: normal;
+	@include ms-respond(font-size, -1);
+	font-family: $sans-font;
+	font-style: normal;
 
-  &::after {
-    content: '.' attr(data-tooltip) '\A' attr(data-tooltip);
-    white-space: pre;
-      }
+	&::after {
+		content: '.' attr(data-tooltip) '\A'attr(data-tooltip);
+		white-space: pre;
+	}
 }
 
 .journal-month {
-  @extend %heading-type;
-  // @include ms-respond(font-size, -2);
-  font-size: ms(-7);
-  font-style: normal;
-  letter-spacing: .15em;
-  text-transform: uppercase;
+	@extend %heading-type;
+	// @include ms-respond(font-size, -2);
+	font-size: ms(-7);
+	font-style: normal;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
 }
 
 .journal {
-  h2 {
-    @extend %heading-type;
-    @include ms-respond(font-size, 3);
-    margin-bottom: vr(.75);
-    margin-top: vr(2);
-  }
+	h2 {
+		@extend %heading-type;
+		@include ms-respond(font-size, 3);
+		margin-bottom: vr(0.75);
+		margin-top: vr(2);
+	}
 }
 
 .journal-top-fix {
-  margin-bottom: vr(-1);
+	margin-bottom: vr(-1);
 }
 
 .prev-next-journal {
-  @extend %heading-type;
-  @include center;
-  @include ms-respond(font-size, -1);
-  padding-bottom: 2em;
-  padding-top: 4.5em;
-  text-decoration: none;
-  width: fit-content;
+	@extend %heading-type;
+	@include center;
+	@include ms-respond(font-size, -1);
+	padding-bottom: 2em;
+	padding-top: 4.5em;
+	text-decoration: none;
+	width: fit-content;
 
-  a {
-    color: $off-black;
-    text-decoration: none;
-  }
+	a {
+		color: $off-black;
+		text-decoration: none;
+	}
 }
 
 @media (max-width: 900px) {
-  .mobile-journal {
+	.mobile-journal {
+		.border {
+			border: 0;
+			display: inherit;
+		}
 
-    .border {
-      border: 0;
-      display: inherit;
-    }
-
-    nav {
-      display: none;
-    }
-  }
+		nav {
+			display: none;
+		}
+	}
 }
-
 
 // /journal index page Sass:
 .journal-list {
-  .list-item {
-    @include ms-respond(margin-bottom, 7.5);
+	.list-item {
+		@include ms-respond(margin-bottom, 7.5);
 
-    p {
-      color: $dark-gray;
-    }
-  }
+		p {
+			color: var(--text-color); // @todo JE, this should actually be secondary color?
+		}
+	}
 
-  h5 {
-    @include ms-respond(margin-bottom, -6);
-  }
+	h5 {
+		@include ms-respond(margin-bottom, -6);
+	}
 
-  a {
-    // color: $off-black;
-    position: relative;
-    text-decoration: none;
+	a {
+		// color: $off-black;
+		position: relative;
+		text-decoration: none;
 
-    &:hover {
-      color: $link-hover;
+		&:hover {
+			color: $link-hover;
 
-      &::after {
-        background: $link-hover;
-        left: 0;
-        width: 100%;
-      }
-    }
+			&::after {
+				background: $link-hover;
+				left: 0;
+				width: 100%;
+			}
+		}
 
-    &::after {
-      -webkit-transition: width .35s ease;
-      background: $link-hover;
-      content: '';
-      display: block;
-      height: 3px;
-      margin-top: 3px;
-      position: absolute;
-      right: 0;
-      transition: width .35s ease;
-      width: 0;
-    }
-  }
+		&::after {
+			-webkit-transition: width 0.35s ease;
+			background: $link-hover;
+			content: '';
+			display: block;
+			height: 3px;
+			margin-top: 3px;
+			position: absolute;
+			right: 0;
+			transition: width 0.35s ease;
+			width: 0;
+		}
+	}
 
-  .text {
+	.text {
+		a {
+			color: var(--text-color);
 
-    a {
-      color: $dark-gray;
-
-      &:hover {
-        color: $link-hover;
-      }
-    }
-  }
+			&:hover {
+				color: $link-hover;
+			}
+		}
+	}
 }
