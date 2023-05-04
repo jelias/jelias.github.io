@@ -13,7 +13,6 @@ const runCheckColorMode = (fn) => {
 runCheckColorMode((isDarkMode) => {
   if (isDarkMode) {
     document.documentElement.classList.add("dark-mode");
-    console.log("dark mode!");
   } else {
     document.documentElement.classList.remove("dark-mode");
   }

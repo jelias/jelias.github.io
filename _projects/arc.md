@@ -10,25 +10,30 @@ order: 1
 ---
 {% include captures.md %}
 
-{{ main }}
+<!-- {{ main }}
 **Overview:** \\
-
 
 **Context:**\\
 ~~9 Weeks, Design Methods Course, University of Washington~~
 
 **What I did:**\\
 ~~Research Lead, Product Brainstorming, Poster and Presentation Design~~
-{{end}}
+{{end}} -->
 
 {{wide}}
 
 {{end}}
 {{main}}
 
-{{end}}
-{{wide}}
+![arc.jelias.me](/assets/images/projects/arc/landing.png)/
 
+[imag](/assets/images/projects/arc)
+
+![imag](/assets/images/projects/arc/100.png)
+
+{{end}}
+{{full}}
+![arc.jelias.me](/assets/images/projects/arc/flow.png)
 
 {{end}}
 
@@ -63,7 +68,7 @@ order: 1
 {{end}}
 
 {{main}}
-####
+<!-- #### -->
 {{end}}
 
 {{wide}}
