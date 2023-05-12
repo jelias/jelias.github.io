@@ -50,7 +50,7 @@ Then we looked at the raw text of a bill on Congress.gov and realized how import
 {{end}}
 
 {{near-full}}
-![Wide-Research](/assets/images/projects/voicebox/Wide-Research.png)
+![Wide-Research](/assets/images/projects/voicebox/Wide-Research.png){:.no-shadow}
 
 {{end}}
 
@@ -68,7 +68,7 @@ Then we looked at the raw text of a bill on Congress.gov and realized how import
 We decided to focus on millennials who are passionate about the political process, but are not necessarily sure where to start. After we laid out who we were designing for, I helped draw out the information architecture of the app. **The IA was a vital step in talking through the features and core moments of Voicebox as a team.** 
 {{end}}
 
-![IA](/assets/images/projects/voicebox/Wide-IA.png)
+![IA](/assets/images/projects/voicebox/Wide-IA.png){:.no-shadow}
 
 
 {{end}}
@@ -81,7 +81,7 @@ Finally, our insights from user testing helped us that focus approach to reducin
 {{end}}
 
 {{full}}
-![Wide-Art](/assets/images/projects/voicebox/Wide-Art.png)
+![Wide-Art](/assets/images/projects/voicebox/Wide-Art.png){:.no-shadow}
 
 {{main}}
 {::comment}

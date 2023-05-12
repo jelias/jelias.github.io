@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   {% include head.html %}
   <body>
     <div class="border" id="main-page">
@@ -13,7 +13,7 @@
         {{ page.js }}
       </script>
     {% endif %} {% if page.js-file %}
-      <script src="{{ page.js-file }}"></script>
+      <script src="{{ page.js-file }}" defer></script>
     {% endif %}
 
     <script src="/assets/js/main.js"></script>

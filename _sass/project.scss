@@ -1,3 +1,25 @@
+.project {
+  img {
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.1));
+
+    &.no-shadow {
+      filter: none;
+    }
+  }
+
+  .full-width + .main-column p.caption {
+    margin-top: vr(-2.6);
+  }
+
+  p + h6 {
+    margin-top: vr(3);
+  }
+
+  .caption {
+    margin-top: vr(-2.6);
+  }
+}
+
 .font-base-fix {
   font-size: 16px;
 }

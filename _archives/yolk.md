@@ -21,14 +21,14 @@ In a diverse team of three, we worked to explore the future of transportation sy
  Experience Design, User Research, Product Thinking, Brainstorming/Ideation, and Branding
 {{end}}
 {{near-full}}
-![Ad campaign for the imagined future](/assets/images/projects/yolk/posters.png)
+![Ad campaign for the imagined future](/assets/images/projects/yolk/posters.png){:.no-shadow}
 {{end}}
 
 {{wide}}
 
 ![Full scale biking poster](/assets/images/projects/yolk/bike-poster.png)
 
-![The team!](/assets/images/projects/yolk/group-shot.png)
+![The team!](/assets/images/projects/yolk/group-shot.png){:.no-shadow}
 
 {{end}}
 

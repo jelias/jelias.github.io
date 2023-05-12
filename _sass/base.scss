@@ -152,8 +152,8 @@ footer {
     margin-right: auto;
     max-height: 100%;
     max-width: 85%;
-    padding-bottom: 35px;
-    padding-top: 35px;
+    padding-bottom: 20px;
+    padding-top: 20px;
     position: relative;
     right: 0;
     top: 0;
@@ -172,8 +172,8 @@ footer {
     left: 0;
     max-height: 100%;
     max-width: 100%;
-    padding-bottom: 35px;
-    padding-top: 35px;
+    padding-bottom: 20px;
+    padding-top: 20px;
     position: relative;
     right: 0;
     top: 0;
@@ -183,6 +183,10 @@ footer {
   video {
     z-index: z("below");
   }
+}
+
+h6 + p img {
+  margin-top: 0;
 }
 
 // headings
@@ -260,7 +264,7 @@ p {
   @include ms-respond(margin-bottom, 1.2);
   font-family: $serif-font;
   font-size: ms(0);
-  line-height: 1.875em;
+  line-height: 1.675em;
   margin-bottom: vr(1);
 }
 
@@ -273,13 +277,17 @@ img {
   margin-top: vr(2);
 }
 
+img + img {
+  margin-top: 0;
+}
+
 video {
   margin-bottom: vr(2);
   margin-top: vr(2);
 }
 
 .shadow {
-  box-shadow: 0 0 20px 10px rgba(136, 136, 136, 0.1);
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.1));
 }
 
 .quote {
@@ -325,11 +333,12 @@ blockquote {
 caption {
   font-family: $sans-font;
   font-size: 15px;
-  font-style: normal;
+  font-style: italic;
   font-weight: 300;
-  line-height: 18px;
+  line-height: 20px;
   margin-bottom: vr(1.4);
   margin-top: vr(-1.6);
+  opacity: 0.65;
 }
 
 a {

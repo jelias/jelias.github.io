@@ -27,7 +27,7 @@ User Research, Sensing and Computer Logic
 </div>
 
 
-![Final prototype](/assets/images/projects/table/finished-product.png)
+![Final prototype](/assets/images/projects/table/finished-product.png){:.no-shadow}
 {{end}}
 
 {{main}}
@@ -36,7 +36,7 @@ Food is at the heart of culture, as friends and family share life around the tab
 {{end}}
 {{wide}}
 
-![og-sketch](/assets/images/projects/table/og-sketch.png)
+![og-sketch](/assets/images/projects/table/og-sketch.png){:.no-shadow}
 {{end}}
 
 {{main}}
@@ -46,7 +46,7 @@ We decided to keep our idea simple, and focused on creating a connection through
 
 {{end}}
 {{wide}}
-![polaroid](/assets/images/projects/table/polaroid.png)
+![polaroid](/assets/images/projects/table/polaroid.png){:.no-shadow}
 {{end}}
 
 {{main}}
@@ -55,7 +55,7 @@ Based on our observations and experiences, we discussed how a memorable moment m
 {{end}}
 
 {{wide}}
-![protoyping](/assets/images/projects/table/protoyping.png)
+![protoyping](/assets/images/projects/table/protoyping.png){:.no-shadow}
 
 {{end}}
 {{main}}
@@ -65,7 +65,7 @@ As an interaction designer drawn to how people interact with one another, I work
 {{full}}
 
 
-![final-wide](/assets/images/projects/table/final-wide.png)
+![final-wide](/assets/images/projects/table/final-wide.png){:.no-shadow}
 {{end}}
 {{wide}}
 
@@ -77,5 +77,5 @@ Working with limited knowledge of electrical engineering and programming, I am q
 {{end}}
 
 {{wide}}
-![tim and jacob final](/assets/images/projects/table/team-polaroid.png)
+![tim and jacob final](/assets/images/projects/table/team-polaroid.png){:.no-shadow}
 {{end}}
