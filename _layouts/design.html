@@ -41,7 +41,10 @@ layout: default
       {% assign projects = site.projects | sort: 'order' %}
       {% assign projects = mid %}
       {% for project in projects limit: 6 %}
-      <img src="{{ project.thumbnail }}" id="{{ project.order }}" class="right-image" alt="">
+        {% if project.hidden %}
+        {% else %}
+          <img src="{{ project.thumbnail }}" id="{{ project.order }}" class="right-image" alt="">
+        {% endif %}
       {% endfor %}
     </div>
 </div>
