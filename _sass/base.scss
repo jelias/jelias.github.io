@@ -2,21 +2,19 @@
 
 // styles start
 
-@include scrollbar(.95em, $off-black, $light-gray);
+@include scrollbar(0.95em, var(--background-color), var(--text-color));
 
 html {
-  background-color: $off-white;
+  background-color: var(--background-color);
   overflow-x: hidden;
 }
 
 body {
-  // background-color: $off-white;
   font-size: 16px;
 
   .border {
-    // background-color: $off-white;
-    border: 3px solid $off-black;
-    color: $off-black;
+    border: 3px solid var(--text-color);
+    color: var(--text-color);
     margin: 25px;
     padding-left: 20px;
     padding-right: 20px;
@@ -25,7 +23,7 @@ body {
 }
 
 %boarder-elements {
-  background-color: $off-white;
+  background-color: var(--background-color);
   margin-left: 65px;
   margin-right: 65px;
   padding: 10px;
@@ -47,17 +45,17 @@ nav {
 }
 
 .active-nav {
-  border-bottom: $off-black solid 2px;
+  border-bottom: var(--text-color) solid 2px;
   text-decoration: none;
 
   &:hover {
-    color: $off-black;
+    color: var(--text-color);
   }
 }
 
 %vertical-text {
   @extend %heading-type;
-  font-size: ms(-.8);
+  font-size: ms(-0.8);
   text-decoration: none;
   text-transform: uppercase;
   width: fit-content;
@@ -66,7 +64,7 @@ nav {
 }
 
 %vertical-bar {
-  background-color: $off-white;
+  background-color: var(--background-color);
   // margin-left: 65px;
   // margin-right: 65px;
   // margin-top: 480px;
@@ -77,8 +75,8 @@ nav {
 }
 
 // .vertical-nav {
-  // position: sticky;
-  // top: 0;
+// position: sticky;
+// top: 0;
 // }
 
 .vertical-left {
@@ -143,10 +141,10 @@ footer {
 .near-full-width {
   margin-left: -90px;
   margin-right: -90px;
-  z-index: z('below');
+  z-index: z("below");
 
   img {
-    background-color: $off-white;
+    background-color: var(--background-color);
     bottom: 0;
     display: flex;
     left: 0;
@@ -154,8 +152,8 @@ footer {
     margin-right: auto;
     max-height: 100%;
     max-width: 85%;
-    padding-bottom: 35px;
-    padding-top: 35px;
+    padding-bottom: 20px;
+    padding-top: 20px;
     position: relative;
     right: 0;
     top: 0;
@@ -166,16 +164,16 @@ footer {
 .full-width {
   margin-left: -90px;
   margin-right: -90px;
-  z-index: z('below');
+  z-index: z("below");
 
   img {
-    background-color: $off-white;
+    background-color: var(--background-color);
     bottom: 0;
     left: 0;
     max-height: 100%;
     max-width: 100%;
-    padding-bottom: 35px;
-    padding-top: 35px;
+    padding-bottom: 20px;
+    padding-top: 20px;
     position: relative;
     right: 0;
     top: 0;
@@ -183,14 +181,18 @@ footer {
   }
 
   video {
-    z-index: z('below');
+    z-index: z("below");
   }
+}
+
+h6 + p img {
+  margin-top: 0;
 }
 
 // headings
 %heading-type {
   @include ms-respond(margin-bottom, 1.2);
-  color: $off-black;
+  color: var(--text-color);
   font-family: $sans-font;
   font-weight: 400;
   letter-spacing: 1.4px;
@@ -262,7 +264,7 @@ p {
   @include ms-respond(margin-bottom, 1.2);
   font-family: $serif-font;
   font-size: ms(0);
-  line-height: 1.875em;
+  line-height: 1.675em;
   margin-bottom: vr(1);
 }
 
@@ -275,21 +277,25 @@ img {
   margin-top: vr(2);
 }
 
+img + img {
+  margin-top: 0;
+}
+
 video {
   margin-bottom: vr(2);
   margin-top: vr(2);
 }
 
 .shadow {
-  box-shadow: 0 0 20px 10px rgba(136, 136, 136, .1);
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.1));
 }
 
 .quote {
-  background-color: $highligher-yellow;
+  background-color: var(--highlighter-yellow);
   display: inline;
   font-style: italic;
   font-weight: 400;
-  padding: .25em;
+  padding: 0.25em;
 }
 
 // Padding for inline highlights. See https://codepen.io/hotmeteor/pen/ibvJs
@@ -297,8 +303,8 @@ video {
 //   // position: relative;
 //   left: $title-pad;
 //   padding-left: 0;
-//   box-shadow: $title-pad 0 0 $highligher-yellow,
-//               $title-pad*-1 0 0 $highligher-yellow;
+//   box-shadow: $title-pad 0 0 $highlighter-yellow,
+//               $title-pad*-1 0 0 $highlighter-yellow;
 //
 // }
 
@@ -309,9 +315,9 @@ b {
 
 blockquote {
   p {
-    @include ms-respond(font-size, .5);
-    border-left: .25em solid $blockquote-border;
-    color: $blockquote-text;
+    @include ms-respond(font-size, 0.5);
+    border-left: 0.25em solid var(--blockquote-border);
+    color: var(--blockquote-text);
     font-style: italic;
     font-weight: 500;
     line-height: 36px;
@@ -320,8 +326,6 @@ blockquote {
     // strong {
     //   font-weight: 700;
     // }
-
-
   }
 }
 
@@ -329,15 +333,16 @@ blockquote {
 caption {
   font-family: $sans-font;
   font-size: 15px;
-  font-style: normal;
+  font-style: italic;
   font-weight: 300;
-  line-height: 18px;
+  line-height: 20px;
   margin-bottom: vr(1.4);
   margin-top: vr(-1.6);
+  opacity: 0.65;
 }
 
 a {
-  color: $dark-gray;
+  color: var(--text-color);
 
   &:hover {
     color: $link-hover;
@@ -354,7 +359,7 @@ a {
 
 .new-thought {
   @extend %thought-bullets;
-  color: $off-black;
+  color: var(--text-color);
 }
 
 .connected-thought {
@@ -379,9 +384,8 @@ ul {
   position: relative;
 
   li {
-
     &::before {
-      content: '–';
+      content: "–";
       font-family: $sans-font;
       font-weight: 300;
       left: 0;
@@ -402,11 +406,11 @@ ol {
     margin-bottom: 1px;
 
     &::before {
-      content: counter(item, decimal-leading-zero) '.';
+      content: counter(item, decimal-leading-zero) ".";
       font-family: $sans-font;
       font-size: ms(-2);
       margin-right: 10px;
-     }
+    }
   }
 }
 
@@ -420,14 +424,14 @@ ol {
   width: 90%;
 
   h1 {
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
     margin-left: -1px;
   }
 }
 
 .remove-btm-margin {
   font-style: normal;
-  margin-bottom: vr(.2); // 1.5 baselines (base font size * line-height)
+  margin-bottom: vr(0.2); // 1.5 baselines (base font size * line-height)
 }
 
 .subheader-margin {
@@ -436,9 +440,9 @@ ol {
 }
 
 hr {
-  background-color: $blockquote-border;
+  background-color: var(--blockquote-border);
   border: 0;
-  height: .25em;
+  height: 0.25em;
   margin: 0 20px 20px 0;
   width: 8%;
 }

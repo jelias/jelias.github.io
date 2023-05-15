@@ -21,9 +21,9 @@ In a diverse team of four, we worked to incentivize housing construction in dens
  Experience Design, User Research, Product Thinking, Brainstorming/Ideation, and Branding
 {{end}}
 {{wide}}
-![Brainstorming and User Journey](/assets/images/projects/motus/brainstorm.png)
-![The prototype in action](/assets/images/projects/motus/card-tap.png)
-![Close up and the team](/assets/images/projects/motus/close%20up%20+%20team.png)
+![Brainstorming and User Journey](/assets/images/projects/motus/brainstorm.png){:.no-shadow}
+![The prototype in action](/assets/images/projects/motus/card-tap.png){:.no-shadow}
+![Close up and the team](/assets/images/projects/motus/close%20up%20+%20team.png){:.no-shadow}
 
 {{end}}
 

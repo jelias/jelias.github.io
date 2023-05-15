@@ -8,8 +8,7 @@ photoswipe: false
 
 I'm currently building the universe of short film at [Shortverse](https://shortverse.com){:target="_blank"}, a new platform and community for filmmakers. Past work includes [a collaborative installation in AI and generative filmmaking](https://arc.jelias.me){:target="_blank"}, and collaborations with Google, IDEO, and Intuit.
 
-I thrive on breaking down complex problems into more tangible experiences.\\
-Select projects [available upon request](mailto&#58;&#106;&#64;%6Ae%6Cia%7&#51;&#46;%6De?subject=Howdy).
+If you're interested breaking down complex problems into more tangible experiences, [let's chat](mailto&#58;&#106;&#64;%6Ae%6Cia%7&#51;&#46;%6De?subject=Howdy).
 
 
 

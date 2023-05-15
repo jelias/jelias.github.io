@@ -8,7 +8,7 @@
     @include ms-respond(margin-bottom, 5);
 
     p {
-      color: $dark-gray;
+      color: var(--text-color);
     }
   }
 
@@ -22,36 +22,35 @@
     text-decoration: none;
 
     &:hover {
-      color: $link-hover;
+      color: var(--link-hover);
 
       &::after {
-        background: $link-hover;
+        background: var(--link-hover);
         left: 0;
         width: 100%;
       }
     }
 
     &::after {
-      -webkit-transition: width .35s ease;
-      background: $link-hover;
-      content: '';
+      -webkit-transition: width 0.35s ease;
+      background: var(--link-hover);
+      content: "";
       display: block;
       height: 3px;
       margin-top: 3px;
       position: absolute;
       right: 0;
-      transition: width .35s ease;
+      transition: width 0.35s ease;
       width: 0;
     }
   }
 
   .text {
-
     a {
-      color: $dark-gray;
+      color: var(--text-color);
 
       &:hover {
-        color: $link-hover;
+        color: var(--link-hover);
       }
     }
   }

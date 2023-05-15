@@ -6,7 +6,7 @@ tagline: exploring the intersection of the humanities and sciences to connect in
 design-thumb: /assets/images/cards/design.png
 photo-thumb: /assets/images/cards/photo.jpg
 photo: /assets/images/me-may-2020.png
-caption: <a href="https://www.uwdesignshow.com/apart-together/disposable-camera-connection">Shot on Film</a>, circa May 2020
+caption: <a href="https://2020.uwdesignshow.com/">Shot on Film</a>, circa May 2020
 js-file: /assets/js/arrow-fade.js
 ---
 

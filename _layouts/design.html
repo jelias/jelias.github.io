@@ -11,8 +11,8 @@ layout: default
     {{content}}
   </div>
 
-  <section class="arrow">
-  </section>
+  <!-- <section class="arrow">
+  </section> -->
 </div>
 
 <div class="wide-column">
@@ -27,6 +27,7 @@ layout: default
             <li>{{ project.title }} <span class="line Archives-li"></span></li>
             <!-- <span class="one-liner"> {{project.one-liner}} </span> -->
           </a>
+        {% elsif project.hidden %}
         {% else %}
           <a href="{{ project.url }}" onmouseover = "switchImage({{project.order}})" id="{{project.order}}_order" class="project-link">
             <li>_0{{project.order}} {{ project.title }} <span class="line"></span></li>
@@ -40,7 +41,7 @@ layout: default
       {% assign projects = site.projects | sort: 'order' %}
       {% assign projects = mid %}
       {% for project in projects limit: 6 %}
-      <img src="{{ project.thumbnail }}" id="{{ project.order }}" class = "right-image shadow" alt="">
+      <img src="{{ project.thumbnail }}" id="{{ project.order }}" class="right-image" alt="">
       {% endfor %}
     </div>
 </div>
@@ -49,7 +50,6 @@ layout: default
   <h6>_Weekend Projects</h6>
 
   <div class="gallery" itemscope itemtype="http://schema.org/ImageGallery">
-
     {% for image in site.static_files reversed %}
       {% if image.path contains 'assets/images/designs' %}
       <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
