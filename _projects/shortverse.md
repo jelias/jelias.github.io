@@ -2,7 +2,7 @@
 layout: project
 title: Shortverse
 one-liner: The new path for filmmakers and the Universe of Short Film
-date: 2022-10-6
+date: 2022-10-06
 type: Interaction
 thumbnail: /assets/images/cards/shortverse.png
 order: 2
