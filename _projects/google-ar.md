@@ -6,6 +6,7 @@ date: 2019-08-23
 type: Interaction
 thumbnail: /assets/images/cards/google-ar.png
 order: 4
+hidden: true
 
 ---
 {% include captures.md %}
@@ -17,16 +18,6 @@ Led by Prof. Axel Roesler, a sponsored design project with Google LLC, Mountain 
 We began with a research question focused on how our interactions day to day could be the basis for an AR / VR motion library and framework.
 
 White Paper [available upon request](mailto&#58;&#106;&#64;%6Ae%6Cia%7&#51;&#46;%6De?subject=AR/VR White Paper).
-
-
-**Overview:** \\
-
-
-**Context:**\\
-~~9 Weeks, Design Methods Course, University of Washington~~
-
-**What I did:**\\
-~~Research Lead, Product Brainstorming, Poster and Presentation Design~~ -->
 {{end}}
 
 {{wide}}

@@ -11,60 +11,6 @@ order: 3
 {% include captures.md %}
 
 {{ main }}
-**Overview:** \\
-
-
-**Context:**\\
-~~9 Weeks, Design Methods Course, University of Washington~~
-
-**What I did:**\\
-~~Research Lead, Product Brainstorming, Poster and Presentation Design~~
-{{end}}
-
-{{wide}}
-
-{{end}}
-{{main}}
-
-{{end}}
-{{wide}}
-
-
-{{end}}
-
-{{main}}
-
-{{end}}
-
-{{wide}}
-
-{{end}}
-
-{{wide}}
-
-{{end}}
-
-{{main}}
-
-{{end}}
-
-
-{{main}}
-
-{{end}}
-
-{{full}}
-
-
-{{end}}
-
-{{main}}
-
-{{end}}
-
-{{main}}
-####
-{{end}}
 
 {{wide}}
 
