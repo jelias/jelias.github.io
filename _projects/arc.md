@@ -31,7 +31,6 @@ Arc is a installation that empowers users to generate films by collaborating wit
  -->
 {{end}}
 {{full}}
-<!-- @todo JE, on mobile these should be scrolling blocks :) -->
 ![arc.jelias.me](/assets/images/projects/arc/animations.png){:.no-shadow}
 {{end}}
 
