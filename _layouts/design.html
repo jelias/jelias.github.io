@@ -47,21 +47,5 @@ layout: default
         {% endif %}
       {% endfor %}
     </div>
-</div>
-
-<div class="explore">
-  <h6>_Weekend Projects</h6>
-
-  <div class="gallery" itemscope itemtype="http://schema.org/ImageGallery">
-    {% for image in site.static_files reversed %}
-      {% if image.path contains 'assets/images/designs' %}
-      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-          <a href="https://wsrv.nl/?url=jelias.me{{ site.baseurl }}{{ image.path }}&w=2000&h=2000&output=jpg&q=90" class="bigImage" itemprop="contentUrl" data-size="">
-              <img src="https://wsrv.nl/?url=jelias.me{{ site.baseurl }}{{ image.path }}&w=800&h=800&output=jpg&q=81" itemprop="thumbnail" alt="Dynamic image descriptions coming soon" />
-          </a>
-      </figure>
-      {% endif %}
-    {% endfor %}
   </div>
-</div>
 </div>
