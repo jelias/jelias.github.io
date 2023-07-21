@@ -6,20 +6,22 @@ layout: default
   <p>{{content}}</p>
 </div> -->
 
-<div class="wide-column">
-  <h3>_Writing</h3>
-</div>
+<div class="wide-column photo-grid">
+  <h3>_Photo</h3>
 
-<div class="main-column writing-list">
-  {% assign sorted-writing = site.writing | sort: "date" | reverse %}
-  {% for post in sorted-writing %}
-
-    <div class="list-item">
-      <h6><a href="{{ post.url }}">{{ post.title }}</a></h6>
-      <a href="{{ post.url }}">{{ post.excerpt }}</a>
-    </div>
-
-  {% endfor %}
+  <div class="gallery" itemscope itemtype="http://schema.org/ImageGallery">
+    {% for image in site.static_files reversed %}
+    {% if image.path contains 'assets/images/photos' %}
+    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <a href="https://wsrv.nl/?url=jelias.me{{ site.baseurl }}{{ image.path }}&w=2000&h=2000&output=jpg&q=90"
+        class="bigImage" itemprop="contentUrl" data-size="">
+        <img src="https://wsrv.nl/?url=jelias.me{{ site.baseurl }}{{ image.path }}&w=800&h=800&output=jpg&q=80"
+          itemprop="thumbnail" alt="Dynamic image descriptions coming soon" />
+      </a>
+    </figure>
+    {% endif %}
+    {% endfor %}
+  </div>
 </div>
 
 <div class="wide-column">
@@ -35,20 +37,18 @@ layout: default
   {{content}}
 </div> -->
 
-
 <div class="wide-column">
-  <h3>_Photo</h3>
+  <h3>_Writing</h3>
 </div>
-<div class="wide-column">
-  <div class="gallery" itemscope itemtype="http://schema.org/ImageGallery">
-    {% for image in site.static_files reversed  %}
-      {% if image.path contains 'assets/images/photos' %}
-      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-          <a href="https://wsrv.nl/?url=jelias.me{{ site.baseurl }}{{ image.path }}&w=2000&h=2000&output=jpg&q=90" class="bigImage" itemprop="contentUrl" data-size="">
-              <img src="https://wsrv.nl/?url=jelias.me{{ site.baseurl }}{{ image.path }}&w=800&h=800&output=jpg&q=80" itemprop="thumbnail" alt="Dynamic image descriptions coming soon" />
-          </a>
-      </figure>
-      {% endif %}
-    {% endfor %}
+
+<div class="main-column writing-list">
+  {% assign sorted-writing = site.writing | sort: "date" | reverse %}
+  {% for post in sorted-writing %}
+
+  <div class="list-item">
+    <h6><a href="{{ post.url }}">{{ post.title }}</a></h6>
+    <a href="{{ post.url }}">{{ post.excerpt }}</a>
   </div>
+
+  {% endfor %}
 </div>

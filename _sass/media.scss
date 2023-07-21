@@ -3,6 +3,10 @@
   margin-bottom: vr(3.5); // 1.5 baselines (base font size * line-height)
 }
 
+.photo-grid {
+  margin-bottom: 8em;
+}
+
 .writing-list {
   .list-item {
     @include ms-respond(margin-bottom, 5);
