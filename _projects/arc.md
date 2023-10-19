@@ -9,12 +9,17 @@ order: 1
 
 ---
 {% include captures.md %}
+
+<!-- @todo JE, need to create a "case study hidden project? 
+the landing page should be a short form, more like Shortverse, a marketing pitch -->
 {{ main }}
 In the spring of 2020, as we reluctantly entered a world filtered through the lens of technology, I rewrote my graduating thesis. Grappling with the notions of humanity, I set out to explore how human nature could engage with the futures of technology. 
 
-**Ultimately, I created arc, a functioning AI model and speculative experience that enables people to generate entirely original films through collaboration with artificial intelligence.**
+**Arc is a functioning AI model and speculative experience that enables people to generate entirely original films through collaboration with artificial intelligence.**
 
 <!-- **The result is an operating AI model and speculative experience that fosters collaboration between people and artificial intelligence to generate entirely original films.** -->
+
+[Collaborate Arc to Create a Film](https://arc.jelias.me)
 {{end}}
 
 {{main}}
