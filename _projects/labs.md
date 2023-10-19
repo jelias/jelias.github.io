@@ -4,7 +4,7 @@ title: /labs
 one-liner: impractical explorations and futures of computing and interaction
 date: 2023-07-20
 type: Interaction
-thumbnail: /assets/images/cards/labs-cs.png
+thumbnail: /assets/images/cards/labs.png
 order: 4
 
 ---
