@@ -256,6 +256,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (~> 228)
+  jekyll-redirect-from
   jekyll-seo-tag
   jekyll-sitemap
   kramdown-parser-gfm

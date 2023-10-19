@@ -3,6 +3,9 @@ layout: design
 title: Design
 js-file: /assets/js/design.js
 photoswipe: false
+
+redirect_from:
+    - /design
 ---
 **My explorations utilize the design process as a framework** capable of connecting individuals, communities, and systems. I work across media and tools to explore speculative worlds, complex systems, and the forefront of technologies. 
 

@@ -8,7 +8,7 @@
 # Site settings
 title: Jacob Elias
 email: jacobeelias@gmail.com
-bio: "I'm a designer from Chicago, living in Seattle. In my free time I make/write/take-photos-of things and waterski/snowboard/rock climb."
+bio: "I'm a designer from Chicago, living in Oakland. In my free time I make/write/take-photos-of things and waterski/snowboard/rock climb."
 description: > # this means to ignore newlines until "baseurl:"
   The personal website of Jacob Elias. Full of designs, links, thoughts, and pictures.
 locale:             en_US
@@ -54,6 +54,7 @@ plugins:
     - jekyll-sitemap
     - jekyll-seo-tag
     - kramdown-parser-gfm
+    - jekyll-redirect-from
     # https://rubygems.org/gems/jekyll-seo-tag
 
 defaults:
