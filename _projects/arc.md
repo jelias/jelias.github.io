@@ -19,7 +19,7 @@ In the spring of 2020, as we reluctantly entered a world filtered through the le
 
 <!-- **The result is an operating AI model and speculative experience that fosters collaboration between people and artificial intelligence to generate entirely original films.** -->
 
-[Collaborate with Arc to Create a Film](https://arc.jelias.me)
+[Collaborate with Arc](https://arc.jelias.me)
 {{end}}
 
 {{main}}
