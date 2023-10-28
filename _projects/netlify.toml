@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/labs/*"
+  to = "https://whimsical-biscotti-dab4b7.netlify.app/:splat"
+  status = 200
+  force = true
