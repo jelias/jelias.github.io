@@ -1,2 +1,2 @@
 /labs/* https://je-labs-staging.netlify.app/labs/:splat 200!
-/labs/friendsgiving/* https://je-friendsgiving-staging.netlify.app/:splat 200!
+/labs/friendsgiving/* https://je-labs-staging.netlify.app/friendsgiving/:splat 200!
