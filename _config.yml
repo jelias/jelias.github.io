@@ -10,19 +10,18 @@ title: Jacob Elias
 email: jacobeelias@gmail.com
 bio: "I'm a designer from Chicago, living in Oakland. In my free time I make/write/take-photos-of things and waterski/snowboard/rock climb."
 description: > # this means to ignore newlines until "baseurl:"
-  The personal website of Jacob Elias. Full of designs, links, thoughts, and pictures.
-locale:             en_US
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://jelias.me" # the base hostname & protocol for your site, e.g. http://example.com
+    The personal website of Jacob Elias. Full of designs, links, thoughts, and pictures.
+locale: en_US
+baseurl: '' # the subpath of your site, e.g. /blog
+url: 'http://jelias.me' # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: _jelias_
-github_username:  jelias
+github_username: jelias
 linkedin_username: jacobelias
 dribbble_username: jelias
 
+exclude: ['CNAME', 'LICENSE.md', 'README.md']
 
-exclude: ["CNAME", "LICENSE.md", "README.md"]
-
-excerpt_separator: "<!-- more -->"
+excerpt_separator: '<!-- more -->'
 
 #Project URL
 #permalink:  /projects/:title/
@@ -30,18 +29,18 @@ excerpt_separator: "<!-- more -->"
 #collections
 
 collections:
-  projects:
-    output: true
-    permalink: /:collection/:path/
-  archives:
-    output: true
-    permalink: /:collection/:path/
-  journal:
-    output: true
-    permalink: /:collection/:path/
-  writing:
-    output: true
-    permalink: /:collection/:path/
+    projects:
+        output: true
+        permalink: /:collection/:path/
+    archives:
+        output: true
+        permalink: /:collection/:path/
+    journal:
+        output: true
+        permalink: /:collection/:path/
+    writing:
+        output: true
+        permalink: /:collection/:path/
 
 # Build settings
 markdown: kramdown
@@ -50,22 +49,22 @@ sass:
 
 #Plugins
 plugins:
-    # - jekyll-minifier
     - jekyll-sitemap
     - jekyll-seo-tag
     - kramdown-parser-gfm
     - jekyll-redirect-from
-    # https://rubygems.org/gems/jekyll-seo-tag
 
 defaults:
-  - scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: project
+    - scope:
+          path: ''
+          type: 'projects'
+      values:
+          layout: project
 
-  # - scope:
-  #     path: "photos"
-  #   values:
-  #     height: {{ dimensions.height }}
-  #     width: {{ dimensions.width }}
+    # - scope:
+    #     path: "photos"
+    #   values:
+    #     height: {{ dimensions.height }}
+    #     width: {{ dimensions.width }}
+
+include: [_redirects]
