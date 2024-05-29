@@ -2,7 +2,7 @@
 	"rewrites": [
 		{
 			"source": "/labs/:splat*",
-			"destination": "https://je-slash-labs.netlify.app/labs/:splat*"
+			"destination": "https://jelias-labs.vercel.app/labs/:splat*"
 		},
 		{
 			"source": "/media/:path*",
