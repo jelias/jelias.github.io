@@ -1,14 +1,12 @@
 source 'https://rubygems.org'
 
-gem "github-pages", "~> 228", group: :jekyll_plugins
-
 gem 'jekyll-sitemap'
 gem 'jekyll-seo-tag'
 gem "kramdown-parser-gfm"
 gem 'jekyll-redirect-from'
+gem 'csv'
+gem 'webrick', '~> 1.7'
 
-# gem 'jekyll'
-# gem 'github-pages', group: :jekyll_plugins
-# gem 'jekyll-minifier'
+gem 'jekyll'
+gem 'jekyll-minifier'
 
-gem "webrick", "~> 1.7"
