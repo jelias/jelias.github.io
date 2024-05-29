@@ -3,10 +3,6 @@
 		{
 			"source": "/labs/:splat*",
 			"destination": "https://jelias-labs.vercel.app/labs/:splat*"
-		},
-		{
-			"source": "/media/:path*",
-			"destination": "/media/:path*"
 		}
 	]
 }

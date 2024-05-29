@@ -66,5 +66,3 @@ defaults:
     #   values:
     #     height: {{ dimensions.height }}
     #     width: {{ dimensions.width }}
-
-include: [_redirects]
