@@ -1,0 +1,12 @@
+{
+	"rewrites": [
+		{
+			"source": "/labs/:splat*",
+			"destination": "https://je-slash-labs.netlify.app/labs/:splat*"
+		},
+		{
+			"source": "/media/:path*",
+			"destination": "/media/:path*"
+		}
+	]
+}
