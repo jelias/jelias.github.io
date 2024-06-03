@@ -8,16 +8,19 @@
 		{
 			"source": "/labs",
 			"destination": "https://jelias-labs.vercel.app/labs/"
-		},
+		}
+	],
+	"redirects": [
 		{
 			"source": "/:splat*",
-			"destination": "https://jelias-labs.vercel.app/:splat*",
+			"destination": "https://jelias.me/labs/:splat*",
 			"has": [
 				{
 					"type": "host",
 					"value": "labs.jelias.me"
 				}
-			]
+			],
+			"permanent": true
 		}
 	]
 }
