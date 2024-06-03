@@ -1,16 +1,16 @@
 {
 	"cleanUrls": true,
-	"rewrites": [
+	"redirects": [
 		{
 			"source": "/labs/:splat*",
-			"destination": "https://jelias-labs.vercel.app/labs/:splat*"
+			"destination": "https://jelias-labs.vercel.app/labs/:splat*",
+			"permanent": true
 		},
 		{
 			"source": "/labs",
-			"destination": "https://jelias-labs.vercel.app/labs/"
-		}
-	],
-	"redirects": [
+			"destination": "https://jelias-labs.vercel.app/labs/",
+			"permanent": true
+		},
 		{
 			"source": "/:splat*",
 			"destination": "https://jelias.me/labs/:splat*",
@@ -21,6 +21,16 @@
 				}
 			],
 			"permanent": true
+		}
+	],
+	"rewrites": [
+		{
+			"source": "/labs/:splat*",
+			"destination": "https://jelias-labs.vercel.app/labs/:splat*"
+		},
+		{
+			"source": "/labs",
+			"destination": "https://jelias-labs.vercel.app/labs/"
 		}
 	]
 }
