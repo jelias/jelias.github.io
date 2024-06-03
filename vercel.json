@@ -3,12 +3,12 @@
 	"redirects": [
 		{
 			"source": "/labs/:splat*",
-			"destination": "https://jelias-labs.vercel.app/labs/:splat*",
+			"destination": "https://jelias.me/labs/:splat*",
 			"permanent": true
 		},
 		{
 			"source": "/labs",
-			"destination": "https://jelias-labs.vercel.app/labs/",
+			"destination": "https://jelias.me/labs/",
 			"permanent": true
 		},
 		{
@@ -33,4 +33,3 @@
 			"destination": "https://jelias-labs.vercel.app/labs/"
 		}
 	]
-}
