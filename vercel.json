@@ -1,28 +1,5 @@
 {
 	"cleanUrls": true,
-	"redirects": [
-		{
-			"source": "/labs/:splat*",
-			"destination": "https://jelias.me/labs/:splat*",
-			"permanent": true
-		},
-		{
-			"source": "/labs",
-			"destination": "https://jelias.me/labs/",
-			"permanent": true
-		},
-		{
-			"source": "/:splat*",
-			"destination": "https://jelias.me/labs/:splat*",
-			"has": [
-				{
-					"type": "host",
-					"value": "labs.jelias.me"
-				}
-			],
-			"permanent": true
-		}
-	],
 	"rewrites": [
 		{
 			"source": "/labs/:splat*",
