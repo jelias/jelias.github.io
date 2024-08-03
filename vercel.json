@@ -1,0 +1,14 @@
+{
+	"cleanUrls": true,
+	"rewrites": [
+		{ "source": "/labs", "destination": "https://jelias-labs.vercel.app/labs" },
+		{
+			"source": "/labs/",
+			"destination": "https://jelias-labs.vercel.app/labs/"
+		},
+		{
+			"source": "/labs/:match*",
+			"destination": "https://jelias-labs.vercel.app/labs/:match*"
+		}
+	]
+}
