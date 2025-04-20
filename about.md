@@ -21,9 +21,5 @@ As a storyteller, my passions in filmmaking and writing provide an opportunity t
 
 Please feel free to [reach out](ma&#105;lt&#111;&#58;j&#37;40j%65&#108;&#37;69a&#115;&#46;%6&#68;&#37;6&#53;)—whether you just want to chat or are interested in working together! I am always happy to talk :).
 
- <!-- My [resume is available here](/assets/Elias_Resume_2023.pdf). -->
-
 **Quick Links:**\\
 [email](ma&#105;lt&#111;&#58;j&#37;40j%65&#108;&#37;69a&#115;&#46;%6&#68;&#37;6&#53;) • [linkedin](https://www.linkedin.com/in/jacobelias/) • [arc](https://arc.jelias.me) • [shortverse](https://shortverse.com) • [sequence](https://sequence.film)
-
-
